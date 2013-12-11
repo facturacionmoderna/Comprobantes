@@ -1,0 +1,101 @@
+﻿[Encabezado]
+
+serie|AA
+fecha|asignarFecha
+folio|asignarFolio
+tipoDeComprobante|ingreso
+formaDePago|PAGO EN UNA SOLA EXHIBICIÓN
+metodoDePago|Transferencía Electrónica
+condicionesDePago|Contado
+NumCtaPago|No identificado
+subTotal|1498.00
+descuento|0.00
+total|1737.68
+Moneda|MXN
+TipoCambio|
+noCertificado|20001000000200000278
+LugarExpedicion|Nuevo León, México.
+
+[Datos Adicionales]
+
+tipoDocumento|Factura
+numeropedido|
+observaciones|Comprobante para fines demostrativos
+TransID|
+
+
+[Emisor]
+
+rfc|TUMG620310R95
+nombre|FACTURACION MODERNA S.A de C.V.
+RegimenFiscal|REGIMEN GENERAL DE LEY PERSONAS MORALES
+
+[DomicilioFiscal]
+
+calle|RIO GUADALQUIVIR 
+noExterior|308
+noInterior|
+colonia|ORIENTE DEL VALLE
+localidad|
+municipio|DSN PEDRO GARZA GARCIA
+estado|NUEVO LEON
+pais|México
+codigoPostal|66220
+
+[ExpedidoEn]
+calle|CERRADA DE AZUCENAS	
+noExterior|109
+noInterior|
+colonia|REFORMA
+localidad|
+municipio|OAXACA DE JUAREZ
+estado|OAXACA
+pais|México
+codigoPostal|68050
+
+[Receptor]
+rfc|XAXX010101000
+nombre|PUBLICO EN GENERAL
+
+[Domicilio]
+calle|AVE BATALLON DE SAN PATRICIO
+noExterior|1000
+noInterior|1000
+colonia|RESIDENCIAL SAN AGUSTIN
+localidad|SAN PEDRO GARZA GARCIA
+municipio|
+estado|NUEVO LEON
+pais|MEXICO
+codigoPostal|66260
+
+[DatosAdicionales]
+
+noCliente|
+email|soporte@facturacionmoderna.com
+
+
+[Concepto]
+
+cantidad|3
+unidad|PIEZA
+noIdentificacion|
+descripcion|CAJA DE HOJAS BLANCAS TAMAÑO CARTA
+valorUnitario|450.00
+importe|1350.00
+
+[Concepto]
+
+cantidad|8
+unidad|PIEZA
+noIdentificacion|
+descripcion|RECOPILADOR PASTA DURA 3 ARILLOS
+valorUnitario|18.50
+importe|148.00
+
+
+
+[ImpuestoTrasladado]
+
+impuesto|IVA
+importe|239.68
+tasa|16.00
