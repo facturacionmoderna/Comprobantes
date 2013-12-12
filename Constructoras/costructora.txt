@@ -1,4 +1,5 @@
 ﻿[Encabezado]
+; Comentararios
 
 serie|AA
 fecha|asignarFecha
