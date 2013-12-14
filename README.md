@@ -14,15 +14,15 @@ Por tipo de documento
 
 Ejemplo de la estructura del archivo fuente para timbrado (XML y TXT) para el timbrado de comprobantes fiscales según el tipo de documento.
 
-1. [Factura](http://facturacionmoderna.com)
-2. [Nota de Crédito](http://facturacionmoderna.com)
-3. [Nota de Cargo](http://facturacionmoderna.com)
-4. [Recibo de Nómina](http://facturacionmoderna.com)
-5. [Recibo de Honorarios](http://facturacionmoderna.com)
-6. [Recibo de Arrendamiento](http://facturacionmoderna.com)
-7. [Recibo de Donativos](http://facturacionmoderna.com)
-8. [Carta Porte](http://facturacionmoderna.com)
-9. [Pedimentos Aduanales](http://facturacionmoderna.com)
+1. [Factura](https://github.com/facturacionmoderna/Comprobantes/tree/master/Factura)
+2. [Nota de Crédito](https://github.com/facturacionmoderna/Comprobantes/tree/master/Nota%20de%20Credito)
+3. [Nota de Cargo](https://github.com/facturacionmoderna/Comprobantes)
+4. [Recibo de Nómina](https://github.com/facturacionmoderna/Comprobantes/tree/master/Recibo%20de%20Nomina)
+5. [Recibo de Honorarios](https://github.com/facturacionmoderna/Comprobantes/tree/master/Recibo%20de%20Honorarios)
+6. [Recibo de Arrendamiento](https://github.com/facturacionmoderna/Comprobantes/tree/master/Recibo%20de%20Arrendamientos)
+7. [Recibo de Donativos](https://github.com/facturacionmoderna/Comprobantes/tree/master/Recibo%20de%20Donativos)
+8. [Carta Porte](https://github.com/facturacionmoderna/Comprobantes/tree/master/Carta%20Porte)
+9. [Pedimentos Aduanales](https://github.com/facturacionmoderna/Comprobantes)
 
 
 Por giro de negocio
@@ -30,10 +30,10 @@ Por giro de negocio
 
 Ejemplo de la estructura del archivo fuente para timbrado (XML y TXT) para el timbrado de comprobantes fiscales según el giro del negocio.
 
-1. [Hoteles](http://facturacionmoderna.com)
-2. [Constructoras](http://facturacionmoderna.com)
-3. [Restaurantes](http://facturacionmoderna.com)
-4. 
+1. [Hoteles](https://github.com/facturacionmoderna/Comprobantes/tree/master/Hoteles)
+2. [Constructoras](https://github.com/facturacionmoderna/Comprobantes/tree/master/Constructoras)
+3. [Restaurantes](https://github.com/facturacionmoderna/Comprobantes/tree/master/Restaurantes)
+
 
 Complementos Soportados
 
@@ -43,12 +43,12 @@ El servicio de timbrado soporta todos los complementos para CFDI, públicados po
 
 
 
-1. [Donatarias](http://facturacionmoderna.com)
-2. [Compra Venta de Divisas](http://facturacionmoderna.com)
-3. [Otros Derechos e impuestos (Impuestos Locales)](http://facturacionmoderna.com)
-4. [Leyendas Fiscales](http://facturacionmoderna.com)
-5. [SPEI](http://facturacionmoderna.com)
-6. [Nómina](http://facturacionmoderna.com)
+1. [Donatarias]
+2. [Compra Venta de Divisas]
+3. [Otros Derechos e impuestos (Impuestos Locales)]
+4. [Leyendas Fiscales]
+5. [SPEI]
+6. [Nómina]
 
 
 
