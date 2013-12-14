@@ -1,0 +1,89 @@
+﻿[Encabezado]
+
+serie|AA
+fecha|asignarFecha
+folio|asignarFolio
+tipoDeComprobante|egreso
+formaDePago|PAGO EN UNA SOLA EXHIBICIÓN
+metodoDePago|No aplica
+condicionesDePago|Contado
+NumCtaPago|
+subTotal|1498.00
+descuento|0.00
+total|1737.68
+Moneda|MXN
+TipoCambio|
+noCertificado|20001000000200000278
+LugarExpedicion|Nuevo León, México.
+
+[Datos Adicionales]
+
+tipoDocumento|Nota de Credito
+observaciones|Comprobante de egreso, generado para fines demostrativos
+
+
+[Emisor]
+
+rfc|TUMG620310R95
+nombre|FACTURACION MODERNA S.A de C.V.
+RegimenFiscal|REGIMEN GENERAL DE LEY PERSONAS MORALES
+
+[DomicilioFiscal]
+
+calle|RIO MANZANARES
+noExterior|417
+noInterior|
+colonia|DEL VALLE
+localidad|
+municipio|SAN PEDRO GARZA GARCIA
+estado|NUEVO LEON
+pais|México
+codigoPostal|66220
+
+[ExpedidoEn]
+calle|CERRADA DE AZUCENAS	
+noExterior|109
+noInterior|
+colonia|REFORMA
+localidad|
+municipio|OAXACA DE JUAREZ
+estado|OAXACA
+pais|México
+codigoPostal|68050
+
+[Receptor]
+rfc|XAXX010101000
+nombre|PUBLICO EN GENERAL
+
+[Domicilio]
+calle|DOMICILIO CONOCIDO
+noExterior|100
+noInterior|B
+colonia|ORIENTE
+localidad|
+municipio|SAN PEDRO GARZA GARCIA
+estado|NUEVO LEON
+pais|MEXICO
+codigoPostal|66260
+
+[DatosAdicionales]
+
+noCliente|
+email|soporte@facturacionmoderna.com
+
+
+[Concepto]
+
+cantidad|1
+unidad|No aplica
+noIdentificacion|
+descripcion|Cancelación de comprobante con folio fiscal 63BE01E1-77EE-7F3-9ED2-57B89EFD353B, por falta de pago.
+valorUnitario|1498.00
+importe|1498.00
+
+
+[ImpuestoTrasladado]
+
+impuesto|IVA
+importe|239.68
+tasa|16.00

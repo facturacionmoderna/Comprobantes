@@ -1,0 +1,102 @@
+﻿[Encabezado]
+
+serie|AA
+fecha|asignarFecha
+folio|asignarFolio
+tipoDeComprobante|ingreso
+formaDePago|PAGO EN UNA SOLA EXHIBICIÓN
+metodoDePago|Transferencía Electrónica
+condicionesDePago|Contado
+NumCtaPago|No identificado
+subTotal|21500.00
+descuento|500.00
+total|24360.00
+Moneda|MXN
+TipoCambio|
+noCertificado|20001000000200000278
+LugarExpedicion|Nuevo León, México.
+
+[Datos Adicionales]
+
+tipoDocumento|Factura
+numeropedido|
+observaciones|Comprobante tipo factura para fines demostrativos
+TransID|
+
+
+[Emisor]
+
+rfc|TUMG620310R95
+nombre|FACTURACION MODERNA S.A de C.V.
+RegimenFiscal|REGIMEN GENERAL DE LEY PERSONAS MORALES
+
+[DomicilioFiscal]
+
+calle|RIO MANZANARES
+noExterior|417
+noInterior|
+colonia|DEL VALLE
+localidad|
+municipio|SAN PEDRO GARZA GARCIA
+estado|NUEVO LEON
+pais|México
+codigoPostal|66220
+
+[ExpedidoEn]
+calle|CERRADA DE AZUCENAS	
+noExterior|109
+noInterior|
+colonia|REFORMA
+localidad|
+municipio|OAXACA DE JUAREZ
+estado|OAXACA
+pais|México
+codigoPostal|68050
+
+[Receptor]
+rfc|XAXX010101000
+nombre|PUBLICO EN GENERAL
+
+[Domicilio]
+calle|DOMICILIO CONOCIDO
+noExterior|100
+noInterior|B
+colonia|ORIENTE
+localidad|
+municipio|SAN PEDRO GARZA GARCIA
+estado|NUEVO LEON
+pais|MEXICO
+codigoPostal|66260
+
+[DatosAdicionales]
+
+noCliente|
+email|soporte@facturacionmoderna.com
+
+
+[Concepto]
+
+cantidad|1
+unidad|PIEZA
+noIdentificacion|
+descripcion|IPAD 2.0
+valorUnitario|7000.00
+importe|7000.00
+
+
+[Concepto]
+
+cantidad|1
+unidad|PIEZA
+noIdentificacion|AIR13
+descripcion|MAC AIR 13"
+valorUnitario|14500.00
+importe|14500.00
+
+
+
+[ImpuestoTrasladado]
+
+impuesto|IVA
+importe|3360.00
+tasa|16.00
