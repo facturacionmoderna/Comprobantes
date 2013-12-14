@@ -1,10 +1,12 @@
 ﻿[Encabezado]
+
 ; Definición del recibo de nómina, los comentarios empiezan con ; 
-; Elaboró: wsoporte@facturacionmoderna.com
+; Elaboró: Facturación Moderna
 ; Contacto: wsoporte@facturacionmoderna.com
+;           www.facturacionmodern.com
 
 
-;Serie del Recibo (Opcional)
+;Serie del recibo (Opcional)
 serie|A
 
 ; Fecha de emisión del recibo en formato  ISO 8601 ejemplo: 2013-12-12T10:45:43
@@ -29,17 +31,18 @@ condicionesDePago|Contado
 ;Al menos los 4 últimos dígitos de la cuenta desde donde se realizó el pago de nómina o en su caso utilizar la leyenda No indentificado
 NumCtaPago|No identificado
 
-;La sumatoría de los importes de los conceptos
-subTotal|11.00
+;La sumatoría de los importes de los conceptos, dejar en blanco si desea el cálculo automático de este concepto.
+subTotal|
 
-;descuento es el total de las deducciones. (Suma del total gravado y total exento, sin considerar el ISR retenido)
+;descuento es el total de las deducciones. (Suma del total gravado y total exento, sin considerar el ISR retenido) dejar en blanco si desea el cálculo automático de este concepto.
 descuento|
 
 ;Indicar el motivo por el cuál se le hicieron deducciones al empleado,
 motivoDescuento|Deducciones de nómina
 
 ;Pago realizado al trabajador, será igual al subtotal menos descuentos, menos las retenciones efectuadas.
-total|11.00
+;Dejar en blanco si desea el cálculo automático de este concepto.
+total|
 
 ;Moneda en la cuál se efectuó el pago de la nómina (MXN, USD, EUROS)
 Moneda|MXN
@@ -80,21 +83,23 @@ rfc|ESI920427886
 nombre|FACTURACIÓN MODERNA S.A. DE C.V.
 RegimenFiscal|REGIMEN GENERAL DE LEY PERSONAS MORALES
 
-; Domicilio Fiscal de la empresa que emite el recibo
+; Domicilio Fiscal de la empresa que emite el recibo (Opcional)
+; Descomentar si desea utilizar esta sección
 
-[DomicilioFiscal]
+;[DomicilioFiscal]
 
-calle|RIO MANZANARES
-noExterior|417
-noInterior|
-colonia|DEL VALLE
-localidad|
-municipio|SAN PEDRO GARZA GARCIA
-estado|NUEVO LEON
-pais|México
-codigoPostal|66220
+;calle|RIO MANZANARES
+;noExterior|417
+;noInterior|
+;colonia|DEL VALLE
+;localidad|
+;municipio|SAN PEDRO GARZA GARCIA
+;estado|NUEVO LEON
+;pais|México
+;codigoPostal|66220
 
-;En el caso de que un recibo haya sido expedida en una sucursal, indicar el domicilio de la misma (Descomentar)
+;En el caso de que un recibo haya sido expedida en una sucursal, indicar el domicilio de la misma (Opcional)
+; Descomentar si desea utilizar esta sección
 
 ;[ExpedidoEn]
 ;calle|CERRADA DE AZUCENAS	
@@ -109,6 +114,7 @@ codigoPostal|66220
 
 ; Datos del trabajador
 [Receptor]
+
 ; RFC del trabajador
 rfc|XAXX01010100
 
@@ -136,13 +142,8 @@ valorUnitario|3100.00
 importe|3100.00
 
 
-;sección para especificar la retención
-[ImpuestoRetenido]
-;Tipo de impuesto que fue retenido, para recibo de nómina aplica ISR
-impuesto|ISR
-;Monto del impuesto retenido, se obtiene del complemento nómina
-importe|76.97
 
+; ==== Complemento Nomina ====
 
 ; Indicamos que el comprobante se trata de un recibo de nómina.
 [ComplementoNomina]
@@ -233,6 +234,14 @@ ImporteGravado|3000.00
 :Representa el importe exento de un concepto de percepción
 ImporteExento|0.00
 
+[Percepcion]
+; En caso de 
+TipoPercepcion|019
+Clave|019
+Concepto|Horas extra
+ImporteGravado|0.00
+ImporteExento|100.00
+
 ; Inicia la sección para indicar deducciones
 ; Para indicar una nueva deducción, hay que incluir una sección: [Deduccion]
 ; Puede aparecer n veces, según las deducciones que conformen el comprobante.
@@ -262,6 +271,14 @@ Clave|002
 Concepto|IMSS
 ImporteGravado|0.00
 ImporteExento|75.36
+
+[Deduccion]
+
+TipoDeduccion|006
+Clave|006
+Concepto|Descuento por incapacidad
+ImporteGravado|0.00
+ImporteExento|200.00
 
 
 ;Sección para expresar información de las incapacidades
