@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" fecha="2013-12-14T13:01:35" folio="1" serie="A" subTotal="3100.00" descuento="275.36" motivoDescuento="Deducciones de nómina" total="2747.67" Moneda="MXN" condicionesDePago="Contado" tipoDeComprobante="egreso" noCertificado="20001000000200000192" certificado="MIIERjCCAy6gAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAxOTIwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyMjIwNDgwNloXDTE2MTAyMjIwNDgwNlowgcAxITAfBgNVBAMTGEVESVRPUklBTCBTSVNUQSBTQSBERSBDVjEhMB8GA1UEKRMYRURJVE9SSUFMIFNJU1RBIFNBIERFIENWMSEwHwYDVQQKExhFRElUT1JJQUwgU0lTVEEgU0EgREUgQ1YxJTAjBgNVBC0THEVTSTkyMDQyNzg4NiAvIEhFR1Q3NjEwMDM0UzIxHjAcBgNVBAUTFSAvIEhFR1Q3NjEwMDNNREZSTk4wOTEOMAwGA1UECxMFQW1pZ2EwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK6YqAg3LHOPpAKD9OFkcNgB5wj+3k4oHPK3bFfku4TCEswtMhIt5LnZCt4UK0cp9SYpKMa2kZVYm6k6zphWg9bzv3pvHwt9mB6kFGyApU71cOk16unqL2o/pDj65zNtUBfDyKkKBUGQMYgtqvVq6aXJipqKOS/NsDKEUt0q1ghTAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQCgCCpYDbmN8npLX6vHCEJAF/1G3KhuAGY48wVt1va1YXRy6yj+tJZ9HZ3l8TY7J6n10XkrbzedOArKyjdpfqWbNabZHw6b2IlSN8HrHliiAEor5hwTUJnkg6S1nm0mmirInxCmWoVV+qrEX/XHylJ+OjIql/GyZrH9sEPCY+LYFfVhO0U73jKqajMEeZtWYq5wro4UhPUhlYgwhlzUN6XNWtiC8ohjE6QJaf8jYRsJjHraZL257O1o5T/3ULMJhASN7R211FmyAuiYsq8H3buPE0kl+EmN8DUNpTDkB9Xf1ba6gXZ0PRXF1oGUwxvX9FiI5eIau2RLfy9AfJPcpAXN" formaDePago="PAGO EN UNA SOLA EXHIBICIÓN" metodoDePago="Transferencia Electrónica" NumCtaPago="No identificado" LugarExpedicion="Monterrey, Nuevo León, México." sello="cWHqXFaG4nZjyTu7V+9tBrNy3ITgeu1TpfzApfigrS4FCHnb3bySRr2oHnLxVKIZF0wYfgQON5dZkXfOT0z430bS8ws6XvrXwdQ7G+E3QQgBVO93M0UdbuA6epU1hCDQGNNlgNIByPPuTv/XhEvthqoAkTxvZ7LRMtkuYZo2hYk=">
+	<cfdi:Emisor nombre="FACTURACIÓN MODERNA S.A. DE C.V." rfc="ESI920427886">
+		<cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES"/>
+	</cfdi:Emisor>
+	<cfdi:Receptor nombre="RAMIREZ MARTINEZ JUAN JOSE" rfc="XAXX01010100"></cfdi:Receptor>
+	<cfdi:Conceptos>
+		<cfdi:Concepto cantidad="1" unidad="Servicio" descripcion="Pago de Nómina" valorUnitario="3100.00" importe="3100.00"/>
+	</cfdi:Conceptos>
+	<cfdi:Impuestos totalImpuestosRetenidos="76.97">
+		<cfdi:Retenciones>
+			<cfdi:Retencion impuesto="ISR" importe="76.97"/>
+		</cfdi:Retenciones>
+	</cfdi:Impuestos>
+	<cfdi:Complemento>
+		<nomina:Nomina xmlns:nomina="http://www.sat.gob.mx/nomina" Version="1.1" RegistroPatronal="P123456789" NumEmpleado="2013001" CURP="XEXX010101MOCNRR02" TipoRegimen="1" NumSeguridadSocial="12345678912" FechaPago="2013-11-30" FechaInicialPago="2013-11-16" FechaFinalPago="2013-11-30" NumDiasPagados="15" Departamento="Desarrollo" CLABE="123456789012345678" Banco="012" FechaInicioRelLaboral="2013-01-01" Antiguedad="48" Puesto="Programador" TipoContrato="Base" TipoJornada="Mixta" PeriodicidadPago="Quincenal" SalarioBaseCotApor="200.00" RiesgoPuesto="5" SalarioDiarioIntegrado="209.04">
+			<nomina:Percepciones TotalGravado="3000.00" TotalExento="100.00">
+				<nomina:Percepcion TipoPercepcion="001" Clave="001" Concepto="Sueldos" ImporteGravado="3000.00" ImporteExento="0.00"/>
+				<nomina:Percepcion TipoPercepcion="019" Clave="019" Concepto="Horas extra" ImporteGravado="0.00" ImporteExento="100.00"/>
+			</nomina:Percepciones>
+			<nomina:Deducciones TotalGravado="0.00" TotalExento="352.33">
+				<nomina:Deduccion TipoDeduccion="002" Clave="001" Concepto="ISR" ImporteGravado="0.0" ImporteExento="76.97"/>
+				<nomina:Deduccion TipoDeduccion="001" Clave="002" Concepto="IMSS" ImporteGravado="0.00" ImporteExento="75.36"/>
+				<nomina:Deduccion TipoDeduccion="006" Clave="006" Concepto="Descuento por incapacidad" ImporteGravado="0.00" ImporteExento="200.00"/>
+			</nomina:Deducciones>
+			<nomina:Incapacidades>
+				<nomina:Incapacidad DiasIncapacidad="1" TipoIncapacidad="2" Descuento="200.00"/>
+			</nomina:Incapacidades>
+			<nomina:HorasExtras>
+				<nomina:HorasExtra Dias="1" HorasExtra="1" ImportePagado="100.00" TipoHoras="Dobles"/>
+			</nomina:HorasExtras>
+		</nomina:Nomina>
+	</cfdi:Complemento>
+</cfdi:Comprobante>
