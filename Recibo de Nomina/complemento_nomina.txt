@@ -152,86 +152,86 @@ importe|3100.00
 ;Registro patronal (opcional)
 RegistroPatronal|P123456789
 
-;Número del Empleado
+;Número del Empleado (requerido)
 NumEmpleado|2013001
 
-;CURP del trabajador
+;CURP del trabajador (requerido)
 CURP|XEXX010101MOCNRR02
 
-;Campo para la expresión de la clave del régimen por el cual se tiene contratado al trabajador, ver catálogo SAT
+;Campo para la expresión de la clave del régimen por el cual se tiene contratado al trabajador, ver catálogo SAT (requerido)
 TipoRegimen|1
 
 ;Número de seguridad social del trabajador (opcional)
 NumSeguridadSocial|12345678912
 
-;Fecha efectiva de erogación del gasto. Se expresa en la forma aaaa-mm-dd
+;Fecha efectiva de erogación del gasto. Se expresa en la forma aaaa-mm-dd (requerido)
 FechaPago|2013-11-30
 
-;Fecha inicial del pago. Se expresa en la forma aaaa-mm-dd
+;Fecha inicial del pago. Se expresa en la forma aaaa-mm-dd (requerido)
 FechaInicialPago|2013-11-16
 
-;Fecha final del pago. Se expresa en la forma aaaa-mm-dd
+;Fecha final del pago. Se expresa en la forma aaaa-mm-dd (requerido)
 FechaFinalPago|2013-11-30
 
-;Número de días pagados
+;Número de días pagados (requerido)
 NumDiasPagados|15
 
-;Departamento o área a la que pertenece el trabajador
+;Departamento o área a la que pertenece el trabajador (opcional)
 Departamento|Desarrollo
 
-;CLABE de la cuenta del trabajador
+;CLABE de la cuenta del trabajador (opcional)
 CLABE|123456789012345678
 
-;Banco conforme al catálogo del SAT, donde se realiza un depósito de nómina al trabajador
+;Banco conforme al catálogo del SAT, donde se realiza un depósito de nómina al trabajador (opcional)
 Banco|012
 
 ;Fecha de inicio de la relación laboral (opcional)
 FechaInicioRelLaboral|2013-01-01
 
-;Número de semanas que el empleado ha mantenido relación laboral con el empleador
+;Número de semanas que el empleado ha mantenido relación laboral con el empleador (opcional)
 Antiguedad|48
 
-;Puesto asignado al empleado o actividad que realiza
+;Puesto asignado al empleado o actividad que realiza (opcional)
 Puesto|Programador
 
-;Tipo de contrato que tiene el trabajador
+;Tipo de contrato que tiene el trabajador (opcional)
 TipoContrato|Base
 
-;Tipo de jornada que cubre el trabajador
+;Tipo de jornada que cubre el trabajador (opcional)
 TipoJornada|Mixta
 
 ;Forma en que se establece el pago del salario (requerido)
 PeriodicidadPago|Quincenal
 
-;Retribución otorgada al trabajador
+;Retribución otorgada al trabajador (opcional)
 SalarioBaseCotApor|200.00
 
-;Clave conforme al catálogo SAT correspondiente a la Clase de riesgo de trabajo
+;Clave conforme al catálogo SAT correspondiente a la Clase de riesgo de trabajo (opcional)
 RiesgoPuesto|5
 
 
-;Salario Diario Integrado
+;Salario Diario Integrado (opcional)
 SalarioDiarioIntegrado|209.04
 
-; Inicia la sección para indicar percepciones
+; Inicia la sección (opcional) para indicar percepciones
 ; Para indicar una nueva percepción, hay que incluir una sección: [Percepcion]
 ; Puede aparecer n veces, según las percepciones que conforman el comprobante.
 
 [Percepcion]
 
-;Clave agrupadora conforme al catálogo del SAT
+;Clave agrupadora conforme al catálogo del SAT (requerido)
 TipoPercepcion|001
 
-;Representa la clave de percepción de nómina propia de la contabilidad de cada patrón
+;Representa la clave de percepción de nómina propia de la contabilidad de cada patrón (requerido)
 Clave|001
 
-;Campo para determinar la descripción de la percepción
+;Campo para determinar la descripción de la percepción (requerido)
 Concepto|Sueldos
 
-;Representa el importe gravado de un concepto de percepción
+;Representa el importe gravado de un concepto de percepción (requerido)
 ImporteGravado|3000.00
 
-:Representa el importe exento de un concepto de percepción
+:Representa el importe exento de un concepto de percepción (requerido)
 ImporteExento|0.00
 
 [Percepcion]
@@ -242,26 +242,26 @@ Concepto|Horas extra
 ImporteGravado|0.00
 ImporteExento|100.00
 
-; Inicia la sección para indicar deducciones
+; Inicia la sección (opcional) para indicar deducciones 
 ; Para indicar una nueva deducción, hay que incluir una sección: [Deduccion]
 ; Puede aparecer n veces, según las deducciones que conformen el comprobante.
 
 
 [Deduccion]
 
-;Clave agrupadora. Clasifica la deducción conforme al catálogo del SAT
+;Clave agrupadora. Clasifica la deducción conforme al catálogo del SAT (requerido)
 TipoDeduccion|002
 
-;Clave de deducción de nómina propia de la contabilidad de cada patrón
+;Clave de deducción de nómina propia de la contabilidad de cada patrón (requerido)
 Clave|001
 
-;Descripción del concepto de deducción
+;Descripción del concepto de deducción (requerido)
 Concepto|ISR
  
-;Importe gravado de un concepto deducción
+;Importe gravado de un concepto deducción (requerido)
 ImporteGravado|0.0
 
-;Importe exento de un concepto de deducción
+;Importe exento de un concepto de deducción (requerido)
 ImporteExento|76.97
 
 [Deduccion]
@@ -281,33 +281,33 @@ ImporteGravado|0.00
 ImporteExento|200.00
 
 
-;Sección para expresar información de las incapacidades
+;Sección (opcional) para expresar información de las incapacidades
 ;
 [Incapacidad]
 
-;Días que el trabajador se incapacitó en el periodo
+;Días que el trabajador se incapacitó en el periodo (requerido)
 DiasIncapacidad|1
 
-;Razón de la incapacidad conforme a catálogo del SAT
+;Razón de la incapacidad conforme a catálogo del SAT (requerido)
 TipoIncapacidad|2
 
-;Monto del descuento por la incapacidad
+;Monto del descuento por la incapacidad (requerido)
 Descuento|200.00
 
 
-;Sección para información de las horas extras
+;Sección (opcional) para información de las horas extras
 ;
 [HorasExtra]
 
-;Días en que el trabajador realizó horas extra
+;Días en que el trabajador realizó horas extra (requerido)
 Dias|1
 
-;Tipo de pago de las horas extra: dobles o triples
+;Tipo de pago de las horas extra: dobles o triples (requerido)
 TipoHoras|Dobles
 
-;Número de horas extra
+;Número de horas extra (requerido)
 HorasExtra|1
 
-;Importe pagado
+;Importe pagado (requerido)
 ImportePagado|100.00
 
