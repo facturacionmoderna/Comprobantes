@@ -1,0 +1,93 @@
+﻿[Encabezado]
+
+serie|LA
+fecha|asignarFecha
+folio|asignarFolio
+tipoDeComprobante|ingreso
+formaDePago|PAGO EN UNA SOLA EXHIBICIÓN
+metodoDePago|Transferencía Electrónica
+condicionesDePago|Contado
+NumCtaPago|0098-HSBC
+subTotal|1000.00
+descuento|0.00
+total|953.34
+Moneda|
+TipoCambio|
+noCertificado|20001000000200000192
+LugarExpedicion|Nuevo León, México.
+
+[Datos Adicionales]
+
+tipoDocumento|Recibo de Donatarias
+numeropedido|
+observaciones|Efectos Fiscales al Pago
+
+
+
+[Emisor]
+
+rfc|ESI920427886
+nombre|EMPRESA DE MUESTRA S.A de C.V.
+RegimenFiscal|REGIMEN GENERAL DE LEY
+
+[DomicilioFiscal]
+
+calle|Calle 
+noExterior|Número Ext.
+noInterior|Número Int.
+colonia|Colonia
+localidad|Localidad
+municipio|Municipio
+estado|NUEVO LEON
+pais|México
+codigoPostal|66260
+
+[ExpedidoEn]
+calle|Calle sucursal
+noExterior|
+noInterior|
+colonia|
+localidad|
+municipio|Nuevo León
+estado|Nuevo León
+pais|México
+codigoPostal|77000
+
+[Receptor]
+rfc|ESI920427886
+nombre|Asociacion de ayuda a mujeres con violencia familiar
+
+[Domicilio]
+calle|AVE BATALLON DE SAN PATRICIO
+noExterior|1000
+noInterior|1000
+colonia|RESIDENCIAL SAN AGUSTIN
+localidad|SAN PEDRO GARZA GARCIA
+municipio|
+estado|NUEVO LEON
+pais|MEXICO
+codigoPostal|66260
+
+[DatosAdicionales]
+
+noCliente|09871
+email|
+
+
+[Concepto]
+
+cantidad|1
+unidad|No aplica
+noIdentificacion|
+descripcion|Donación para asociación 
+valorUnitario|10000.00
+importe|10000.00
+
+
+[ComplementoDonatarias]
+noAutorizacion|SP-DF-12345
+fechaAutorizacion|2014-01-01
+leyenda|Este importe corresponde a una donación
+
+
+

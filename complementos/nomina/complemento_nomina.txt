@@ -1,0 +1,313 @@
+﻿[Encabezado]
+
+; Definición del recibo de nómina, los comentarios empiezan con ; 
+; Elaboró: Facturación Moderna
+; Contacto: wsoporte@facturacionmoderna.com
+;           www.facturacionmodern.com
+
+
+;Serie del recibo (Opcional)
+serie|A
+
+; Fecha de emisión del recibo en formato  ISO 8601 ejemplo: 2013-12-12T10:45:43
+; Con el atributo asignarFecha, el servicio de timbrado asigna la fecha en automático.
+fecha|asignarFecha
+
+; Número de folio del recibo (Opcional)
+folio|1
+
+;Los recibos de nómina son documentos de tipo egreso.
+tipoDeComprobante|egreso
+
+;Forme en la que se realizó el pago
+formaDePago|PAGO EN UNA SOLA EXHIBICIÓN
+
+;Método de pago utilizado para el pago de nómina. (Cheque, Efectivo, Transferencia Electrónica)
+metodoDePago|Transferencia Electrónica
+
+;Condiciones en las que se realizó el pago
+condicionesDePago|Contado
+
+;Al menos los 4 últimos dígitos de la cuenta desde donde se realizó el pago de nómina o en su caso utilizar la leyenda No indentificado
+NumCtaPago|No identificado
+
+;La sumatoría de los importes de los conceptos, dejar en blanco si desea el cálculo automático de este concepto.
+subTotal|
+
+;descuento es el total de las deducciones. (Suma del total gravado y total exento, sin considerar el ISR retenido) dejar en blanco si desea el cálculo automático de este concepto.
+descuento|
+
+;Indicar el motivo por el cuál se le hicieron deducciones al empleado,
+motivoDescuento|Deducciones de nómina
+
+;Pago realizado al trabajador, será igual al subtotal menos descuentos, menos las retenciones efectuadas.
+;Dejar en blanco si desea el cálculo automático de este concepto.
+total|
+
+;Moneda en la cuál se efectuó el pago de la nómina (MXN, USD, EUROS)
+Moneda|MXN
+
+;En caso de que el pago se haya realizado en moneda extranjera de deberá indicar el tipo de cambio (Opcional) 
+TipoCambio|
+
+;Número de certificado con el cuál de desear sellar el comprobante, si no contiene datos se tomará el primero activo. (Opcional)
+noCertificado|
+
+;Indicar la plaza en donde labora el empleado
+LugarExpedicion|Monterrey, Nuevo León, México.
+
+
+[Datos Adicionales]
+
+;Indicar el tipo de documento, es requerido cuándo nuestro servicio genera el PDF
+tipoDocumento|RECIBO DE NOMINA
+
+;Identificador de la nómina, es útil para efectos de reportes
+idNomina|N-1
+
+;Identificador del trabajador, es útil para efectos de reportes
+idTrabajador|
+
+;Observaciones que se requieren impresas en el recibo de nómina PDF
+observaciones|
+
+;Leyenda al pie del recibo de nómina
+leyenda|
+
+
+;Emisor, son los datos fiscales del patrón
+
+[Emisor]
+
+rfc|ESI920427886
+nombre|FACTURACIÓN MODERNA S.A. DE C.V.
+RegimenFiscal|REGIMEN GENERAL DE LEY PERSONAS MORALES
+
+; Domicilio Fiscal de la empresa que emite el recibo (Opcional)
+; Descomentar si desea utilizar esta sección
+
+;[DomicilioFiscal]
+
+;calle|RIO MANZANARES
+;noExterior|417
+;noInterior|
+;colonia|DEL VALLE
+;localidad|
+;municipio|SAN PEDRO GARZA GARCIA
+;estado|NUEVO LEON
+;pais|México
+;codigoPostal|66220
+
+;En el caso de que un recibo haya sido expedida en una sucursal, indicar el domicilio de la misma (Opcional)
+; Descomentar si desea utilizar esta sección
+
+;[ExpedidoEn]
+;calle|CERRADA DE AZUCENAS	
+;noExterior|109
+;noInterior|
+;colonia|REFORMA
+;localidad|
+;municipio|OAXACA DE JUAREZ
+;estado|OAXACA
+;pais|México
+;codigoPostal|68050
+
+; Datos del trabajador
+[Receptor]
+
+; RFC del trabajador
+rfc|XAXX01010100
+
+; Nombre de trabajador
+nombre|RAMIREZ MARTINEZ JUAN JOSE
+
+
+
+; Es necesario utilizar un único concepto, los conceptos de deducciones y retenciones de describen en la sección de complemento.
+
+[Concepto]
+; Cantidad deberá ser el valor 1
+
+cantidad|1
+; En la unidad indicar 'Servicio'
+unidad|Servicio
+
+; Concepto, se pueden utilizar los siguientes conceptos: Pago de Nómina, Aguinaldo, Prima vacacional, fondo de ahorro, liquidación, finiquito, etc.
+descripcion|Pago de Nómina
+
+;Total de las percepciones del trabajador (Sumatoría del total de percepciones gravadas y exentas.)
+valorUnitario|3100.00
+
+; Es el valor unitario por la cantidad
+importe|3100.00
+
+
+
+; ==== Complemento Nomina ====
+
+; Indicamos que el comprobante se trata de un recibo de nómina.
+[ComplementoNomina]
+
+
+;Registro patronal (opcional)
+RegistroPatronal|P123456789
+
+;Número del Empleado (requerido)
+NumEmpleado|2013001
+
+;CURP del trabajador (requerido)
+CURP|XEXX010101MOCNRR02
+
+;Campo para la expresión de la clave del régimen por el cual se tiene contratado al trabajador, ver catálogo SAT (requerido)
+TipoRegimen|1
+
+;Número de seguridad social del trabajador (opcional)
+NumSeguridadSocial|12345678912
+
+;Fecha efectiva de erogación del gasto. Se expresa en la forma aaaa-mm-dd (requerido)
+FechaPago|2013-11-30
+
+;Fecha inicial del pago. Se expresa en la forma aaaa-mm-dd (requerido)
+FechaInicialPago|2013-11-16
+
+;Fecha final del pago. Se expresa en la forma aaaa-mm-dd (requerido)
+FechaFinalPago|2013-11-30
+
+;Número de días pagados (requerido)
+NumDiasPagados|15
+
+;Departamento o área a la que pertenece el trabajador (opcional)
+Departamento|Desarrollo
+
+;CLABE de la cuenta del trabajador (opcional)
+CLABE|123456789012345678
+
+;Banco conforme al catálogo del SAT, donde se realiza un depósito de nómina al trabajador (opcional)
+Banco|012
+
+;Fecha de inicio de la relación laboral (opcional)
+FechaInicioRelLaboral|2013-01-01
+
+;Número de semanas que el empleado ha mantenido relación laboral con el empleador (opcional)
+Antiguedad|48
+
+;Puesto asignado al empleado o actividad que realiza (opcional)
+Puesto|Programador
+
+;Tipo de contrato que tiene el trabajador (opcional)
+TipoContrato|Base
+
+;Tipo de jornada que cubre el trabajador (opcional)
+TipoJornada|Mixta
+
+;Forma en que se establece el pago del salario (requerido)
+PeriodicidadPago|Quincenal
+
+;Retribución otorgada al trabajador (opcional)
+SalarioBaseCotApor|200.00
+
+;Clave conforme al catálogo SAT correspondiente a la Clase de riesgo de trabajo (opcional)
+RiesgoPuesto|5
+
+
+;Salario Diario Integrado (opcional)
+SalarioDiarioIntegrado|209.04
+
+; Inicia la sección (opcional) para indicar percepciones
+; Para indicar una nueva percepción, hay que incluir una sección: [Percepcion]
+; Puede aparecer n veces, según las percepciones que conforman el comprobante.
+
+[Percepcion]
+
+;Clave agrupadora conforme al catálogo del SAT (requerido)
+TipoPercepcion|001
+
+;Representa la clave de percepción de nómina propia de la contabilidad de cada patrón (requerido)
+Clave|001
+
+;Campo para determinar la descripción de la percepción (requerido)
+Concepto|Sueldos
+
+;Representa el importe gravado de un concepto de percepción (requerido)
+ImporteGravado|3000.00
+
+:Representa el importe exento de un concepto de percepción (requerido)
+ImporteExento|0.00
+
+[Percepcion]
+; En caso de 
+TipoPercepcion|019
+Clave|019
+Concepto|Horas extra
+ImporteGravado|0.00
+ImporteExento|100.00
+
+; Inicia la sección (opcional) para indicar deducciones 
+; Para indicar una nueva deducción, hay que incluir una sección: [Deduccion]
+; Puede aparecer n veces, según las deducciones que conformen el comprobante.
+
+
+[Deduccion]
+
+;Clave agrupadora. Clasifica la deducción conforme al catálogo del SAT (requerido)
+TipoDeduccion|002
+
+;Clave de deducción de nómina propia de la contabilidad de cada patrón (requerido)
+Clave|001
+
+;Descripción del concepto de deducción (requerido)
+Concepto|ISR
+ 
+;Importe gravado de un concepto deducción (requerido)
+ImporteGravado|0.0
+
+;Importe exento de un concepto de deducción (requerido)
+ImporteExento|76.97
+
+[Deduccion]
+
+TipoDeduccion|001
+Clave|002
+Concepto|IMSS
+ImporteGravado|0.00
+ImporteExento|75.36
+
+[Deduccion]
+
+TipoDeduccion|006
+Clave|006
+Concepto|Descuento por incapacidad
+ImporteGravado|0.00
+ImporteExento|200.00
+
+
+;Sección (opcional) para expresar información de las incapacidades
+;
+[Incapacidad]
+
+;Días que el trabajador se incapacitó en el periodo (requerido)
+DiasIncapacidad|1
+
+;Razón de la incapacidad conforme a catálogo del SAT (requerido)
+TipoIncapacidad|2
+
+;Monto del descuento por la incapacidad (requerido)
+Descuento|200.00
+
+
+;Sección (opcional) para información de las horas extras
+;
+[HorasExtra]
+
+;Días en que el trabajador realizó horas extra (requerido)
+Dias|1
+
+;Tipo de pago de las horas extra: dobles o triples (requerido)
+TipoHoras|Dobles
+
+;Número de horas extra (requerido)
+HorasExtra|1
+
+;Importe pagado (requerido)
+ImportePagado|100.00
+
