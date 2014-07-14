@@ -1,21 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:iedu="http://www.sat.gob.mx/iedu" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/iedu    http://www.sat.gob.mx/sitio_internet/cfd/iedu/iedu.xsd" version="3.2" fecha="2014-07-08T12:16:50" sello="UVWK48mUpWTUet/1uhoibqk1WTJHsk/Yp/tWvmcnVRUoDNSmtT58+Zd7nhLqb/A0H7EJgiR2PCQYXrWovfS7uyXByMA/UTkmrpISpuU9nRvGqswowIyWCa23L9ShvHJxT5DoJnWIxIgYzpyLwGBBkjg6jaQmKuGjssgTVBV8Prc=" formaDePago="Pago en una sola exhibición" noCertificado="20001000000200000192" certificado="MIIERjCCAy6gAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAxOTIwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyMjIwNDgwNloXDTE2MTAyMjIwNDgwNlowgcAxITAfBgNVBAMTGEVESVRPUklBTCBTSVNUQSBTQSBERSBDVjEhMB8GA1UEKRMYRURJVE9SSUFMIFNJU1RBIFNBIERFIENWMSEwHwYDVQQKExhFRElUT1JJQUwgU0lTVEEgU0EgREUgQ1YxJTAjBgNVBC0THEVTSTkyMDQyNzg4NiAvIEhFR1Q3NjEwMDM0UzIxHjAcBgNVBAUTFSAvIEhFR1Q3NjEwMDNNREZSTk4wOTEOMAwGA1UECxMFQW1pZ2EwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK6YqAg3LHOPpAKD9OFkcNgB5wj+3k4oHPK3bFfku4TCEswtMhIt5LnZCt4UK0cp9SYpKMa2kZVYm6k6zphWg9bzv3pvHwt9mB6kFGyApU71cOk16unqL2o/pDj65zNtUBfDyKkKBUGQMYgtqvVq6aXJipqKOS/NsDKEUt0q1ghTAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQCgCCpYDbmN8npLX6vHCEJAF/1G3KhuAGY48wVt1va1YXRy6yj+tJZ9HZ3l8TY7J6n10XkrbzedOArKyjdpfqWbNabZHw6b2IlSN8HrHliiAEor5hwTUJnkg6S1nm0mmirInxCmWoVV+qrEX/XHylJ+OjIql/GyZrH9sEPCY+LYFfVhO0U73jKqajMEeZtWYq5wro4UhPUhlYgwhlzUN6XNWtiC8ohjE6QJaf8jYRsJjHraZL257O1o5T/3ULMJhASN7R211FmyAuiYsq8H3buPE0kl+EmN8DUNpTDkB9Xf1ba6gXZ0PRXF1oGUwxvX9FiI5eIau2RLfy9AfJPcpAXN" condicionesDePago="Contado" subTotal="16148.04" descuento="645.92" Moneda="MXN" total="17207.35" tipoDeComprobante="ingreso" metodoDePago="En efectivo" LugarExpedicion="México">
-  <cfdi:Emisor rfc="ESI920427886" nombre="UNIVERSIDAD DEL VALLE DE OAXACA SC">
-    <cfdi:DomicilioFiscal calle="Av. Universidad" noExterior="53" noInterior="3" colonia="5 Señores" municipio="Santa Cruz Xoxocotlán" estado="Oaxaca" pais="México" codigoPostal="71230"/>
-    <cfdi:RegimenFiscal Regimen="PEQUEÑOS CONTRIBUYENTES"/>
-  </cfdi:Emisor>
-  <cfdi:Receptor rfc="XAXX010101000" nombre="PADRE DE FAMILIA">
-    <cfdi:Domicilio calle="AV OAXACA" noExterior="134" colonia="NAPOLES" municipio="BENITO JUAREZ" estado="DISTRITO FEDERAL" pais="México"/>
-  </cfdi:Receptor>
-  <cfdi:Conceptos>
-    <cfdi:Concepto cantidad="1" unidad="Colegiatura" descripcion="Pago de la colegiatura correspondiente al mes de Enero del 2012" valorUnitario="16148.04" importe="16148.04">
-<cfdi:ComplementoConcepto><iedu:instEducativas xmlns:iedu="http://www.sat.gob.mx/iedu" version="1.0" nombreAlumno="cesar ramirez valencia" CURP="RAVI870328HOCRRD06" nivelEducativo="Preescolar" autRVOE="1234989088" rfcPago="ABC010101AAA"/>
-</cfdi:ComplementoConcepto>
-    </cfdi:Concepto> 
-  </cfdi:Conceptos>
-  <cfdi:Impuestos totalImpuestosTrasladados="1705.23">
-    <cfdi:Traslados>
-      <cfdi:Traslado impuesto="IVA" tasa="16" importe="1705.23"/>
-    </cfdi:Traslados>
-  </cfdi:Impuestos>
-<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" version="1.0" UUID="B6438BEA-F880-4616-B5AE-D6751A2BD2D2" FechaTimbrado="2014-07-08T14:29:00" selloCFD="UVWK48mUpWTUet/1uhoibqk1WTJHsk/Yp/tWvmcnVRUoDNSmtT58+Zd7nhLqb/A0H7EJgiR2PCQYXrWovfS7uyXByMA/UTkmrpISpuU9nRvGqswowIyWCa23L9ShvHJxT5DoJnWIxIgYzpyLwGBBkjg6jaQmKuGjssgTVBV8Prc=" noCertificadoSAT="20001000000100005761" selloSAT="y38iFAmaF7m2qaixnA/5VLXq8R7d3nSc5HhegVSWWn+gfth0Dkv8uRvIp0FtMxjt/LzIzkTiJDbHfx3v8O1pU1HKRyTPdthCqKaP8D3FU5R5VT5k+fxMNSTW3xWh10c8eR8JrxToG8Xz368VL6OqJBe0LBe1D+RogsGx/FASWVE="/></cfdi:Complemento></cfdi:Comprobante>
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:iedu="http://www.sat.gob.mx/iedu" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/iedu    http://www.sat.gob.mx/sitio_internet/cfd/iedu/iedu.xsd" version="3.2" fecha="2014-07-08T12:16:50" sello="UVWK48mUpWTUet/1uhoibqk1WTJHsk/Yp/tWvmcnVRUoDNSmtT58+Zd7nhLqb/A0H7EJgiR2PCQYXrWovfS7uyXByMA/UTkmrpISpuU9nRvGqswowIyWCa23L9ShvHJxT5DoJnWIxIgYzpyLwGBBkjg6jaQmKuGjssgTVBV8Prc=" formaDePago="Pago en una sola exhibición" noCertificado="20001000000200000192" certificado="MIIERjCCAy6gAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAxOTIwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyMjIwNDgwNloXDTE2MTAyMjIwNDgwNlowgcAxITAfBgNVBAMTGEVESVRPUklBTCBTSVNUQSBTQSBERSBDVjEhMB8GA1UEKRMYRURJVE9SSUFMIFNJU1RBIFNBIERFIENWMSEwHwYDVQQKExhFRElUT1JJQUwgU0lTVEEgU0EgREUgQ1YxJTAjBgNVBC0THEVTSTkyMDQyNzg4NiAvIEhFR1Q3NjEwMDM0UzIxHjAcBgNVBAUTFSAvIEhFR1Q3NjEwMDNNREZSTk4wOTEOMAwGA1UECxMFQW1pZ2EwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK6YqAg3LHOPpAKD9OFkcNgB5wj+3k4oHPK3bFfku4TCEswtMhIt5LnZCt4UK0cp9SYpKMa2kZVYm6k6zphWg9bzv3pvHwt9mB6kFGyApU71cOk16unqL2o/pDj65zNtUBfDyKkKBUGQMYgtqvVq6aXJipqKOS/NsDKEUt0q1ghTAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQCgCCpYDbmN8npLX6vHCEJAF/1G3KhuAGY48wVt1va1YXRy6yj+tJZ9HZ3l8TY7J6n10XkrbzedOArKyjdpfqWbNabZHw6b2IlSN8HrHliiAEor5hwTUJnkg6S1nm0mmirInxCmWoVV+qrEX/XHylJ+OjIql/GyZrH9sEPCY+LYFfVhO0U73jKqajMEeZtWYq5wro4UhPUhlYgwhlzUN6XNWtiC8ohjE6QJaf8jYRsJjHraZL257O1o5T/3ULMJhASN7R211FmyAuiYsq8H3buPE0kl+EmN8DUNpTDkB9Xf1ba6gXZ0PRXF1oGUwxvX9FiI5eIau2RLfy9AfJPcpAXN" condicionesDePago="Contado" subTotal="16148.04" descuento="645.92" Moneda="MXN" total="17207.35" tipoDeComprobante="ingreso" metodoDePago="En efectivo" LugarExpedicion="México">
+    <cfdi:Emisor rfc="ESI920427886" nombre="UNIVERSIDAD DEL VALLE DE OAXACA SC">
+        <cfdi:DomicilioFiscal calle="Av. Universidad" noExterior="53" noInterior="3" colonia="5 Señores" municipio="Santa Cruz Xoxocotlán" estado="Oaxaca" pais="México" codigoPostal="71230" />
+        <cfdi:RegimenFiscal Regimen="PEQUEÑOS CONTRIBUYENTES" />
+    </cfdi:Emisor>
+    <cfdi:Receptor rfc="XAXX010101000" nombre="PADRE DE FAMILIA">
+        <cfdi:Domicilio calle="AV OAXACA" noExterior="134" colonia="NAPOLES" municipio="BENITO JUAREZ" estado="DISTRITO FEDERAL" pais="México" />
+    </cfdi:Receptor>
+    <cfdi:Conceptos>
+        <cfdi:Concepto cantidad="1" unidad="Colegiatura" descripcion="Pago de la colegiatura correspondiente al mes de Enero del 2012" valorUnitario="16148.04" importe="16148.04">
+            <cfdi:ComplementoConcepto>
+                <iedu:instEducativas version="1.0" nombreAlumno="cesar ramirez valencia" CURP="RAVI870328HOCRRD06" nivelEducativo="Preescolar" autRVOE="1234989088" rfcPago="ABC010101AAA" />
+            </cfdi:ComplementoConcepto>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos totalImpuestosTrasladados="1705.23">
+        <cfdi:Traslados>
+            <cfdi:Traslado impuesto="IVA" tasa="16" importe="1705.23" />
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" version="1.0" UUID="B6438BEA-F880-4616-B5AE-D6751A2BD2D2" FechaTimbrado="2014-07-08T14:29:00" selloCFD="UVWK48mUpWTUet/1uhoibqk1WTJHsk/Yp/tWvmcnVRUoDNSmtT58+Zd7nhLqb/A0H7EJgiR2PCQYXrWovfS7uyXByMA/UTkmrpISpuU9nRvGqswowIyWCa23L9ShvHJxT5DoJnWIxIgYzpyLwGBBkjg6jaQmKuGjssgTVBV8Prc=" noCertificadoSAT="20001000000100005761" selloSAT="y38iFAmaF7m2qaixnA/5VLXq8R7d3nSc5HhegVSWWn+gfth0Dkv8uRvIp0FtMxjt/LzIzkTiJDbHfx3v8O1pU1HKRyTPdthCqKaP8D3FU5R5VT5k+fxMNSTW3xWh10c8eR8JrxToG8Xz368VL6OqJBe0LBe1D+RogsGx/FASWVE=" />
+    </cfdi:Complemento>
+</cfdi:Comprobante>
+
