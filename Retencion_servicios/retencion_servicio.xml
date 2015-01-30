@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<retenciones:Retenciones xmlns:retenciones="http://www.sat.gob.mx/esquemas/retencionpago/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.sat.gob.mx/esquemas/retencionpago/1 http://www.sat.gob.mx/esquemas/retencionpago/1/retencionpagov1.xsd" Version="1.0" FolioInt="CR_SER" Sello="wslyCaUjC21NKBan/ybuGjvXpgDjOGlGD6dIcE5EU0tRCGn46MZv/jBNNyyPn+FzYMxEgtVzEI2mACzmOBhNyR5YNk5QTNJI6vgTm+VXlP6IsZ5wWtZpAOT+/S6t18YE2eEVcbYdG0XHsOBHhjQa93TSG61G9niPr695qKBLVzs=" NumCert="20001000000200000278" Cert="MIIEQzCCAyugAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAyNzgwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyNDE3MzQ1MloXDTE2MTAyNDE3MzQ1Mlowgb0xJTAjBgNVBAMTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExJTAjBgNVBCkTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExJTAjBgNVBAoTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExFjAUBgNVBC0TDVRVTUc2MjAzMTBSOTUxGzAZBgNVBAUTElRVTUc2MjAzMTBNREZSTk4wOTERMA8GA1UECxMIQ29uZmlybWEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMnfs7PXaVf1tRkPLRarE3P5U4Etw/cF+2j98krlLFU1g0AtScpq2517jUw950PcFJsonccgjV3oAz2XwzoHD6Xv8p2338DTqAcu1z8VQuIexF1SsOzaFmBM+hlJ9AdmcoVJSN84KqMt2lhRrCkNxaHs53p0cNKvmdSpg3AwuwglAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQAHZ4swEYA6oNqyM58qEMtv+9h8jNe3fzFdmA1DMIrfXgZBSQXkuXS3AsztxEDOIu8BWUdHjW5Kd1TslODj4SSxH4ZKfaSlaF+L1/1YNjTved2pwE6HVMjgVldb630luOuTwXcWsulcd11Tqp+/0JwcKOnbU4lE/DnrdlX/XJ4RBM9ERnX4Ja71jAWHN5KHT5JPJ+zINDG6DNinX53z8iZBXo1fd+9Tt+3tBANzgljH5m8LYrb+7R0QGWvRuHsKfi8v1u4bXOnovjrSJuKUtX/yCJ12vOW7bxG61RawztggHLsdOZz4Fgcp2kQNHcbXIKodCNYylPSY3/qHmWU1hHSu" FechaExp="2015-01-29T11:00:00-06:00" CveRetenc="01">
+    <retenciones:Emisor RFCEmisor="TUMG620310R95" NomDenRazSocE="Empresa retenedora ejemplo"/>
+    <retenciones:Receptor Nacionalidad="Nacional">
+        <retenciones:Nacional RFCRecep="XAXX010101000" NomDenRazSocR="Publico en GENERAL"/>
+    </retenciones:Receptor>
+    <retenciones:Periodo MesIni="1" MesFin="1" Ejerc="2014" />
+    <retenciones:Totales montoTotOperacion="1000.00" montoTotGrav="1000.00" montoTotExent="0.00" montoTotRet="100.00">
+        <retenciones:ImpRetenidos BaseRet="1000.00" Impuesto="01" montoRet="100.00" TipoPagoRet="Pago provisional"/>
+    </retenciones:Totales>
+    <retenciones:Complemento>
+    </retenciones:Complemento>
+</retenciones:Retenciones>
