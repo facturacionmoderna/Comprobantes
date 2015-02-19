@@ -1,0 +1,101 @@
+[Encabezado]
+
+serie|AA
+fecha|asignarFecha
+folio|3775
+tipoDeComprobante|Ingreso
+formaDePago|PAGO EN UNA SOLA EXHIBICIÓN
+metodoDePago|No Identificado
+condicionesDePago|Contado
+NumCtaPago|
+subTotal|2250
+descuento|0.00
+total|2250
+Moneda|MXN
+TipoCambio|
+noCertificado|
+LugarExpedicion|D.F.,México
+
+
+[Datos Adicionales]
+tipoDocumento|Factura
+numeropedido|
+observaciones|
+TransID|
+
+[Emisor]
+rfc|TUMG620310R95
+nombre|ROJOKOKOA SA DE CV
+RegimenFiscal|REGIMEN GENERAL DE LEY PERSONAS MORALES
+
+[DomicilioFiscal]
+calle|San Francisco
+noExterior|68
+noInterior|
+colonia|San Francisco Tetecala
+localidad|
+municipio|Azcapotzalco
+estado|Distrito Federal
+pais|México
+codigoPostal|02730
+
+[ExpedidoEn]
+calle|San Francisco
+noExterior|68
+noInterior|
+colonia|San Francisco Tetecala
+localidad|
+municipio|Azcapotzalco
+estado|Distrito Federal
+pais|México
+codigoPostal|02730
+
+[Receptor]
+rfc|BEPP750309PLA
+nombre|PEDRO JUAN BECERRIL PLATA
+
+[Domicilio]
+calle|AVENIDA ATA 3 A
+noExterior|
+noInterior|
+colonia|CENTRO
+municipio|
+estado|
+pais|MÉXICO
+codigoPostal|
+
+
+[Concepto]
+cantidad|1
+unidad|PAQUETE
+noIdentificacion|
+descripcion|PAQUETE DE 500 KUBOS DE CHOCOLATE
+valorUnitario|2250
+importe|2250
+
+
+[ImpuestoTrasladado]
+impuesto|IVA
+importe|10.0
+tasa|16.00
+
+
+[ImpuestoTrasladado]
+impuesto|IVA
+importe|0.00
+tasa|0.00
+
+[ImpuestoTrasladado]
+impuesto|IEPS
+importe|5.00
+tasa|8
+
+[ImpuestoTrasladado]
+impuesto|IEPS
+importe|15.53
+tasa|17.5
+
+[ImpuestoTrasladado]
+impuesto|IEPS
+importe|.90
+tasa|8

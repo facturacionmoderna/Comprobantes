@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<retenciones:Retenciones xmlns:retenciones="http://www.sat.gob.mx/esquemas/retencionpago/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pagosaextranjeros="http://www.sat.gob.mx/esquemas/retencionpago/1/pagosaextranjeros" xsi:schemaLocation=" http://www.sat.gob.mx/esquemas/retencionpago/1 http://www.sat.gob.mx/esquemas/retencionpago/1/retencionpagov1.xsd http://www.sat.gob.mx/esquemas/retencionpago/1/pagosaextranjeros http://www.sat.gob.mx/esquemas/retencionpago/1/pagosaextranjeros/pagosaextranjeros.xsd" Version="1.0" FolioInt="CR2" Sello="MvCS0P3Ho6cuQv84vHAvGsuQAMclUzzB2NAGx8yTne730b+93l0cvMHCes8VcSENn7KxUTdVS1PKed+U+5AuJCf+ORn/UhA0iVgtbhSruCvfdpqIstpRB3UFsQGA/eM47rRjii/cORwG1LTJY2qPFw9m2WYLQw20zyMrtNG4DqE=" NumCert="20001000000200000263" Cert="MIIEKzCCAxOgAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAyNjMwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyMzIwMzYzNVoXDTE2MTAyMzIwMzYzNVowgaUxHDAaBgNVBAMTE01BUkdPVCBUVUFDSEkgRVpCQU4xHDAaBgNVBCkTE01BUkdPVCBUVUFDSEkgRVpCQU4xHDAaBgNVBAoTE01BUkdPVCBUVUFDSEkgRVpCQU4xFjAUBgNVBC0TDVRVRU00NzA0MDVWNEExGzAZBgNVBAUTElRVRU00NzA0MDVNREZSTk4wOTEUMBIGA1UECxMLUmVxdWVyaW1pZW4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN/L5z0ZAD7YhNxx4/G6cIKkatIIxmI1PDLgY9zGdMPcgczy5km6OIXQ64bNTfsb+nTAMA5mH11olezuV9vOrQ/AxH+9fNNAPK/OUHXdPF5hJ88rSLtsRBNWKw0MAa0utRO/yTgjfmEz6D1PolqSJFWBH/05mu5YQHfyoxpUPUczAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQCNA/XxwrFgiYEe/1/sbxSMSPAIP6WvD6iEvgn2yfYV15KewUsQWW2BhlCdwzFu6A7wcRVhvJxVz1X9ar70Uw7UgSD6ZMK78aDCAnjRZRR3Oq148/3yB/X8BWOzZhc1EFFBHq4r7Cceg5Lt/ym2JuMqExokd5iY+UsSGXgJ9WrGLG2KoNCr0ckICoO4eT9icJ2HIqyIvWfxnnGUadnRpdyb9eSZV/GmntpaOLrW+o8Y5WkgLvDz2gKDIp7fdg9jK5Cb/I6lX4fMfR44IM2z8HD4Hi0rGwwUxzvEYjbPRpeMOmC1ZDYRo7dsB1/iitbQeW5cTgQNzcCb3GWWPTMe+bi0" FechaExp="2015-01-31T12:46:23-06:00" CveRetenc="05">
+  <retenciones:Emisor RFCEmisor="TUEM470405V4A" NomDenRazSocE="EMPRESA PARA PRUEBA DE RETENCIONES"/>
+  <retenciones:Receptor Nacionalidad="Extranjero">
+    <retenciones:Extranjero NumRegIdTrib="EXBENEF" NomDenRazSocR="Extranjero 2"/>
+  </retenciones:Receptor>
+  <retenciones:Periodo MesIni="2" MesFin="2" Ejerc="2014"/>
+  <retenciones:Totales montoTotOperacion="33750.00" montoTotGrav="33750.00" montoTotExent="0.00" montoTotRet="6974.98">
+    <retenciones:ImpRetenidos BaseRet="33750.00" Impuesto="01" montoRet="3375.00" TipoPagoRet="Pago provisional"/>
+    <retenciones:ImpRetenidos BaseRet="33750.00" Impuesto="02" montoRet="3599.98" TipoPagoRet="Pago definitivo"/>
+  </retenciones:Totales>
+  <retenciones:Complemento>
+    <pagosaextranjeros:Pagosaextranjeros Version="1.0" EsBenefEfectDelCobro="SI">
+      <pagosaextranjeros:Beneficiario RFC="VASA870929L67" CURP="VASA870929HOCRRN03" NomDenRazSocB="Empresa Extranjera sin beneficiario" ConceptoPago="3" DescripcionConcepto="Concepto del pago a benef"/>
+    </pagosaextranjeros:Pagosaextranjeros>
+  </retenciones:Complemento>
+</retenciones:Retenciones>
