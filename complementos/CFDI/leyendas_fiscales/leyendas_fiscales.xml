@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" fecha="2015-06-30T07:12:39" folio="11" serie="CLEY" subTotal="21500.00" descuento="500.00" total="24360.00" Moneda="MXN" condicionesDePago="Contado" tipoDeComprobante="ingreso" noCertificado="20001000000200000278" certificado="MIIEQzCCAyugAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAyNzgwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyNDE3MzQ1MloXDTE2MTAyNDE3MzQ1Mlowgb0xJTAjBgNVBAMTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExJTAjBgNVBCkTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExJTAjBgNVBAoTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExFjAUBgNVBC0TDVRVTUc2MjAzMTBSOTUxGzAZBgNVBAUTElRVTUc2MjAzMTBNREZSTk4wOTERMA8GA1UECxMIQ29uZmlybWEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMnfs7PXaVf1tRkPLRarE3P5U4Etw/cF+2j98krlLFU1g0AtScpq2517jUw950PcFJsonccgjV3oAz2XwzoHD6Xv8p2338DTqAcu1z8VQuIexF1SsOzaFmBM+hlJ9AdmcoVJSN84KqMt2lhRrCkNxaHs53p0cNKvmdSpg3AwuwglAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQAHZ4swEYA6oNqyM58qEMtv+9h8jNe3fzFdmA1DMIrfXgZBSQXkuXS3AsztxEDOIu8BWUdHjW5Kd1TslODj4SSxH4ZKfaSlaF+L1/1YNjTved2pwE6HVMjgVldb630luOuTwXcWsulcd11Tqp+/0JwcKOnbU4lE/DnrdlX/XJ4RBM9ERnX4Ja71jAWHN5KHT5JPJ+zINDG6DNinX53z8iZBXo1fd+9Tt+3tBANzgljH5m8LYrb+7R0QGWvRuHsKfi8v1u4bXOnovjrSJuKUtX/yCJ12vOW7bxG61RawztggHLsdOZz4Fgcp2kQNHcbXIKodCNYylPSY3/qHmWU1hHSu" formaDePago="PAGO EN UNA SOLA EXHIBICIÓN" metodoDePago="Transferencía Electrónica" NumCtaPago="No identificado" LugarExpedicion="Nuevo León, México." sello="P9lduh0aPCITm+9STj9udE51h0DHmt56gkIAtJIlqwKIEkkvqWmDPp1fNfc8VDGlheM3ARSy2OUKmPqYJb+Kh4pwP50j+CnNObvwuNMcpaIoOW+ZLmuMHy0WTHpingnVuNPzhR6UmdNeJoXQVYXCtHqUims+QN7iRgeFFaA8FeM=">
+  <cfdi:Emisor nombre="FACTURACION MODERNA S.A de C.V." rfc="TUMG620310R95">
+    <cfdi:DomicilioFiscal calle="RIO MANZANARES" noExterior="417" colonia="DEL VALLE" municipio="SAN PEDRO GARZA GARCIA" estado="NUEVO LEON" pais="México" codigoPostal="66220"/>
+    <cfdi:ExpedidoEn calle="CERRADA DE AZUCENAS" noExterior="109" colonia="REFORMA" municipio="OAXACA DE JUAREZ" estado="OAXACA" pais="México" codigoPostal="68050"/>
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES"/>
+  </cfdi:Emisor>
+  <cfdi:Receptor nombre="PUBLICO EN GENERAL" rfc="XAXX010101000">
+    <cfdi:Domicilio calle="DOMICILIO CONOCIDO" noExterior="100" noInterior="B" colonia="ORIENTE" municipio="SAN PEDRO GARZA GARCIA" estado="NUEVO LEON" pais="MEXICO" codigoPostal="66260"/>
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1" unidad="PIEZA" descripcion="IPAD 2.0" valorUnitario="7000.00" importe="7000.00"/>
+    <cfdi:Concepto cantidad="1" unidad="PIEZA" noIdentificacion="AIR13" descripcion="MAC AIR 13&quot;" valorUnitario="14500.00" importe="14500.00"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="3360.00">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="3360.00"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <leyendasFisc:LeyendasFiscales xmlns:leyendasFisc="http://www.sat.gob.mx/leyendasFiscales" version="1.0">
+      <leyendasFisc:Leyenda disposicionFiscal="ISR" norma="133" textoLeyenda="Efectos fiscales al pago"/>
+      <leyendasFisc:Leyenda disposicionFiscal="IVA" norma="32" textoLeyenda="Impuesto retenido de conformidad con la Ley del Impuesto al Valor Agregado"/>
+    </leyendasFisc:LeyendasFiscales>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

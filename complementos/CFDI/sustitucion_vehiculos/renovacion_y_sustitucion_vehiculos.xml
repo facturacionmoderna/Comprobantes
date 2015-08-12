@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decreto="http://www.sat.gob.mx/renovacionysustitucionvehiculos" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/renovacionysustitucionvehiculos http://www.sat.gob.mx/sitio_internet/cfd/renovacionysustitucionvehiculos/renovacionysustitucionvehiculos.xsd" version="3.2" serie="CRSV" folio="15" fecha="2015-06-29T10:54:17" sello="FF6wqQ7tFWWsQJNxx1s3+mEZFV9iNwNwJK+lYaE4ESn1+t7NKSqUIhXiZn0iN2sJfyaJlg77e1HHeJdlEuoHue88RXe1/z/xoQN3IrBswYg1116LldMw/ouSFmSwAjOulqOJUD2Ka3EPPwgCQJaKen2BDEbM4acJVfpP3fnuOVQ=" formaDePago="Pago en una sola exhibición" noCertificado="20001000000200000222" certificado="MIIEdTCCA12gAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAyMjIwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyMzE3NTAzNloXDTE2MTAyMzE3NTAzNlowge8xNzA1BgNVBAMTLkxVSVNBIEFSQ0VMSUEgTU9OSUNBIEdVQURBTFVQRSBIT1JORURPIEFORFJBREUxNzA1BgNVBCkTLkxVSVNBIEFSQ0VMSUEgTU9OSUNBIEdVQURBTFVQRSBIT1JORURPIEFORFJBREUxNzA1BgNVBAoTLkxVSVNBIEFSQ0VMSUEgTU9OSUNBIEdVQURBTFVQRSBIT1JORURPIEFORFJBREUxFjAUBgNVBC0TDUhPQUw1NTA1MDRQVjgxGzAZBgNVBAUTEkhPQUw1NTA1MDRNREZSTk4wOTENMAsGA1UECxMEUHJvNDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArpQf+GcjvLk1NWtj2VH53nQqDzCcSYIWkWr+bYlLPyBqMmISEzLLN4j96OfltNTFtvmAr7WCFvIRV+aVI6eDF4SOcor5nV4Y93Xgm0vx9d0/QXyN/6xlox4ijUo/HEGPAbbV1pEuCzQsZzZjqHQwhjDtLn12B09GwtCQTOVQOjUCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAFv8d+NaGroc6hfkt27+310a5dIwKGcqgcwPYOo5PYyUuFjD2TfS+tl6S+etBVtMIOQle4EHimmpdVg3g/TNJu9u5Ntn2CA+tw6pacXqsc8ZVp7xExv2qLbLFv5UzBL/8lbKrwzcZVmwdy6gCpsTICuLvRE+OaFzATznk/WaKnzQn3s4N2SFMwpfZodlkfgLDqLfzqAwmPtCxGoSfaQ2rLm9Uw7cGr86mWDgENaX3+JbuLc4Wzo1GvFAMptQKnNkqYLuOkxIEOU7R0CEiJIssDDrvEfjHR4XBq54TQOkUZgjPNW9GYOx2avpNM4rOeRnoe7ypqwvluBdtInMrTpuzW0=" condicionesDePago="Contado" subTotal="34.00" descuento="0.00" TipoCambio="0" Moneda="MXN" total="39.44" tipoDeComprobante="ingreso" metodoDePago="En efectivo" LugarExpedicion="SANTA CRUZ XOXOCOTLAN, Monterrey, Nuevo León, México">
+  <cfdi:Emisor rfc="HOAL550504PV8" nombre="FACTURACIÓN MODERNA S.A DE C.V">
+    <cfdi:DomicilioFiscal calle="RIO MANZANAREZ" noInterior="#123" colonia="DE ORIENTE" localidad="SAN PEDRO GARZA GARCIA" municipio="MONTERREY" estado="NUEVO LEÓN" pais="MÉXICO" codigoPostal="66220"/>
+    <cfdi:RegimenFiscal Regimen="REGIMEN DE ARRENDAMIENTO DE BIENES INMUEBLES"/>
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="XAXX010101000" nombre="VENTA AL PUBLICO EN GENERAL">
+    <cfdi:Domicilio calle="GUERRERO" municipio="Abasolo" estado="Nuevo León" pais="México" codigoPostal="64500"/>
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1" unidad="no aplica" noIdentificacion="1" descripcion="renovacion de vehiculo" valorUnitario="150000.00" importe="150000.00"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="5.44">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16" importe="5.44"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <decreto:renovacionysustitucionvehiculos Version="1.0" TipoDeDecreto="01">
+      <decreto:DecretoRenovVehicular VehEnaj="01">
+        <decreto:VehiculosUsadosEnajenadoPermAlFab PrecioVehUsado="90000" TipoVeh="01" Marca="Nissan" TipooClase="Caminoneta" Año="2007" Modelo="Frontier" NIV="58683" NumSerie="IGIYY2189E5138227" NumPlacas="354-NYH" NumMotor="0445542897692" NumFolTarjCir="05413312114" Foliofiscal="5E7D18FA-BD99-4152-BCDA-1E360A8FBF81"/>
+        <decreto:VehiculoNuvoSemEnajenadoFabAlPerm Año="2011" Modelo="Nissan tsuru" NumPlacas="tkg-24-05"/>
+      </decreto:DecretoRenovVehicular>
+      <decreto:DecretoSustitVehicular VehEnaj="01">
+        <decreto:VehiculoUsadoEnajenadoPermAlFab PrecioVehUsado="90000" TipoVeh="01" Marca="Nissan" TipooClase="Caminoneta" Año="2007" Modelo="Frontier" NIV="58683" NumSerie="IGIYY2189E5138227" NumPlacas="354-NYH" NumMotor="0445542897692" NumFolTarjCir="05413312114" NumFolAvisoint="00472" NumPedIm="19212832" Aduana="Aduana México" FechaRegulVeh="2014-01-23" Foliofiscal="5E7D18FA-BD99-4152-BCDA-1E360A8FBF81"/>
+        <decreto:VehiculoNuvoSemEnajenadoFabAlPerm Año="2011" Modelo="Nissan tsuru" NumPlacas="tkg-24-05"/>
+      </decreto:DecretoSustitVehicular>
+    </decreto:renovacionysustitucionvehiculos>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

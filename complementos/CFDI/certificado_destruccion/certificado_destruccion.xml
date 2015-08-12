@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:destruccion="http://www.sat.gob.mx/certificadodestruccion" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/certificadodestruccion http://www.sat.gob.mx/sitio_internet/cfd/certificadodestruccion/certificadodedestruccion.xsd " version="3.2" serie="CDEST" folio="2" fecha="2015-06-29T13:16:17" sello="NSqdUZSLKMCS60AaaWCq3CYjei/tOn7BMKzgAI0Ms97vq3jo8eH5Wo7QTvqCNjmL2n5z1W32MhoY82ZTKN1i7IL6egWMmahi/MQ4PKUf1voxDk5iTy2m0FkHcXBhu6FPfeyJXgvN8HukAP8nnc90HpQMlSTwAX6YdKg9im0NgcE=" formaDePago="Pago en una sola exhibición" noCertificado="20001000000200000222" certificado="MIIEdTCCA12gAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAyMjIwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyMzE3NTAzNloXDTE2MTAyMzE3NTAzNlowge8xNzA1BgNVBAMTLkxVSVNBIEFSQ0VMSUEgTU9OSUNBIEdVQURBTFVQRSBIT1JORURPIEFORFJBREUxNzA1BgNVBCkTLkxVSVNBIEFSQ0VMSUEgTU9OSUNBIEdVQURBTFVQRSBIT1JORURPIEFORFJBREUxNzA1BgNVBAoTLkxVSVNBIEFSQ0VMSUEgTU9OSUNBIEdVQURBTFVQRSBIT1JORURPIEFORFJBREUxFjAUBgNVBC0TDUhPQUw1NTA1MDRQVjgxGzAZBgNVBAUTEkhPQUw1NTA1MDRNREZSTk4wOTENMAsGA1UECxMEUHJvNDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArpQf+GcjvLk1NWtj2VH53nQqDzCcSYIWkWr+bYlLPyBqMmISEzLLN4j96OfltNTFtvmAr7WCFvIRV+aVI6eDF4SOcor5nV4Y93Xgm0vx9d0/QXyN/6xlox4ijUo/HEGPAbbV1pEuCzQsZzZjqHQwhjDtLn12B09GwtCQTOVQOjUCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAFv8d+NaGroc6hfkt27+310a5dIwKGcqgcwPYOo5PYyUuFjD2TfS+tl6S+etBVtMIOQle4EHimmpdVg3g/TNJu9u5Ntn2CA+tw6pacXqsc8ZVp7xExv2qLbLFv5UzBL/8lbKrwzcZVmwdy6gCpsTICuLvRE+OaFzATznk/WaKnzQn3s4N2SFMwpfZodlkfgLDqLfzqAwmPtCxGoSfaQ2rLm9Uw7cGr86mWDgENaX3+JbuLc4Wzo1GvFAMptQKnNkqYLuOkxIEOU7R0CEiJIssDDrvEfjHR4XBq54TQOkUZgjPNW9GYOx2avpNM4rOeRnoe7ypqwvluBdtInMrTpuzW0=" condicionesDePago="Contado" subTotal="34.00" descuento="0.00" TipoCambio="0" Moneda="MXN" total="39.44" tipoDeComprobante="ingreso" metodoDePago="En efectivo" LugarExpedicion="SANTA CRUZ XOXOCOTLAN, Monterrey, Nuevo León, México">
+  <cfdi:Emisor rfc="HOAL550504PV8" nombre="FACTURACION MODERNA SA DE CV">
+    <cfdi:DomicilioFiscal calle="RIO MANZANAREZ" noInterior="#123" colonia="DE ORIENTE" localidad="SAN PEDRO GARZA GARCIA" municipio="Monterrey" estado="Nuevo León" pais="México" codigoPostal="66220"/>
+    <cfdi:RegimenFiscal Regimen="REGIMEN DE ARRENDAMIENTO DE BIENES INMUEBLES"/>
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="XAXX010101000" nombre="VENTA AL PUBLICO EN GENERAL">
+    <cfdi:Domicilio calle="GUERRERO" municipio="Abasolo" estado="Nuevo León" pais="México" codigoPostal="64500"/>
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1" unidad="pieza" noIdentificacion="12" descripcion="SERVICIO DE DESTRUCCIÓN DE AUTOMOVIL" valorUnitario="34.00" importe="34.00"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="5.44">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16" importe="5.44"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <destruccion:certificadodedestruccion Version="1.0" Serie="SERIE A" NumFolDesVeh="000323">
+      <destruccion:VehiculoDestruido Marca="Nissan" TipooClase="Camioneta" Año="2008" Modelo="Pick-Up" NIV="39883" NumSerie="IGIYY2189E5138227" NumPlacas="TJN-25-29" NumMotor="0445542897692" NumFolTarjCir="05413312114"/>
+      <destruccion:InformacionAduanera NumPedImp="2390321" Fecha="2014-01-23" Aduana="Aduana"/>
+    </destruccion:certificadodedestruccion>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

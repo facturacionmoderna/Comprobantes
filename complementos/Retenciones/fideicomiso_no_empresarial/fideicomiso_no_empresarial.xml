@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<retenciones:Retenciones xmlns:retenciones="http://www.sat.gob.mx/esquemas/retencionpago/1" xmlns:fideicomisonoempresarial="http://www.sat.gob.mx/esquemas/retencionpago/1/fideicomisonoempresarial" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.sat.gob.mx/esquemas/retencionpago/1 http://www.sat.gob.mx/esquemas/retencionpago/1/retencionpagov1.xsd http://www.sat.gob.mx/esquemas/retencionpago/1/fideicomisonoempresarial http://www.sat.gob.mx/esquemas/retencionpago/1/fideicomisonoempresarial/fideicomisonoempresarial.xsd" Version="1.0" FolioInt="CR" Sello="AhLG8EJXbl7IAF7MIUEJ1jJx3Aqn2vXi4TaSQ7aYoAV0ClZWqESnJCgoPeeKx8gLYDB3cSDmq73VDGI9HQkZ+i+JYbiq1lNVZSWY8mO/wno5bAIuvrGN2CG3dUONk6KzlRXDpKyCHEFiBOar4F4AQrURliVufitWFqBR9wiOQpw=" NumCert="20001000000200000278" Cert="MIIEQzCCAyugAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAyNzgwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyNDE3MzQ1MloXDTE2MTAyNDE3MzQ1Mlowgb0xJTAjBgNVBAMTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExJTAjBgNVBCkTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExJTAjBgNVBAoTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExFjAUBgNVBC0TDVRVTUc2MjAzMTBSOTUxGzAZBgNVBAUTElRVTUc2MjAzMTBNREZSTk4wOTERMA8GA1UECxMIQ29uZmlybWEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMnfs7PXaVf1tRkPLRarE3P5U4Etw/cF+2j98krlLFU1g0AtScpq2517jUw950PcFJsonccgjV3oAz2XwzoHD6Xv8p2338DTqAcu1z8VQuIexF1SsOzaFmBM+hlJ9AdmcoVJSN84KqMt2lhRrCkNxaHs53p0cNKvmdSpg3AwuwglAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQAHZ4swEYA6oNqyM58qEMtv+9h8jNe3fzFdmA1DMIrfXgZBSQXkuXS3AsztxEDOIu8BWUdHjW5Kd1TslODj4SSxH4ZKfaSlaF+L1/1YNjTved2pwE6HVMjgVldb630luOuTwXcWsulcd11Tqp+/0JwcKOnbU4lE/DnrdlX/XJ4RBM9ERnX4Ja71jAWHN5KHT5JPJ+zINDG6DNinX53z8iZBXo1fd+9Tt+3tBANzgljH5m8LYrb+7R0QGWvRuHsKfi8v1u4bXOnovjrSJuKUtX/yCJ12vOW7bxG61RawztggHLsdOZz4Fgcp2kQNHcbXIKodCNYylPSY3/qHmWU1hHSu" FechaExp="2015-08-05T01:00:00-05:00" CveRetenc="21">
+  <retenciones:Emisor RFCEmisor="TUMG620310R95" NomDenRazSocE="FACTURACION MODERNA SA DE CV"/>
+  <retenciones:Receptor Nacionalidad="Nacional">
+    <retenciones:Nacional RFCRecep="XAXX010101000" NomDenRazSocR="Publico en GENERAL"/>
+  </retenciones:Receptor>
+  <retenciones:Periodo MesIni="7" MesFin="7" Ejerc="2015"/>
+  <retenciones:Totales montoTotOperacion="33783.75" montoTotGrav="35437.50" montoTotExent="0.00" montoTotRet="7323.75">
+    <retenciones:ImpRetenidos BaseRet="35437.50" Impuesto="01" montoRet="3543.75" TipoPagoRet="Pago provisional"/>
+  </retenciones:Totales>
+  <retenciones:Complemento>
+    <fideicomisonoempresarial:Fideicomisonoempresarial Version="1.0">
+      <fideicomisonoempresarial:IngresosOEntradas MontTotEntradasPeriodo="300.00" PartPropAcumDelFideicom="300.00" PropDelMontTot="800.000000">
+        <fideicomisonoempresarial:IntegracIngresos Concepto="CONCEPTO2"/>
+      </fideicomisonoempresarial:IngresosOEntradas>
+      <fideicomisonoempresarial:DeduccOSalidas MontTotEgresPeriodo="50.00" PartPropDelFideicom="0.00" PropDelMontTot="800.000000">
+        <fideicomisonoempresarial:IntegracEgresos ConceptoS="CONCEPTO2"/>
+      </fideicomisonoempresarial:DeduccOSalidas>
+      <fideicomisonoempresarial:RetEfectFideicomiso MontRetRelPagFideic="750.45" DescRetRelPagFideic="DESCRIPCION"/>
+    </fideicomisonoempresarial:Fideicomisonoempresarial>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" version="1.0" UUID="047E0E2B-0EB6-40CD-B205-EC0F84843551" FechaTimbrado="2015-08-05T13:36:52" selloCFD="AhLG8EJXbl7IAF7MIUEJ1jJx3Aqn2vXi4TaSQ7aYoAV0ClZWqESnJCgoPeeKx8gLYDB3cSDmq73VDGI9HQkZ+i+JYbiq1lNVZSWY8mO/wno5bAIuvrGN2CG3dUONk6KzlRXDpKyCHEFiBOar4F4AQrURliVufitWFqBR9wiOQpw=" noCertificadoSAT="20001000000100005761" selloSAT="Hh2uKC95juGSpjvvVEScDxvGScJgW4b63DZtrUS8+tyASAwlBPu1HVEy3/Qwzc9GVm15b74szCrd1958Ief+nrc2Sf6eRxQsKp4eBFmQBU3WbVD9HxoqPX5mXVHgPBoanEmgbKpJ7zulf/dDpN+jqFfDbb07FetgZ9p+SjOLDxU="/>
+  </retenciones:Complemento>
+</retenciones:Retenciones>
