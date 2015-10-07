@@ -20,6 +20,7 @@ LugarExpedicion|Nuevo León, México.
 
 tipoDocumento|Factura
 plantillaPDF|clasic
+logotipo|lg_fdc9422f0756154cd565695
 numeropedido|
 observaciones|Comprobante tipo factura para fines demostrativos
 TransID|
