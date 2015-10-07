@@ -2,7 +2,7 @@
 
 serie|AA
 fecha|asignarFecha
-folio|asignarFolio
+folio|
 tipoDeComprobante|ingreso
 formaDePago|PAGO EN UNA SOLA EXHIBICIÓN
 metodoDePago|Transferencía Electrónica
@@ -13,12 +13,13 @@ descuento|500.00
 total|24360.00
 Moneda|MXN
 TipoCambio|
-noCertificado|20001000000200000278
+noCertificado|
 LugarExpedicion|Nuevo León, México.
 
 [Datos Adicionales]
 
 tipoDocumento|Factura
+plantillaPDF|clasic
 numeropedido|
 observaciones|Comprobante tipo factura para fines demostrativos
 TransID|
