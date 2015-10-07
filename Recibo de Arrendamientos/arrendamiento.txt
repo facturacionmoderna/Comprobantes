@@ -1,8 +1,8 @@
 ﻿[Encabezado]
-
-serie|AA
-fecha|asignarFecha
-folio|asignarFolio
+serie|A
+;Fecha de emisión del recibo en formato ISO 8601 ejemplo: 2015-10-07T10:45:43
+fecha|2015-10-07T13:23:43 
+folio|1
 tipoDeComprobante|ingreso
 formaDePago|PAGO EN UNA SOLA EXHIBICIÓN
 metodoDePago|Transferencía Electrónica
@@ -16,22 +16,23 @@ TipoCambio|
 noCertificado|20001000000200000278
 LugarExpedicion|Nuevo León, México.
 
-[Datos Adicionales]
-
+[DatosAdicionales]
 tipoDocumento|Recibo de arrendamiento
-numeropedido|
-observaciones|Comprobante para fines demostrativos
-TransID|
-
+;Se cuentan con 3 diseños de plantilla valores aceptados: clasic, custom y gti_clasica
+plantillaPDF|clasic
+;Una vez que pasen a producción deben enviar sus logos, les indicaremos el id de cada uno para insertarlo en su txt
+logotipo|lg_fdc9422f0756154cd565695
+observaciones|Comprobante tipo factura para fines demostrativos
+numeroCliente|09871
+emailCliente|envios@facturacionmoderna.com
+telefonoCliente|01 000 00 00 00
 
 [Emisor]
-
 rfc|TUMG620310R95
 nombre|FACTURACION MODERNA S.A de C.V.
 RegimenFiscal|REGIMEN GENERAL DE LEY PERSONAS MORALES
 
 [DomicilioFiscal]
-
 calle|RIO GUADALQUIVIR 
 noExterior|308
 noInterior|
@@ -68,14 +69,7 @@ estado|NUEVO LEON
 pais|MEXICO
 codigoPostal|66260
 
-[DatosAdicionales]
-
-noCliente|
-email|soporte@facturacionmoderna.com
-
-
 [Concepto]
-
 cantidad|1
 unidad|NO APLICA
 noIdentificacion|
@@ -84,18 +78,14 @@ valorUnitario|4500.00
 importe|4500.00
 CuentaPredial|123456789
 
-
 [ImpuestoTrasladado]
-
 impuesto|IVA
 importe|720.00
 tasa|16.00
 
-
 [ImpuestoRetenido]
 impuesto|IVA
 importe|480.00
-
 
 [ImpuestoRetenido]
 impuesto|ISR

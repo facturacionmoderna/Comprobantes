@@ -1,8 +1,8 @@
 ﻿[Encabezado]
-
-serie|AA
-fecha|asignarFecha
-folio|asignarFolio
+serie|A
+;Fecha de emisión del recibo en formato ISO 8601 ejemplo: 2015-10-07T10:45:43
+fecha|2015-10-07T12:23:43 
+folio|1
 tipoDeComprobante|egreso
 formaDePago|PAGO EN UNA SOLA EXHIBICIÓN
 metodoDePago|No aplica
@@ -16,20 +16,24 @@ TipoCambio|
 noCertificado|20001000000200000278
 LugarExpedicion|Nuevo León, México.
 
-[Datos Adicionales]
-
-tipoDocumento|Nota de Credito
-observaciones|Comprobante de egreso, generado para fines demostrativos
+[DatosAdicionales]
+tipoDocumento|Nota de crédito
+;Se cuentan con 3 diseños de plantilla valores aceptados: clasic, custom y gti_clasica
+plantillaPDF|clasic
+;Una vez que pasen a producción deben enviar sus logos, les indicaremos el id de cada uno para insertarlo en su txt
+logotipo|lg_fdc9422f0756154cd565695
+observaciones|Comprobante tipo factura para fines demostrativos
+numeroCliente|09871
+emailCliente|envios@facturacionmoderna.com
+telefonoCliente|01 000 00 00 00
 
 
 [Emisor]
-
 rfc|TUMG620310R95
 nombre|FACTURACION MODERNA S.A de C.V.
 RegimenFiscal|REGIMEN GENERAL DE LEY PERSONAS MORALES
 
 [DomicilioFiscal]
-
 calle|RIO MANZANARES
 noExterior|417
 noInterior|
@@ -66,14 +70,7 @@ estado|NUEVO LEON
 pais|MEXICO
 codigoPostal|66260
 
-[DatosAdicionales]
-
-noCliente|
-email|soporte@facturacionmoderna.com
-
-
 [Concepto]
-
 cantidad|1
 unidad|No aplica
 noIdentificacion|
@@ -81,9 +78,7 @@ descripcion|Cancelación de comprobante con folio fiscal 63BE01E1-77EE-7F3-9ED2-
 valorUnitario|1498.00
 importe|1498.00
 
-
 [ImpuestoTrasladado]
-
 impuesto|IVA
 importe|239.68
 tasa|16.00

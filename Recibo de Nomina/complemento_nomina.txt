@@ -11,7 +11,7 @@ serie|A
 
 ; Fecha de emisión del recibo en formato  ISO 8601 ejemplo: 2013-12-12T10:45:43
 ; Con el atributo asignarFecha, el servicio de timbrado asigna la fecha en automático.
-fecha|asignarFecha
+fecha|2015-10-07T09:23:43
 
 ; Número de folio del recibo (Opcional)
 folio|1
@@ -57,7 +57,7 @@ noCertificado|
 LugarExpedicion|Monterrey, Nuevo León, México.
 
 
-[Datos Adicionales]
+[DatosAdicionales]
 
 ;Indicar el tipo de documento, es requerido cuándo nuestro servicio genera el PDF
 tipoDocumento|RECIBO DE NOMINA

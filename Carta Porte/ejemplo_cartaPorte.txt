@@ -1,8 +1,9 @@
 ﻿[Encabezado]
 
-serie|AA
-fecha|asignarFecha
-folio|asignarFolio
+serie|CP
+;Fecha de emisión del recibo en formato ISO 8601 ejemplo: 2015-10-07T10:45:43
+fecha|2015-10-07T12:03:43
+folio|1
 tipoDeComprobante|ingreso
 formaDePago|PAGO EN UNA SOLA EXHIBICIÓN
 metodoDePago|En efectivo
@@ -12,25 +13,32 @@ subTotal|4000.00
 descuento|0.00
 total|4540.00
 Moneda|MXN
-TipoCambio|1.00
+TipoCambio|
+;Número de certificado con el cuál de desear sellar el comprobante, si no contiene datos se tomará el primero activo, considerar que en caso de manejar más de un certificado por emisor se hace obligatorio especificar cual se ocupará en cada comprobante, de lo contrario siempre el mismo.
 noCertificado|20001000000200000278
 LugarExpedicion|Nuevo León, México.
 
-[Datos Adicionales]
 
+DatosAdicionales]
 tipoDocumento|Carta porte
-numeropedido|
-observaciones|Comprobante con conceptos tipo carta porte, para fines demostrativos
-TransID|
+;Se cuentan con 3 diseños de plantilla valores aceptados: clasic, custom y gti_clasica
+plantillaPDF|clasic
+;Una vez que pasen a producción deben enviar sus logos, les indicaremos el id de cada uno para insertarlo en su txt
+logotipo|lg_fdc9422f0756154cd565695
+observaciones|Comprobante tipo carta porte para fines demostrativos
+numeroCliente|09871
+emailCliente|envios@facturacionmoderna.com
+telefonoCliente|01 000 00 00 00
+
+
+
 
 [Emisor]
-
 rfc|TUMG620310R95
 nombre|FACTURACION MODERNA S.A de C.V.
 RegimenFiscal|REGIMEN GENERAL DE LEY PERSONAS MORALES
 
 [DomicilioFiscal]
-
 calle|RIO MANZANARES
 noExterior|417
 noInterior|
@@ -67,14 +75,7 @@ estado|NUEVO LEON
 pais|MEXICO
 codigoPostal|66260
 
-
-[DatosAdicionales]
-
-noCliente|
-email|soporte@facturacionmoderna.com
-
 [Concepto]
-
 cantidad|1
 unidad|NO APLICA
 noIdentificacion|
@@ -83,7 +84,6 @@ valorUnitario|1500.00
 importe|1500.00
 
 [Concepto]
-
 cantidad|1
 unidad|NO APLICA
 noIdentificacion|
@@ -91,16 +91,11 @@ descripcion|FLETE
 valorUnitario|2500.00
 importe|2500.00
 
-
 [ImpuestoTrasladado]
-
 impuesto|IVA
 importe|640.00
 tasa|16.00
 
-
 [ImpuestoRetenido]
 impuesto|IVA
 importe|100.00
-
-
