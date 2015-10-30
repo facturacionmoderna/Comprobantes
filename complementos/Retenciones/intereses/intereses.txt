@@ -1,0 +1,60 @@
+[DocumentoRetenciones]
+; Folio del documento para control interno del contribuyente - Opcional
+FolioInt=CR
+FechaExp=2015-10-21T16:47:15-05:00
+CveRetenc=16
+; Descripción de la retención  - Opcional
+DescRetenc=Retencion intereses
+NumCert=20001000000200000278
+
+[Emisor]
+RFCEmisor=TUMG620310R95
+; Denominación o razón social del contribuyente emisor - Opcional
+NomDenRazSocE=FACTURACION MODERNA S.A de C.V.
+; Clave Única del Registro Poblacional del contribuyente emisor - Opcional
+CURPE=XAXX880429HOCTRR04
+
+[Receptor]
+Nacionalidad=Nacional
+Nacional[RFCRecep]=XAXX010101000
+; Denominación o razón social del contribuyente receptor  - Opcional 
+Nacional[NomDenRazSocR]=Publico en GENERAL
+; Clave Única del Registro Poblacional del contribuyente receptor - Opcional
+Nacional[CURPR]=XAXX880429HOCTRR04
+
+;Nacionalidad="Extranjero"
+;Número de registro de identificación fiscal del receptor - Opcional 
+;Extranjero[NumRegIdTrib]=123
+;Extranjero[NomDenRazSocR]=Publico en General
+
+[Periodo]
+MesIni=1
+MesFin=1
+Ejerc=2014
+
+[Totales]
+montoTotOperacion=1000.00
+montoTotGrav=1000.00
+montoTotExent=0.00
+montoTotRet=100.00
+
+;Para agregar mas de un impuesto, añadir un guion bajo y un subindice por cada impuesto: ImpRetenidos_1, ImpRetenidos_2 etc.
+[ImpRetenidos_1]
+BaseRet=200.00
+Impuesto=01
+montoRet=100.00
+TipoPagoRet=Pago provisional
+
+[ImpRetenidos_2]
+BaseRet=2.00
+Impuesto=02
+montoRet=0.00
+TipoPagoRet=Pago definitivo
+
+[ComplementoIntereses]
+SistFinanciero=SI
+RetiroAORESRetInt=SI
+OperFinancDerivad=SI
+MontIntNominal=1.00
+MontIntReal=2.00
+Perdida=3.00
