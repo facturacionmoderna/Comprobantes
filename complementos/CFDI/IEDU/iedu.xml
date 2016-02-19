@@ -19,8 +19,5 @@
             <cfdi:Traslado impuesto="IVA" tasa="16" importe="1705.23" />
         </cfdi:Traslados>
     </cfdi:Impuestos>
-    <cfdi:Complemento>
-        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" version="1.0" UUID="B6438BEA-F880-4616-B5AE-D6751A2BD2D2" FechaTimbrado="2014-07-08T14:29:00" selloCFD="UVWK48mUpWTUet/1uhoibqk1WTJHsk/Yp/tWvmcnVRUoDNSmtT58+Zd7nhLqb/A0H7EJgiR2PCQYXrWovfS7uyXByMA/UTkmrpISpuU9nRvGqswowIyWCa23L9ShvHJxT5DoJnWIxIgYzpyLwGBBkjg6jaQmKuGjssgTVBV8Prc=" noCertificadoSAT="20001000000100005761" selloSAT="y38iFAmaF7m2qaixnA/5VLXq8R7d3nSc5HhegVSWWn+gfth0Dkv8uRvIp0FtMxjt/LzIzkTiJDbHfx3v8O1pU1HKRyTPdthCqKaP8D3FU5R5VT5k+fxMNSTW3xWh10c8eR8JrxToG8Xz368VL6OqJBe0LBe1D+RogsGx/FASWVE=" />
-    </cfdi:Complemento>
 </cfdi:Comprobante>
 
