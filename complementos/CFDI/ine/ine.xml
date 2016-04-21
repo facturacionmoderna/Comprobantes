@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ine="http://www.sat.gob.mx/ine" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/ine http://www.sat.gob.mx/sitio_internet/cfd/ine/ine10.xsd" 
+                  version="3.2" fecha="2015-11-16T12:00:17" folio="1016" serie="INE" subTotal="142500.00" descuento="0.00" total="164587.50" 
+                  Moneda="MXN" condicionesDePago="Contado" NumCtaPago="1234" tipoDeComprobante="ingreso" noCertificado="20001000000200000278"
+                  certificado="MIIEQzCCAyugAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAyNzgwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyNDE3MzQ1MloXDTE2MTAyNDE3MzQ1Mlowgb0xJTAjBgNVBAMTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExJTAjBgNVBCkTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExJTAjBgNVBAoTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExFjAUBgNVBC0TDVRVTUc2MjAzMTBSOTUxGzAZBgNVBAUTElRVTUc2MjAzMTBNREZSTk4wOTERMA8GA1UECxMIQ29uZmlybWEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMnfs7PXaVf1tRkPLRarE3P5U4Etw/cF+2j98krlLFU1g0AtScpq2517jUw950PcFJsonccgjV3oAz2XwzoHD6Xv8p2338DTqAcu1z8VQuIexF1SsOzaFmBM+hlJ9AdmcoVJSN84KqMt2lhRrCkNxaHs53p0cNKvmdSpg3AwuwglAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQAHZ4swEYA6oNqyM58qEMtv+9h8jNe3fzFdmA1DMIrfXgZBSQXkuXS3AsztxEDOIu8BWUdHjW5Kd1TslODj4SSxH4ZKfaSlaF+L1/1YNjTved2pwE6HVMjgVldb630luOuTwXcWsulcd11Tqp+/0JwcKOnbU4lE/DnrdlX/XJ4RBM9ERnX4Ja71jAWHN5KHT5JPJ+zINDG6DNinX53z8iZBXo1fd+9Tt+3tBANzgljH5m8LYrb+7R0QGWvRuHsKfi8v1u4bXOnovjrSJuKUtX/yCJ12vOW7bxG61RawztggHLsdOZz4Fgcp2kQNHcbXIKodCNYylPSY3/qHmWU1hHSu" formaDePago="PAGO EN UNA SOLA EXHIBICIÓN" metodoDePago="Cheque" LugarExpedicion="San Pedro Garza Garcia, Nuevo León, México."
+                  sello="E/BvDP6fTyNrMT8Bx30Xu21CE4C9aIW2c5n2ROYue5z95tXwXcrwXVvhiCF9/1VQJOPhyUlf2aYkAFnXvvxNXw1xknxcIxfMKy3qF3E8oLlGMtvBrB0Uq4RP08tLq8/Yt2YWRhmq0T+MX0IXSQEiz4R6yNhvZbM1cOPjrOP1L6Q=">
+   <cfdi:Emisor nombre="FACTURACION MODERNA S.A de C.V." rfc="TUMG620310R95">
+      <cfdi:DomicilioFiscal calle="RIO GUADALQUIVIR" noExterior="308" colonia="ORIENTE DEL VALLE" municipio="SAN PEDRO GARZA GARCIA" estado="NUEVO LEON" pais="México" codigoPostal="66220" />
+      <cfdi:ExpedidoEn calle="CERRADA DE AZUCENAS" noExterior="109" colonia="REFORMA" municipio="OAXACA DE JUAREZ" estado="OAXACA" pais="México" codigoPostal="68050" />
+      <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+   </cfdi:Emisor>
+   <cfdi:Receptor nombre="PUBLICO EN GENERAL" rfc="XAXX010101000">
+      <cfdi:Domicilio calle="AVE BATALLON DE SAN PATRICIO" noExterior="1000" noInterior="1000" colonia="RESIDENCIAL SAN AGUSTIN" localidad="SAN PEDRO GARZA GARCIA" estado="NUEVO LEON" pais="MEXICO" codigoPostal="66260" />
+   </cfdi:Receptor>
+   <cfdi:Conceptos>
+      <cfdi:Concepto cantidad="1" unidad="NO APLICA" descripcion="SPOT DE RADIO CON DURACION DE 30 SEGUNDOS, PUBLICACIÓN " valorUnitario="142500.00" importe="142500.00" />
+   </cfdi:Conceptos>
+   <cfdi:Impuestos totalImpuestosTrasladados="22800.00">
+      <cfdi:Traslados>
+         <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="22800.00" />
+      </cfdi:Traslados>
+   </cfdi:Impuestos>
+   <cfdi:Complemento>
+       <ine:INE Version="1.0" TipoProceso="Campaña">
+           <ine:Entidad ClaveEntidad="OAX" Ambito="Local"></ine:Entidad>
+           <ine:Entidad ClaveEntidad="GUA" Ambito="Local"></ine:Entidad>
+       </ine:INE>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

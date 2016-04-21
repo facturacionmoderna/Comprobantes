@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/detallista http://www.sat.gob.mx/sitio_internet/cfd/detallista/detallista.xsd" xmlns:detallista="http://www.sat.gob.mx/detallista" version="3.2" serie="AA" folio="4" fecha="2013-07-12T10:12:58" sello="SELLAR" formaDePago="Pago en una sola exhibición" noCertificado="20001000000200000278" certificado="MIIEQzCCAyugAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAyNzgwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyNDE3MzQ1MloXDTE2MTAyNDE3MzQ1Mlowgb0xJTAjBgNVBAMTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExJTAjBgNVBCkTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExJTAjBgNVBAoTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExFjAUBgNVBC0TDVRVTUc2MjAzMTBSOTUxGzAZBgNVBAUTElRVTUc2MjAzMTBNREZSTk4wOTERMA8GA1UECxMIQ29uZmlybWEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMnfs7PXaVf1tRkPLRarE3P5U4Etw/cF+2j98krlLFU1g0AtScpq2517jUw950PcFJsonccgjV3oAz2XwzoHD6Xv8p2338DTqAcu1z8VQuIexF1SsOzaFmBM+hlJ9AdmcoVJSN84KqMt2lhRrCkNxaHs53p0cNKvmdSpg3AwuwglAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQAHZ4swEYA6oNqyM58qEMtv+9h8jNe3fzFdmA1DMIrfXgZBSQXkuXS3AsztxEDOIu8BWUdHjW5Kd1TslODj4SSxH4ZKfaSlaF+L1/1YNjTved2pwE6HVMjgVldb630luOuTwXcWsulcd11Tqp+/0JwcKOnbU4lE/DnrdlX/XJ4RBM9ERnX4Ja71jAWHN5KHT5JPJ+zINDG6DNinX53z8iZBXo1fd+9Tt+3tBANzgljH5m8LYrb+7R0QGWvRuHsKfi8v1u4bXOnovjrSJuKUtX/yCJ12vOW7bxG61RawztggHLsdOZz4Fgcp2kQNHcbXIKodCNYylPSY3/qHmWU1hHSu" condicionesDePago="Contado" subTotal="1498.00" descuento="0.00" Moneda="MXN" total="1737.68" tipoDeComprobante="ingreso" metodoDePago="Cheque" LugarExpedicion="San Pedro Garza García, Nuevo León, México" NumCtaPago="No identificado">
+    <cfdi:Emisor rfc="TUMG620310R95" nombre="FACTURACION MODERNA SA DE CV">
+        <cfdi:DomicilioFiscal calle="RIO GUADALQUIVIR" noExterior="238" colonia="ORIENTE DEL VALLE" municipio="San Pedro Garza García" estado="Nuevo León" pais="México" codigoPostal="66220" />
+        <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+    </cfdi:Emisor>
+    <cfdi:Receptor rfc="XAXX010101000" nombre="PUBLICO EN GENERAL">
+        <cfdi:Domicilio calle="CERRADA DE AZUCENAS" noExterior="109" colonia="REFORMA" municipio="Oaxaca de Juárez" estado="Oaxaca" pais="México" codigoPostal="68050" />
+    </cfdi:Receptor>
+    <cfdi:Conceptos>
+        <cfdi:Concepto cantidad="3" unidad="PIEZA" descripcion="CAJA DE HOJAS BLANCAS TAMAÑO CARTA" valorUnitario="450.00" importe="1350.00" />
+    </cfdi:Conceptos>
+    <cfdi:Impuestos totalImpuestosTrasladados="239.68">
+        <cfdi:Traslados>
+            <cfdi:Traslado impuesto="IVA" tasa="16" importe="239.68" />
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+    <detallista:detallista documentStructureVersion="AMC8.1" documentStatus="ORIGINAL" type="SimpleInvoiceType" contentVersion="1.3.1">
+      <detallista:requestForPaymentIdentification>
+        <detallista:entityType>DEBIT_NOTE</detallista:entityType>
+      </detallista:requestForPaymentIdentification>
+      <detallista:specialInstruction code="AAB">
+        <detallista:text>TEXT</detallista:text>
+      </detallista:specialInstruction>
+      <detallista:orderIdentification>
+        <detallista:referenceIdentification type="ON">81283939</detallista:referenceIdentification>
+        <detallista:ReferenceDate>2016-02-07</detallista:ReferenceDate>
+      </detallista:orderIdentification>
+      <detallista:AdditionalInformation>
+        <detallista:referenceIdentification type="AAE">000001</detallista:referenceIdentification>
+      </detallista:AdditionalInformation>
+      <detallista:DeliveryNote>
+        <detallista:referenceIdentification>0000001</detallista:referenceIdentification>
+        <detallista:ReferenceDate>2016-04-07</detallista:ReferenceDate>
+      </detallista:DeliveryNote>
+      <detallista:buyer>
+        <detallista:gln>7504000107903</detallista:gln>
+        <detallista:contactInformation>
+          <detallista:personOrDepartmentName>
+            <detallista:text>0001</detallista:text>
+          </detallista:personOrDepartmentName>
+        </detallista:contactInformation>
+      </detallista:buyer>
+      <detallista:seller>
+        <detallista:gln>7244020982223</detallista:gln>
+        <detallista:alternatePartyIdentification type="IEPS_REFERENCE">12382317</detallista:alternatePartyIdentification>
+      </detallista:seller>
+      <detallista:shipTo>
+        <detallista:gln>8724098266218</detallista:gln>
+        <detallista:nameAndAddress>
+          <detallista:name>EMPRESA DEMO</detallista:name>
+          <detallista:streetAddressOne>Calle Peru num 029</detallista:streetAddressOne>
+          <detallista:city>Nuevo León</detallista:city>
+          <detallista:postalCode>64590</detallista:postalCode>
+        </detallista:nameAndAddress>
+      </detallista:shipTo>
+      <detallista:InvoiceCreator>
+        <detallista:gln>5529910871321</detallista:gln>
+        <detallista:alternatePartyIdentification type="IA">1281282</detallista:alternatePartyIdentification>
+        <detallista:nameAndAddress>
+          <detallista:name>EMPRESA DEMO</detallista:name>
+          <detallista:streetAddressOne>Calle Niños Heres num 1293</detallista:streetAddressOne>
+          <detallista:city>Nuevo León</detallista:city>
+          <detallista:postalCode>64590</detallista:postalCode>
+        </detallista:nameAndAddress>
+      </detallista:InvoiceCreator>
+      <detallista:Customs>
+        <detallista:gln>0129829934772</detallista:gln>
+      </detallista:Customs>
+      <detallista:currency currencyISOCode="MXN">
+        <detallista:currencyFunction>PRICE_CURRENCY</detallista:currencyFunction>
+        <detallista:rateOfChange>17.10</detallista:rateOfChange>
+      </detallista:currency>
+      <detallista:paymentTerms paymentTermsEvent="DATE_OF_INVOICE" PaymentTermsRelationTime="REFERENCE_AFTER">
+        <detallista:netPayment netPaymentTermsType="BASIC_NET">
+          <detallista:paymentTimePeriod>
+            <detallista:timePeriodDue timePeriod="DAYS">
+              <detallista:value>10</detallista:value>
+            </detallista:timePeriodDue>
+          </detallista:paymentTimePeriod>
+        </detallista:netPayment>
+        <detallista:discountPayment discountType="ALLOWANCE_BY_PAYMENT_ON_TIME">
+          <detallista:percentage>0.00</detallista:percentage>
+        </detallista:discountPayment>
+      </detallista:paymentTerms>
+      <detallista:shipmentDetail/>
+      <detallista:allowanceCharge allowanceChargeType="ALLOWANCE_GLOBAL" settlementType="BILL_BACK" sequenceNumber="12717262">
+        <detallista:monetaryAmountOrPercentage>
+          <detallista:rate base="INVOICE_VALUE">
+            <detallista:percentage>1.00</detallista:percentage>
+          </detallista:rate>
+        </detallista:monetaryAmountOrPercentage>
+      </detallista:allowanceCharge>
+      <detallista:lineItem type="SimpleInvoiceLineItemType" number="1">
+        <detallista:tradeItemIdentification>
+          <detallista:gtin>FGTSDF</detallista:gtin>
+        </detallista:tradeItemIdentification>
+        <detallista:alternateTradeItemIdentification type="SUPPLIER_ASSIGNED">1111</detallista:alternateTradeItemIdentification>
+        <detallista:tradeItemDescriptionInformation language="ES">
+          <detallista:longText>ARTICULO</detallista:longText>
+        </detallista:tradeItemDescriptionInformation>
+        <detallista:invoicedQuantity unitOfMeasure="PZA">1</detallista:invoicedQuantity>
+        <detallista:aditionalQuantity QuantityType="NUM_CONSUMER_UNITS">1.00</detallista:aditionalQuantity>
+        <detallista:grossPrice>
+          <detallista:Amount>1.0</detallista:Amount>
+        </detallista:grossPrice>
+        <detallista:netPrice>
+          <detallista:Amount>1.0</detallista:Amount>
+        </detallista:netPrice>
+        <detallista:AdditionalInformation>
+          <detallista:referenceIdentification type="ON">TIPOREFERENCIA</detallista:referenceIdentification>
+        </detallista:AdditionalInformation>
+        <detallista:Customs>
+          <detallista:gln>1111111111111</detallista:gln>
+          <detallista:alternatePartyIdentification type="TN">1239K23092</detallista:alternatePartyIdentification>
+          <detallista:ReferenceDate>2016-04-07</detallista:ReferenceDate>
+          <detallista:nameAndAddress>
+            <detallista:name>TIJUANA</detallista:name>
+          </detallista:nameAndAddress>
+        </detallista:Customs>        
+        <detallista:LogisticUnits>
+          <detallista:serialShippingContainerCode type="SRV">17717121128</detallista:serialShippingContainerCode>
+        </detallista:LogisticUnits>
+        <detallista:palletInformation>
+          <detallista:palletQuantity>2</detallista:palletQuantity>
+          <detallista:description type="EXCHANGE_PALLETS">Empaque</detallista:description>
+          <detallista:transport>
+            <detallista:methodOfPayment>PAID_BY_BUYER</detallista:methodOfPayment>
+          </detallista:transport>
+        </detallista:palletInformation>
+        <detallista:extendedAttributes>
+          <detallista:lotNumber productionDate="2016-04-07">1123</detallista:lotNumber>
+        </detallista:extendedAttributes>
+        <detallista:allowanceCharge allowanceChargeType="ALLOWANCE_GLOBAL" settlementType="OFF_INVOICE" sequenceNumber="1">
+          <detallista:specialServicesType>EAB</detallista:specialServicesType>
+          <detallista:monetaryAmountOrPercentage>
+            <detallista:percentagePerUnit>5%</detallista:percentagePerUnit>
+            <detallista:ratePerUnit>
+              <detallista:amountPerUnit>3.00</detallista:amountPerUnit>
+            </detallista:ratePerUnit>
+          </detallista:monetaryAmountOrPercentage>
+        </detallista:allowanceCharge>
+        <detallista:tradeItemTaxInformation>
+          <detallista:taxTypeDescription>GST</detallista:taxTypeDescription>
+          <detallista:referenceNumber>112312</detallista:referenceNumber>
+          <detallista:taxCategory>TRANSFERIDO</detallista:taxCategory>
+          <detallista:tradeItemTaxAmount>
+            <detallista:taxPercentage>1.00</detallista:taxPercentage>
+            <detallista:taxAmount>1.00</detallista:taxAmount>
+          </detallista:tradeItemTaxAmount>
+        </detallista:tradeItemTaxInformation>
+        <detallista:totalLineAmount>
+          <detallista:grossAmount>
+            <detallista:Amount>1.0</detallista:Amount>
+          </detallista:grossAmount>
+          <detallista:netAmount>
+            <detallista:Amount>1.0</detallista:Amount>
+          </detallista:netAmount>
+        </detallista:totalLineAmount>
+      </detallista:lineItem>
+      <detallista:totalAmount>
+        <detallista:Amount>1.0</detallista:Amount>
+      </detallista:totalAmount>
+      <detallista:TotalAllowanceCharge allowanceOrChargeType="CHARGE">
+        <detallista:specialServicesType>ADS</detallista:specialServicesType>
+        <detallista:Amount>1.00</detallista:Amount>
+      </detallista:TotalAllowanceCharge>
+    </detallista:detallista>
+
+  </cfdi:Complemento>
+</cfdi:Comprobante>
