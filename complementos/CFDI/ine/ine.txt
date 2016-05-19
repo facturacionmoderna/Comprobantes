@@ -1,0 +1,108 @@
+[Encabezado]
+
+serie|A
+fecha|asignarFecha
+folio|1
+tipoDeComprobante|egreso
+formaDePago|PAGO EN UNA SOLA EXHIBICIÓN
+metodoDePago|Transferencía Electrónica
+condicionesDePago|Contado
+NumCtaPago|1234
+subTotal|862068.97
+descuento|
+total|1000000.00
+Moneda|MXN
+TipoCambio|
+noCertificado|
+LugarExpedicion|Monterrey, Nuevo León, México.
+
+[DatosAdicionales]
+
+tipoDocumento|Factura
+observaciones|Campo para comentarios y observaciones
+
+[Emisor]
+
+rfc|ESI920427886
+nombre|FACTURACION MODERNA SA DE CV
+RegimenFiscal|REGIMEN GENERAL DE LEY PERSONAS MORALES
+
+[DomicilioFiscal]
+
+calle|Calle 
+noExterior|Número Ext.
+noInterior|
+colonia|Colonia
+localidad|
+municipio|Municipio
+estado|NUEVO LEON
+pais|México
+codigoPostal|77000
+
+[ExpedidoEn]
+calle|
+noExterior|
+noInterior|
+colonia|
+localidad|
+municipio|
+estado|
+pais|
+codigoPostal|
+
+[Receptor]
+rfc|XAXX01010100
+nombre|PARTIDO DE MUJERES REVOLUCIONARIAS
+
+[Domicilio]
+calle|Calle
+noExterior|Num Ext.
+noInterior|
+colonia|Colonia
+localidad|
+municipio|San Pedro Garza, García
+estado|Nuevo León
+pais|México
+codigoPostal|77000
+
+[DatosAdicionales]
+
+numeroCliente|09871
+emailCliente|demo@facturacionmoderna.com
+telefonoCliente|01 000 00 00 00
+
+
+[Concepto]
+
+cantidad|1
+unidad|No aplica
+noIdentificacion|clave producto
+descripcion|Lonas impresas de publicidad para elecciones electorales 2016
+valorUnitario|431034.485
+importe|431034.485
+
+[ImpuestoTrasladado]
+impuesto|IVA
+importe|20000.00
+tasa|16
+
+[ComplementoINE]
+TipoProceso|Campaña
+TipoComite|
+IdContabilidad|
+
+[Entidad]
+
+ClaveEntidad|PUE
+Ambito|Federal
+IdContabilidad|335634    
+
+
+[Entidad]
+ClaveEntidad|OAX
+Ambito|Local
+IdContabilidad|1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
+
+
+
+
