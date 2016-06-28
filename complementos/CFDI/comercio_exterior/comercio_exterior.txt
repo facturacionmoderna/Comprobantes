@@ -1,0 +1,107 @@
+[Encabezado]
+
+serie|CCE
+fecha|2016-06-28T11:11:34
+folio|03
+tipoDeComprobante|ingreso
+formaDePago|PAGO EN UNA SOLA EXHIBICIÓN
+metodoDePago|03
+condicionesDePago|Contado
+NumCtaPago|No identificado
+subTotal|3951.00
+descuento|0.00
+total|3951.00
+Moneda|USD
+TipoCambio|18.6757
+noCertificado|
+LugarExpedicion|LEON, MEX, 66054
+
+[Datos Adicionales]
+tipoDocumento|Factura
+numeropedido|12345
+observaciones|Comprobante para fines demostrativos
+
+[Emisor]
+rfc|ESI920427886
+nombre|EMPRESA EXPORTADORA DE EJEMPLO SA DE CV
+RegimenFiscal|REGIMEN GENERAL DE LEY PERSONAS MORALES
+
+[DomicilioFiscal]
+calle|CARRETERA A LAREDO
+noExterior|201 NORTE
+noInterior|
+colonia|0736
+localidad|
+municipio|021
+estado|NLE
+pais|MEX
+codigoPostal|66054
+
+[Receptor]
+rfc|XEXX010101000
+nombre|EATON CORPORATION
+
+[Domicilio]
+calle|255 BUSINESS CENTER DRIVE
+noExterior|
+noInterior|
+colonia|1000 EATON BLVD BEACHWOOD
+localidad|
+municipio|HORSHAM
+estado|PA
+pais|USA
+codigoPostal|19044-0000
+
+[Concepto]
+noIdentificacion|76515001191
+cantidad|180
+unidad|20
+descripcion|CHOCOLATE CREME CUP CAKES 360G/12.70Z SL
+valorUnitario|10.93
+importe|1967.40
+
+[Concepto]
+noIdentificacion|76515001139
+cantidad|180
+unidad|20
+descripcion|DESVILS FOOD CREME CAKES 354G/12.5OZ SL
+valorUnitario|11.02
+importe|1983.60
+
+
+[ComercioExterior]
+TipoOperacion|2
+ClaveDePedimento|A1
+CertificadoOrigen|0
+NumeroExportadorConfiable|34555888
+Incoterm|FCA
+Subdivision|0
+Observaciones|ejemplo factura exportación.
+TipoCambioUSD|18.6757
+TotalUSD|3951.00
+
+[ReceptorCCE]
+NumRegIdTrib|752491201
+
+[DestinatarioCCE]
+NumRegIdTrib|752491201
+
+[DomicilioCCE]
+Calle|255 BUSINESS CENTER DRIVE
+Estado|PA
+Pais|USA
+CodigoPostal|19044-0000
+
+
+#El nodo puede aparecer un número ilimitado de veces.  1 ... n
+
+[Mercancia]
+NoIdentificacion|76515001191
+FraccionArancelaria|19059099
+ValorDolares|1967.40
+
+
+[Mercancia]
+NoIdentificacion|76515001139
+FraccionArancelaria|19059099
+ValorDolares|1983.60
