@@ -81,10 +81,10 @@ TipoCambioUSD|18.6757
 TotalUSD|3951.00
 
 [ReceptorCCE]
-NumRegIdTrib|752491201
+NumRegIdTrib|75-2491201
 
 [DestinatarioCCE]
-NumRegIdTrib|752491201
+NumRegIdTrib|75-2491201
 
 [DomicilioCCE]
 Calle|255 BUSINESS CENTER DRIVE
