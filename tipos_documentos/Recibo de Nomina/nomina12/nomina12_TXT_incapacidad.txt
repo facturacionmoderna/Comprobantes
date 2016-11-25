@@ -1,0 +1,131 @@
+[ReciboNomina]
+
+serie=RN_inca
+folio=4
+fecha=2016-11-25T12:07:43
+subTotal=5608.00
+descuento=4827.44
+total=780.56
+noCertificado=20001000000200000192
+LugarExpedicion=66220
+
+
+[DatosAdicionales]
+tipoDocumento=RECIBO DE NOMINA
+observaciones=Ejemplo con incapacidad
+leyenda=Recibi pago del patrón
+
+[Emisor]
+rfc=ESI920427886
+nombre=FACTURACIÓN MODERNA S.A. DE C.V.
+Regimen=612
+Curp=
+RegistroPatronal=J2910628
+
+[EntidadSNCF]
+OrigenRecurso=IP
+;MontoRecursoPropio=
+
+[Receptor]
+rfc=MAAA860405D49
+nombre=LOPEZ MENDEZ VICTOR
+Curp=MAAA860405MOCRND01
+NumSeguridadSocial=04098607345
+FechaInicioRelLaboral=2016-10-01
+Antigüedad=P1M0D
+TipoContrato=03
+Sindicalizado=Sí
+TipoJornada=01
+TipoRegimen=02
+NumEmpleado=22
+Departamento=DIRECCION DE VINCULACION Y APOYO CON EL SECTOR PRODUCTIVO
+Puesto=JEFE DE OFICINA
+RiesgoPuesto=1
+PeriodicidadPago=04
+Banco=002
+CuentaBancaria=56701107984
+SalarioBaseCotApor=344.65
+SalarioDiarioIntegrado=406.42
+ClaveEntFed=OAX
+
+; === SECCIÓN DE CONCEPTOS ===
+[Concepto#1]
+cantidad=1
+unidad=ACT
+descripcion=Pago de nómina
+valorUnitario=5608.00
+importe=5608.00
+
+
+; ==== Complemento Nomina ====
+[ComplementoNomina]
+Version=1.2
+TipoNomina=O
+FechaPago=2016-11-12
+FechaInicialPago=2016-11-07
+FechaFinalPago=2016-11-13
+NumDiasPagados=7
+
+TotalPercepciones=3686.00
+TotalDeducciones=4827.44
+TotalOtrosPagos=1922.00
+
+
+[Percepcion#1]
+TipoPercepcion=001
+Clave=055
+Concepto=CONTRATO
+ImporteGravado=3686.00
+ImporteExento=0.00
+
+[Deduccion#1]
+TipoDeduccion=006
+Clave=272
+Concepto=INCAPACIDAD
+Importe=4301.33
+
+
+[Deduccion#2]
+TipoDeduccion=002
+Clave=201
+Concepto=ISSS
+Importe=364.35
+
+
+[Deduccion#3]
+TipoDeduccion=001
+Clave=204
+Concepto=IMSS
+Importe=87.44
+
+[Deduccion#4]
+TipoDeduccion=003
+Clave=271
+Concepto=RCV
+Importe=74.32
+
+
+[OtroPago#1]
+TipoOtroPago=999
+Clave=071
+Concepto=CANASTA BASICA
+Importe=771.00
+
+
+[OtroPago#2]
+TipoOtroPago=999
+Clave=058
+Concepto=PSM
+Importe=717.00
+
+[OtroPago#3]
+TipoOtroPago=999
+Clave=060
+Concepto=ESTIMULO
+Importe=434.00
+
+;Sección (opcional) para expresar información de las incapacidades
+[Incapacidad#1]
+DiasIncapacidad=11
+TipoIncapacidad=02
+ImporteMonetario=4301.33

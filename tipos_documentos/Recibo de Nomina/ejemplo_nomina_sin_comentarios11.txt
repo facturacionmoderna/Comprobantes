@@ -1,0 +1,103 @@
+[Encabezado]
+fecha|asignarFecha
+folio|002
+serie|NOM
+tipoDeComprobante|egreso
+formaDePago|PAGO EN UNA SOLA EXHIBICIÓN
+metodoDePago|100
+condicionesDePago|CONTADO
+NumCtaPago|No identificado
+subTotal|6000.00
+descuento|300.00
+motivoDescuento|Deducciones de nómina
+total|5350.00
+Moneda|MXN
+TipoCambio|
+noCertificado|
+LugarExpedicion|DF
+
+[DatosAdicionales]
+tipoDocumento|RECIBO DE NOMINA
+;Se cuentan con 3 diseños de plantilla valores aceptados: clasic, custom y gti_clasica
+plantillaPDF|nomina
+;indicar color de las celdas para los títulos, en código hexadecimal
+colorLetraE|DF013A
+colorPlantillaHex|2ECCFA
+;Una vez que pasen a producción deben enviar sus logos, les indicaremos el id de cada uno para insertarlo en su txt
+logotipo|lg_fdc9422f0756154cd565695
+observaciones|Comprobante tipo factura para fines demostrativos, incluye sección para elección de formato PDF, en caso de armar su propio PDF pueden omitir toda la sección DatosAdicionales
+emailCliente|demo@facturacionmoderna.com
+
+
+[Emisor]
+rfc|ESI920427886
+nombre|CONSORCIO INTEGRAL EMPRESARIAL CT, S.A. DE C.V.
+RegimenFiscal|REGIMEN GENERAL DE LEY PERSONAS MORALES
+
+[Receptor]
+rfc|MEGE910831XXA
+nombre|MENDEZ GONZALEZ ELIZABETH
+
+[Concepto]
+cantidad|1
+unidad|Servicio
+descripcion|PAGO DE NOMINA
+valorUnitario|6000.00
+importe|6000.00
+
+
+[ImpuestoRetenido]
+
+impuesto|ISR
+importe|350.00
+
+[ComplementoNomina]
+RegistroPatronal|
+NumEmpleado|1408579343
+CURP|MEGE910831MVZNNL08
+TipoRegimen|2
+NumSeguridadSocial|
+FechaPago|2014-12-15
+FechaInicialPago|2014-12-01
+FechaFinalPago|2014-12-15
+NumDiasPagados|15
+Departamento|DESARROLLO
+CLABE|123456789012345678
+Banco|012
+FechaInicioRelLaboral|2013-01-01
+Antiguedad|48
+Puesto|Programador
+TipoContrato|Base
+TipoJornada|Mixta
+PeriodicidadPago|Quincenal
+SalarioBaseCotApor|200.00
+RiesgoPuesto|5
+SalarioDiarioIntegrado|209.04
+
+[Percepcion]
+TipoPercepcion|001
+Clave|001
+Concepto|Salario
+ImporteGravado|5500.00
+ImporteExento|0.00
+
+[Percepcion]
+TipoPercepcion|016
+Clave|016
+Concepto|Compensación
+ImporteGravado|500.00
+ImporteExento|0.00
+
+[Deduccion]
+TipoDeduccion|002
+Clave|DED002
+Concepto|ISR Retenido
+ImporteGravado|0.00
+ImporteExento|350.00
+
+[Deduccion]
+TipoDeduccion|004
+Clave|004
+Concepto|Prestamo
+ImporteGravado|0.00
+ImporteExento|300.00

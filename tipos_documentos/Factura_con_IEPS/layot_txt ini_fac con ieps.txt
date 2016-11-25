@@ -1,0 +1,108 @@
+[Encabezado]
+serie|A
+;Fecha de emisión del recibo en formato ISO 8601 ejemplo: 2016-10-07T10:45:43
+fecha|2016-07-20T12:23:43 
+folio|1
+tipoDeComprobante|ingreso
+formaDePago|PAGO EN UNA SOLA EXHIBICIÓN
+metodoDePago|03
+condicionesDePago|Contado
+NumCtaPago|6780
+subTotal|2620.50
+descuento|0.00
+total|3002.74
+Moneda|MXN
+TipoCambio|
+;Número de certificado con el cuál se desear sellar el comprobante, si no contiene datos se tomará el primero que se encuentre cargado en nuestro servidor con status activo, considerar que en caso de manejar más de un certificado por emisor se hace obligatorio especificar cual se ocupará en cada comprobante, de lo contrario siempre tomará el mismo.
+noCertificado|
+LugarExpedicion|Nuevo León, México.
+
+[DatosAdicionales]
+tipoDocumento|Factura
+;Se cuentan con 3 diseños de plantilla valores aceptados: clasic, custom y gti_clasica
+plantillaPDF|custom
+;indicar color de las celdas para los títulos, en código hexadecimal
+colorLetraE|DF013A
+colorPlantillaHex|2ECCFA
+;Una vez que pasen a producción deben enviar sus logos, les indicaremos el id de cada uno para insertarlo en su txt
+logotipo|lg_fdc9422f0756154cd565695
+observaciones|Comprobante tipo factura para fines demostrativos, incluye sección para elección de formato PDF, en caso de armar su propio PDF pueden omitir toda la sección DatosAdicionales
+emailCliente|demo@facturacionmoderna.com
+
+[Emisor]
+rfc|TUMG620310R95
+nombre|FACTURACION MODERNA S.A de C.V.
+RegimenFiscal|REGIMEN GENERAL DE LEY PERSONAS MORALES
+
+[DomicilioFiscal]
+calle|RIO MANZANARES
+noExterior|417
+noInterior|
+colonia|DEL VALLE
+localidad|
+municipio|SAN PEDRO GARZA GARCIA
+estado|NUEVO LEON
+pais|México
+codigoPostal|66220
+
+
+;Esta sección se utiliza cuando el comprobante se expide desde un domicilio diferente al fiscal por ejemplo una sucursal.
+[ExpedidoEn]
+calle|CERRADA DE AZUCENAS	
+noExterior|109
+noInterior|
+colonia|REFORMA
+localidad|
+municipio|OAXACA DE JUAREZ
+estado|OAXACA
+pais|México
+codigoPostal|68050
+
+[Receptor]
+rfc|XAXX010101000
+nombre|PUBLICO EN GENERAL
+
+[Domicilio]
+calle|DOMICILIO CONOCIDO
+noExterior|100
+noInterior|B
+colonia|ORIENTE
+localidad|
+municipio|SAN PEDRO GARZA GARCIA
+estado|NUEVO LEON
+pais|MEXICO
+codigoPostal|66260
+
+[Concepto]
+cantidad|1
+unidad|PAQUETE
+noIdentificacion|123
+descripcion|PRODUCTO EXENTO
+valorUnitario|1500
+importe|1500
+
+[Concepto]
+cantidad|1
+unidad|PAQUETE
+noIdentificacion|234
+descripcion|PAQUETE CON IVA
+valorUnitario|22.50
+importe|22.50
+
+[Concepto]
+cantidad|1
+unidad|PAQUETE
+noIdentificacion|567
+descripcion|PAQUETE 2 CON IVA Y IEPS
+valorUnitario|1098.00
+importe|1098.00
+
+[ImpuestoTrasladado]
+impuesto|IVA
+importe|199.70
+tasa|16.00
+
+[ImpuestoTrasladado]
+impuesto|IEPS
+importe|182.54
+tasa|17.5

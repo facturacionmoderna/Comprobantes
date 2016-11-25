@@ -1,0 +1,137 @@
+[ReciboNomina]
+
+serie=RN
+folio=3
+fecha=2016-11-24T17:07:43
+subTotal=2317.59
+descuento=817.59
+total=1500.00
+noCertificado=20001000000200000192
+LugarExpedicion=66220
+
+
+[DatosAdicionales]
+tipoDocumento=RECIBO DE NOMINA
+observaciones=Ejemplo con horas extra
+leyenda=Recibi pago del patrón
+
+
+[Emisor]
+rfc=ESI920427886
+nombre=FACTURACIÓN MODERNA S.A. DE C.V.
+Regimen=612
+Curp=
+RegistroPatronal=J2910628
+
+
+[EntidadSNCF]
+OrigenRecurso=IP
+;MontoRecursoPropio=
+
+
+
+[Receptor]
+rfc=RUMB821128TK3
+nombre=LOPEZ MENDEZ VICTOR
+Curp=RUMB821128MOCZGL09
+NumSeguridadSocial=96008203452
+FechaInicioRelLaboral=2013-05-02
+Antigüedad=P3Y5M0D
+TipoContrato=01
+Sindicalizado=Sí
+TipoJornada=01
+TipoRegimen=02
+NumEmpleado=01
+Departamento=DIRECCION DE VINCULACION Y APOYO CON EL SECTOR PRODUCTIVO
+Puesto=JEFE DE OFICINA
+RiesgoPuesto=4
+PeriodicidadPago=02
+Banco=014
+CuentaBancaria=56701107984
+SalarioBaseCotApor=95.68
+SalarioDiarioIntegrado=100.00
+ClaveEntFed=NLE
+
+; === SECCIÓN DE CONCEPTOS ===
+[Concepto#1]
+cantidad=1
+unidad=ACT
+descripcion=Pago de nómina
+valorUnitario=4226.57
+importe=4226.57
+
+
+; ==== Complemento Nomina ====
+[ComplementoNomina]
+Version=1.2
+TipoNomina=O
+FechaPago=2016-11-12
+FechaInicialPago=2016-11-07
+FechaFinalPago=2016-11-13
+NumDiasPagados=7
+
+TotalPercepciones=2317.59
+TotalDeducciones=817.59
+TotalOtrosPagos=
+
+
+[Percepcion#1]
+TipoPercepcion=001
+Clave=001
+Concepto=SUELDO
+ImporteGravado=669.73
+ImporteExento=0.00
+
+[Percepcion#2]
+TipoPercepcion=010
+Clave=010
+Concepto=PREMIO POR PUNTUALIDAD
+ImporteGravado=0.00
+ImporteExento=130.00
+
+[Percepcion#3]
+TipoPercepcion=049
+Clave=049
+Concepto=PREMIO POR ASISTENCIA
+ImporteGravado=0.00
+ImporteExento=130.00
+
+
+[Percepcion#4]
+TipoPercepcion=028
+Clave=028
+Concepto=COMISIONES
+ImporteGravado=957.30
+ImporteExento=0.00
+
+[Percepcion#5]
+TipoPercepcion=019
+Clave=019
+Concepto=HORAS EXTRA
+ImporteGravado=215.28
+ImporteExento=215.28
+HorasExtra.Dias=[3,3]
+HorasExtra.TipoHoras=[01,02]
+HorasExtra.HorasExtra=[9,6]
+HorasExtra.ImportePagado=[215.28,215.28]
+
+
+[Deduccion#1]
+TipoDeduccion=002
+Clave=002
+Concepto=ISR
+Importe=202.90
+
+
+[Deduccion#2]
+TipoDeduccion=001
+Clave=001
+Concepto=IMSS
+Importe=16.63
+
+
+[Deduccion#3]
+TipoDeduccion=011
+Clave=011
+Concepto=CREDITO FONACOT
+Importe=598.06

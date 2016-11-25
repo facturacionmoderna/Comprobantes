@@ -1,0 +1,351 @@
+[ReciboNomina]
+
+; Definición del recibo de nómina, los comentarios empiezan con ; 
+; Elaboró: Facturación Moderna
+; Contacto: wsoporte@facturacionmoderna.com
+
+
+;Serie del recibo (Opcional)
+serie=A
+
+; Número de folio del recibo (Opcional)
+folio=002
+
+; Fecha de emisión del recibo en formato  ISO 8601 ejemplo: 2016-11-22T10:45:43
+fecha=2016-11-25T10:47:43
+
+;La sumatoría de los importes de los conceptos (TotalPercepciones más  TotalOtrosPagos). Dejar en blanco si desea el cálculo automático del campo
+subTotal=4226.57
+
+;El importe total de los descuentos aplicables antes de impuestos, deberá ser igual al valor del campo TotalDeducciones. Dejar en blanco si desea el cálculo automático del campo
+descuento=193.43
+
+;La suma del campo TotalPercepciones, más el campo TotalOtrosPagos menos el campo TotalDeducciones. Dejar en blanco si desea el cálculo automático del campo
+total=4226.57
+
+
+;En caso de que el pago se haya realizado en moneda extranjera de deberá indicar el tipo de cambio (Opcional) 
+
+;Número de certificado con el cuál de desear sellar el comprobante, si no contiene datos se tomará el primero activo. (Opcional)
+noCertificado=20001000000200000192
+
+;Código Postal del lugar de expedición del comprobante(Matriz o Sucursal) de acuerdo con el catálogo c_CodigoPostal (ver catalogos del SAT)
+LugarExpedicion=66220
+
+
+[DatosAdicionales]
+
+;Indicar el tipo de documento, es requerido cuándo nuestro servicio genera el PDF
+tipoDocumento=RECIBO DE NOMINA
+
+;Observaciones que se requieren impresas en el recibo de nómina PDF
+observaciones=texto informatico que desean agregar al PDF, no afecta al xml.
+
+;Leyenda al pie del recibo de nómina
+leyenda=Recibi pago del patrón
+
+
+; Datos del emisor del comprobante
+
+[Emisor]
+
+rfc=ESI920427886
+nombre=FACTURACIÓN MODERNA S.A. DE C.V.
+Regimen=612
+
+;Atributo condicional para expresar la CURP del emisor del comprobante de nómina cuando es una persona física.
+Curp=
+
+;Atributo condicional para expresar el registro patronal, clave de ramo - pagaduría o la que le asigne la institución de seguridad social al patrón
+RegistroPatronal=B5510768108
+
+;Atributo opcional para expresar el RFC de la persona que fungió como patrón cuando el pago al trabajador se realice a través de un tercero como vehículo o herramienta de pago.
+RfcPatronOrigen=
+
+
+[EntidadSNCF]
+OrigenRecurso=
+MontoRecursoPropio=
+
+
+
+
+; Datos del trabajador
+[Receptor]
+
+; RFC del trabajador
+rfc=XAXX01010100
+; Nombre de trabajador
+nombre=LUIS HERNANDEZ FELIX
+
+
+Curp=LEMV880104MOCNRR05
+
+NumSeguridadSocial=123456789
+
+
+;Fecha de inicio de la relación laboral (opcional)
+FechaInicioRelLaboral=2016-01-07
+
+;Número de semanas que el empleado ha mantenido relación laboral con el empleador (opcional), ver formato en guia emitida por el SAT
+Antigüedad=P110W
+
+;Tipo de contrato del trabajador, de acuerdo al Catálogo c_TipoContrato. 
+TipoContrato=01
+
+;Se debe señalar si el trabajador está asociado o no a un sindicato dentro de la organización en la cual presta sus servicios.
+;Sindicalizado=
+
+
+;Tipo de jornada que cubre el trabajador, de acuerdo al Catálogo c_TipoJornada
+TipoJornada=03
+
+
+;Campo para la expresión de la clave del régimen por el cual se tiene contratado al trabajador, de acuerdo al Catálogo c_TipoRegimen
+TipoRegimen=02
+
+;Número del Empleado (requerido)
+NumEmpleado=54321
+
+
+;Departamento o área a la que pertenece el trabajador (opcional)
+Departamento=Soporte
+
+;Puesto asignado al empleado o actividad que realiza (opcional)
+Puesto=Auxiliar Soporte
+
+;Clave conforme al catálogo c_RiesgoPuesto públicado por el SAT
+RiesgoPuesto=4
+
+
+;Forma en que se establece el pago del salario (requerido)
+PeriodicidadPago=04
+
+
+;Banco conforme al catálogo del SAT, donde se realiza un depósito de nómina al trabajador (opcional)
+Banco=012
+
+
+;Cuenta Bancaria, Número de teléfono, tarjeta de crédito, débito, CLABE o número de monedero electrónico en dónde el empleador realiza el depósito de la nómina
+CuentaBancaria=123456789012345678
+
+
+
+;Retribución otorgada al trabajador (opcional)
+SalarioBaseCotApor=294.66
+
+
+;Salario Diario Integrado (opcional)
+SalarioDiarioIntegrado=312.88
+
+;Clave de la entidad federativa en donde el trabajador prestó sus servicios al empleador. 
+ClaveEntFed=NLE
+
+
+;Nodo condicional para expresar la lista de las personas que los subcontrataron al trabajador. De 0 a N. 
+
+[SubContratacion#1]
+RfcLabora = 
+PorcentajeTiempo = 
+
+[SubContratacion#2]
+RfcLabora = 
+PorcentajeTiempo = 
+
+
+; === SECCIÓN DE CONCEPTOS ===
+
+
+
+[Concepto#1]
+
+cantidad=1
+unidad=ACT
+descripcion=Pago de nómina
+valorUnitario=4226.57
+importe=4226.57
+
+
+
+; ==== Complemento Nomina ====
+
+; Indicamos que el comprobante se trata de un recibo de nómina.
+
+[ComplementoNomina]
+
+Version=1.2
+
+;El tipo de nómina puede ser: O=Ordinaria, E=Extraordinaria, 
+TipoNomina=O
+
+;Fecha efectiva de erogación del gasto. Se expresa en la forma aaaa-mm-dd (requerido)
+FechaPago=2016-11-15
+
+
+;Fecha inicial del pago. Se expresa en la forma aaaa-mm-dd (requerido)
+FechaInicialPago=2016-11-01
+
+
+;Fecha final del pago. Se expresa en la forma aaaa-mm-dd (requerido)
+FechaFinalPago=2016-11-15
+
+
+;Número de días pagados (requerido)
+NumDiasPagados=15
+
+
+;CALCULAR
+
+;La suma de todas las percepciones pagadas al trabajador, (Suma del campo TotalSueldos más TotalSeparacionIndemnizacion más TotalJubilacionPensionRetiro)
+TotalPercepciones=
+
+;La suma de todas las deducciones (descuentos) aplicables al trabajador, incluyendo Total Impuestos Retenidos (ISR), es igual a la suma TotalOtrasDeducciones más
+ TotalImpuestosRetenidos
+ de las deducciones. 
+TotalDeducciones=
+
+;Es la suma de los importes de la sección "Otro Pagos", realizados al trabajador, en caso de no haber otros pagos se debe omitir el campo 
+TotalOtrosPagos=
+
+
+
+
+
+
+; Inicia la sección (opcional) para indicar percepciones
+; Para indicar una nueva percepción, hay que incluir una sección: [Percepcion]
+; Puede aparecer n veces, según las percepciones que conforman el comprobante.
+
+[Percepcion#1]
+
+;Clave agrupadora conforme al catálogo c_TipoPercepcion
+TipoPercepcion=001
+
+;Representa la clave de percepción de nómina propia de la contabilidad de cada patrón (requerido)
+Clave=055
+
+;Campo para determinar la descripción de la percepción (requerido)
+Concepto=CONTRATO
+
+;Representa el importe gravado de un concepto de percepción (requerido)
+ImporteGravado=2715.00
+
+;Representa el importe exento de un concepto de percepción (requerido)
+ImporteExento=0.00
+
+
+
+;[Percepcion#2]
+
+;TipoPercepcion=
+;Clave=
+;Concepto=
+;ImporteGravado=
+;ImporteExento=
+;HorasExtra.Dias=[]
+;HorasExtra.TipoHoras=[]
+;HorasExtra.HorasExtra=[]
+;HorasExtra.ImportePagado=[]
+
+
+;AccionesOTitulos.ValorMercado=2.00
+;AccionesOTitulos.PrecioAlOtorgarse=1.00
+
+
+[JubilacionPensionRetiro]
+TotalUnaExhibicion=
+TotalParcialidad=
+MontoDiario=
+IngresoAcumulable=
+IngresoNoAcumulable=
+
+
+[SeparacionIndemnizacion]
+TotalPagado=
+NumAñosServicio=
+UltimoSueldoMensOrd=
+IngresoAcumulable=
+IngresoNoAcumulable=
+
+
+
+; Inicia la sección (opcional) para indicar deducciones 
+; Para indicar una nueva deducción, hay que incluir una sección: [Deduccion]
+; Puede aparecer n veces, según las deducciones que conformen el comprobante.
+
+
+[Deduccion#1]
+
+;Clave agrupadora. Clasifica la deducción conforme al catálogo del SAT (requerido)
+TipoDeduccion=002
+
+;Clave de deducción de nómina propia de la contabilidad de cada patrón (requerido)
+Clave=201
+
+;Descripción del concepto de deducción (requerido)
+Concepto=ISR
+ 
+;Atributo requerido para registrar el importe del concepto de deducción.
+Importe=78.75
+
+
+[Deduccion#2]
+TipoDeduccion=001
+Clave=204
+Concepto=IMSS
+Importe=60.98
+
+
+[Deduccion#3]
+TipoDeduccion=003
+Clave=271
+Concepto=RCV
+Importe=53.70
+
+
+[OtroPago#1]
+
+TipoOtroPago=999
+Clave=057
+Concepto=CANASTA BASICA
+Importe=703.50
+;SubsidioAlEmpleo.SubsidioCausado=1
+;CompensacionSaldosAFavor.SaldoAFavor=[]
+;CompensacionSaldosAFavor.Año=[]
+;CompensacionSaldosAFavor.RemanenteSalFav=[]
+
+
+
+[OtroPago#2]
+
+TipoOtroPago=999
+Clave=058
+Concepto=PSM
+Importe=669.50
+
+
+[OtroPago#3]
+
+TipoOtroPago=999
+Clave=060
+Concepto=ESTIMULO
+Importe=332.00
+
+
+;Sección (opcional) para expresar información de las incapacidades
+;[Incapacidad#1]
+;Días que el trabajador se incapacitó en el periodo (requerido)
+;DiasIncapacidad=1
+;Razón de la incapacidad conforme a catálogo del SAT (requerido)
+;TipoIncapacidad=2
+;Monto del descuento por la incapacidad (requerido)
+;ImporteMonetario=200.00
+
+;Sección (opcional) para expresar información de las incapacidades
+;[Incapacidad#2]
+;Días que el trabajador se incapacitó en el periodo (requerido)
+;DiasIncapacidad=1
+;Razón de la incapacidad conforme a catálogo del SAT (requerido)
+;TipoIncapacidad=2
+;Monto del descuento por la incapacidad (requerido)
+;ImporteMonetario=200.00
