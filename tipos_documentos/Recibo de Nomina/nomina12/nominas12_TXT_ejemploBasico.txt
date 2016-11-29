@@ -3,7 +3,7 @@
 serie=RN
 folio=1000
 fecha=2016-11-22T16:07:43
-subTotal=4226.57
+subTotal=4420.00
 descuento=193.43
 total=4226.57
 noCertificado=20001000000200000278
@@ -24,7 +24,7 @@ Curp=TUMG620310MOCNRR05
 RegistroPatronal=B5510768108
 
 [Receptor]
-rfc=XAXX01010100
+rfc=XAXX010101000
 nombre=LOPEZ MENDEZ VICTOR
 Curp=LEMV880104HOCNRR08
 NumSeguridadSocial=123456789
@@ -49,8 +49,8 @@ ClaveEntFed=NLE
 cantidad=1
 unidad=ACT
 descripcion=Pago de nómina
-valorUnitario=4226.57
-importe=4226.57
+valorUnitario=4420.00
+importe=4420.00
 
 
 ; ==== Complemento Nomina ====
@@ -65,7 +65,6 @@ NumDiasPagados=15
 TotalPercepciones=2715.00
 TotalDeducciones=193.43
 TotalOtrosPagos=1705.00
-TotalImpuestosRetenidos=
 
 
 [Percepcion#1]
@@ -74,20 +73,6 @@ Clave=055
 Concepto=CONTRATO
 ImporteGravado=2715.00
 ImporteExento=0.00
-
-
-
-;[Percepcion#2]
-
-;TipoPercepcion=
-;Clave=
-;Concepto=
-;ImporteGravado=
-;ImporteExento=
-;HorasExtra.Dias=[]
-;HorasExtra.TipoHoras=[]
-;HorasExtra.HorasExtra=[]
-;HorasExtra.ImportePagado=[]
 
 
 [Deduccion#1]

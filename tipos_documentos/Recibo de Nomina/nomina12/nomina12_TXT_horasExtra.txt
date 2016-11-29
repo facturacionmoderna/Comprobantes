@@ -2,7 +2,7 @@
 
 serie=RN
 folio=3
-fecha=2016-11-24T17:07:43
+fecha=2016-11-29T07:07:43
 subTotal=2317.59
 descuento=817.59
 total=1500.00
@@ -57,8 +57,8 @@ ClaveEntFed=NLE
 cantidad=1
 unidad=ACT
 descripcion=Pago de nómina
-valorUnitario=4226.57
-importe=4226.57
+valorUnitario=2317.59
+importe=2317.59
 
 
 ; ==== Complemento Nomina ====
@@ -72,7 +72,6 @@ NumDiasPagados=7
 
 TotalPercepciones=2317.59
 TotalDeducciones=817.59
-TotalOtrosPagos=
 
 
 [Percepcion#1]
@@ -93,8 +92,8 @@ ImporteExento=130.00
 TipoPercepcion=049
 Clave=049
 Concepto=PREMIO POR ASISTENCIA
-ImporteGravado=0.00
-ImporteExento=130.00
+ImporteGravado=130.00
+ImporteExento=0.00
 
 
 [Percepcion#4]
