@@ -1,8 +1,8 @@
 [ReciboNomina]
 
 serie=RN
-folio=3
-fecha=2016-11-29T07:07:43
+folio=103
+fecha=2016-11-29T17:07:43
 subTotal=2317.59
 descuento=817.59
 total=1500.00
@@ -19,7 +19,7 @@ leyenda=Recibi pago del patrón
 [Emisor]
 rfc=ESI920427886
 nombre=FACTURACIÓN MODERNA S.A. DE C.V.
-Regimen=612
+Regimen=601
 Curp=
 RegistroPatronal=J2910628
 

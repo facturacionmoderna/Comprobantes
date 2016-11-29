@@ -1,8 +1,8 @@
 [ReciboNomina]
 
 serie=RN
-folio=1000
-fecha=2016-11-22T16:07:43
+folio=105
+fecha=2016-11-29T16:07:43
 subTotal=4420.00
 descuento=193.43
 total=4226.57

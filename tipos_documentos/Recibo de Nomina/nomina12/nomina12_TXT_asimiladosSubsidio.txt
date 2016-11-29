@@ -3,9 +3,9 @@
 
 serie=ASIMILADOS
 
-folio=1
+folio=102
 
-fecha=2016-11-23T10:07:43
+fecha=2016-11-29T10:07:43
 
 subTotal=935.60
 
@@ -90,8 +90,6 @@ FechaInicialPago=2016-11-14
 FechaFinalPago=2016-11-20
 NumDiasPagados=7
 
-
-TotalPercepciones=935.60
 
 
 

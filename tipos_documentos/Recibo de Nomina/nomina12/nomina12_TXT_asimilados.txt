@@ -1,8 +1,8 @@
 [ReciboNomina]
 
 serie=ASIMILADOS
-folio=1
-fecha=2016-11-23T10:07:43
+folio=101
+fecha=2016-11-29T10:07:43
 subTotal=5000.00
 descuento=817.28
 total=4182.72
