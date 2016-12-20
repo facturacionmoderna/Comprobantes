@@ -2,7 +2,7 @@
 
 serie=RN
 folio=105
-fecha=2016-11-29T16:07:43
+fecha=2016-12-20T16:07:43
 subTotal=4420.00
 descuento=193.43
 total=4226.57
@@ -29,7 +29,7 @@ nombre=LOPEZ MENDEZ VICTOR
 Curp=LEMV880104HOCNRR08
 NumSeguridadSocial=123456789
 FechaInicioRelLaboral=2016-01-07
-Antigüedad=P110W
+Antigüedad=P44W
 TipoContrato=01
 TipoJornada=03
 TipoRegimen=02
