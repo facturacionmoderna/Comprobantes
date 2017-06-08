@@ -1,0 +1,71 @@
+[ComprobanteFiscalDigital]
+
+; Definición del layout INI para Comprobantes Fiscales por Internet Versión 3.3
+; Nota: Los comentarios empiezan con ; 
+; Elaboró: Facturación Moderna
+; Contacto: wsoporte@facturacionmoderna.com
+
+Version=3.3
+Serie=RA
+Folio=01
+Fecha=2017-05-10T10:47:43
+FormaPago=99
+NoCertificado=20001000000200000278
+CondicionesDePago=CONTADO
+SubTotal=11000
+Descuento=
+Moneda=MXN
+Total=10486.67
+TipoDeComprobante=I
+MetodoPago=PUE
+LugarExpedicion=68050
+
+[DatosAdicionales]
+tipoDocumento=RECIBO DE ARRENDAMIENTO
+observaciones=Observaciones al documento versión 3.3
+platillaPDF=clasic
+
+[Emisor]
+Rfc=TUMG620310R95
+Nombre=FACTURACION MODERNA SA DE CV
+RegimenFiscal=606
+
+[Receptor]
+Rfc=LAN7008173R5
+Nombre=EMPRESA EJEMPLO SA DE CV
+UsoCFDI=G03
+
+[Concepto#1]
+ClaveProdServ=80131502
+NoIdentificacion=LOCAL
+Cantidad=1
+ClaveUnidad=MON
+Unidad=Mensualidad
+Descripcion=Renta local A-101 ubicado en plaza del valle
+ValorUnitario=11000
+Importe=11000
+Descuento=
+
+Impuestos.Traslados.Base=[11000.00]
+Impuestos.Traslados.Impuesto=[002]
+Impuestos.Traslados.TipoFactor=[Tasa]
+Impuestos.Traslados.TasaOCuota=[0.160000]
+Impuestos.Traslados.Importe=[1760.00]
+
+Impuestos.Retenciones.Base=[11000.00,11000.00]
+Impuestos.Retenciones.Impuesto=[002,001]
+Impuestos.Retenciones.TipoFactor=[Tasa,Tasa]
+Impuestos.Retenciones.TasaOCuota=[0.106667,0.100000]
+Impuestos.Retenciones.Importe=[1173.33,1100.00]
+
+[Traslados]
+TotalImpuestosTrasladados=1760.00
+Impuesto=[002]
+TipoFactor=[Tasa]
+TasaOCuota=[0.160000]
+Importe=[1760.00]
+
+[Retenciones]
+TotalImpuestosRetenidos=2273.33
+Impuesto=[002, 001]
+Importe=[1173.33,1100.00]

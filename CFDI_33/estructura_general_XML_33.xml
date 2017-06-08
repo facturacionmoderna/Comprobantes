@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="" Folio="" Fecha="" Sello="" FormaPago="" NoCertificado="" Certificado="" CondicionesDePago="" SubTotal="" Descuento="" Moneda="" TipoCambio="" Total="" TipoDeComprobante="" MetodoPago="" LugarExpedicion="" Confirmacion="">
+  <cfdi:CfdiRelacionados TipoRelacion="">
+    <cfdi:CfdiRelacionado UUID=""/>
+  </cfdi:CfdiRelacionados>
+  <cfdi:Emisor Rfc="" Nombre="" RegimenFiscal=""/>
+  <cfdi:Receptor Rfc="" Nombre="" ResidenciaFiscal="" NumRegIdTrib="" UsoCFDI=""/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="" NoIdentificacion="" Cantidad="" ClaveUnidad="" Unidad="" Descripcion="" ValorUnitario="" Importe="" Descuento="">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="" Impuesto="" TipoFactor="" TasaOCuota="" Importe=""/>
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+          <cfdi:Retencion Base="" Impuesto="" TipoFactor="" TasaOCuota="" Importe=""/>
+        </cfdi:Retenciones>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento=""/>
+      <cfdi:CuentaPredial Numero=""/>
+      <cfdi:ComplementoConcepto/>
+      <cfdi:Parte ClaveProdServ="" NoIdentificacion="" Cantidad="" Unidad="" Descripcion="" ValorUnitario="" Importe="">
+        <cfdi:InformacionAduanera NumeroPedimento=""/>
+      </cfdi:Parte>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosRetenidos="" TotalImpuestosTrasladados="">
+    <cfdi:Retenciones>
+      <cfdi:Retencion Impuesto="" Importe=""/>
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="" TipoFactor="" TasaOCuota="" Importe=""/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento/>
+  <cfdi:Addenda/>
+</cfdi:Comprobante>

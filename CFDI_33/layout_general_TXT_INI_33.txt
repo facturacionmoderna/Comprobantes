@@ -1,0 +1,186 @@
+[ComprobanteFiscalDigital]
+
+; Definición del layout INI para Comprobantes Fiscales por Internet Versión 3.3
+; Nota: Los comentarios empiezan con ; 
+; Elaboró: Facturación Moderna
+; Contacto: wsoporte@facturacionmoderna.com
+
+
+
+;Atributo requerido con valor prefijado a 3.3 que indica la versión del CFDI.
+Version=3.3
+
+;Atributo opcional para precisar la serie para control interno del contribuyente. (Opcional)
+Serie=A
+
+;Atributo opcional para control interno del contribuyente que expresa el folio del comprobante. (Opcional)
+Folio=01
+
+;Atributo requerido para la expresión de la fecha y hora de expedición del CFDI (AAAA-MM-DDThh:mm:ss), debe corresponder con la hora local donde se expide el comprobante.
+Fecha=2017-05-02T10:47:43
+
+;Atributo condicional para expresar la clave de la forma de pago de los bienes o servicios amparados por el comprobante. Si no se conoce la forma de pago este atributo se debe omitir.
+FormaPago=03
+
+;Atributo para indicar el número de certificado a 20 posiciones con el que se sellará el CFDI.
+NoCertificado=
+
+;Atributo condicional para expresar las condiciones comerciales aplicables para el pago del CFDI. (Este atributo puede ser condicionado mediante atributos o complementos.)
+CondicionesDePago=CONTADO
+
+;Atributo requerido para representar la suma de los importes de los conceptos antes de descuentos e impuesto.
+SubTotal=100.00
+
+;Atributo condicional para representar el importe total de los descuentos aplicables antes de impuestos. (Se debe registrar cuando existan conceptos con descuento.)
+Descuento=00.00
+
+;Atributo requerido para identificar la clave de la moneda utilizada para expresar los montos, cuando se usa moneda nacional se registra MXN.
+Moneda=MXN
+
+;Atributo requerido para representar la suma del subtotal, menos los descuentos aplicables, más las contribuciones recibidas (impuestos trasladados - federales o locales, derechos, productos, aprovechamientos, aportaciones de seguridad social, contribuciones de mejoras) menos los impuestos retenidos.
+;Si el valor es superior al límite que establezca el SAT en la Resolución Miscelánea Fiscal vigente, el emisor debe obtener del PAC que vaya a timbrar el CFDI, de manera no automática, una clave de confirmación para ratificar que el valor es correcto e integrar dicha clave en el atributo Confirmacion.
+Total=116.00
+
+;Atributo requerido para expresar la clave del efecto del comprobante fiscal para el contribuyente emisor.
+;I = Ingreso, E = Egreso, T = Traslado, N = Nómina, P = Pago. 
+TipoDeComprobante=I
+
+;Atributo condicional para precisar la clave del método de pago que aplica para este CFDI, conforme al Artículo 29-A fracción VII incisos a y b del CFF.
+;PUE = Pago en una sola exhibición, PIP=Pago inicial y parcialidades, PPD = Pago en parcialidades o diferido. 
+MetodoPago=PUE
+
+;Atributo requerido para incorporar el código postal del lugar de expedición del comprobante (domicilio de la matriz o de la sucursal).
+LugarExpedicion=68050
+
+;Atributo condicional para registrar la clave de confirmación que entregue el PAC para expedir el comprobante con importes grandes, con un tipo de cambio fuera del rango establecido o con ambos casos.
+;Confirmacion=
+;Nodo opcional para precisar la información de los comprobantes relacionados.
+;[CfdiRelacionados]
+;Atributo requerido para indicar la clave de la relación que existe entre éste CFDI y los CFDI previos.(Conforme al catálogo c_TipoRelacion)
+;TipoRelacion=04
+;UUID=[00000000-0000-0000-0000-000000000000, 00000000-0000-0000-0000-000000000000]
+
+;sección para indicar plantilla, logotipo y notas adicionales al comprobante
+[DatosAdicionales]
+;Leyenda que indica el tipo de documento a generar, es requerido cuándo nuestro servicio genera el PDF
+tipoDocumento=FACTURA
+;Observaciones que se requieren impresas en el recibo de nómina PDF
+observaciones=Observaciones al documento versión 3.3
+
+; Datos del emisor del comprobante
+[Emisor]
+;RFC del Emisor del comprobante
+Rfc=ESI920427886
+;Razón social del emisor del comprobante
+Nombre=FACTURACION MODERNA SA DE CV
+;clave del régimen del contribuyente emisor al que aplicará el efecto fiscal del comprobante.
+RegimenFiscal=601
+
+
+[Receptor]
+; RFC del receptor del comprobante
+Rfc=XAXX010101000
+;Razón social del receptor del comprobante
+Nombre=PUBLICO EN GENERAL
+
+;Atributo condicional para registrar la clave del país de residencia para efectos fiscales del receptor del comprobante, cuando se trate de un extranjero, y que es conforme con la especificación ISO 3166-1 alpha-3. 
+;Es requerido cuando se incluya el complemento de comercio exterior o se registre el atributo NumRegIdTrib.
+;ResidenciaFiscal=
+
+;Atributo condicional para expresar el número de registro de identidad fiscal del receptor cuando sea residente en el extranjero. 
+;Es requerido cuando se incluya el complemento de comercio exterior.
+;NumRegIdTrib=
+
+;Atributo requerido para expresar la clave del uso que dará a esta factura el receptor del CFDI.
+;catCFDI:c_UsoCFDI
+UsoCFDI=G01
+
+
+[Concepto#1]
+
+;Atributo requerido para expresar la clave del producto o del servicio amparado por el presente concepto. 
+;Es requerido y deben utilizar las claves del catálogo de productos y servicios, cuando los conceptos que registren por sus actividades correspondan con dichos conceptos.
+;catCFDI:c_ClaveProdServ
+ClaveProdServ=01010101
+
+;Atributo opcional para expresar el número de parte, identificador del producto o del servicio, la clave de producto o servicio, SKU o equivalente, propia de la operación del emisor, amparado por el presente concepto.
+; Opcionalmente se puede utilizar claves del estándar GTIN.
+NoIdentificacion=AULOG001
+
+;Atributo requerido para precisar la cantidad de bienes o servicios
+Cantidad=5
+
+;Atributo requerido para precisar la clave de unidad de medida estandarizada aplicable para la cantidad expresada en el concepto. 
+;La unidad debe corresponder con la descripción del concepto.
+ClaveUnidad=H87
+
+;Atributo opcional para precisar la unidad de medida propia de la operación del emisor, aplicable para la cantidad expresada en el concepto
+Unidad=Pieza
+
+;Atributo requerido para precisar la descripción del bien o servicio cubierto por el presente concepto.
+Descripcion=Aurriculares USB Logitech
+
+;Atributo requerido para precisar el valor o precio unitario del bien o servicio
+ValorUnitario=350.00
+
+;Atributo requerido para precisar el importe total de los bienes o servicios del presente concepto.
+Importe=1750.00
+
+;Atributo opcional para representar el importe de los descuentos aplicables al concepto
+Descuento=175.00
+
+Impuestos.Traslados.Base=[1575.00]
+Impuestos.Traslados.Impuesto=[002]
+Impuestos.Traslados.TipoFactor=[Tasa]
+Impuestos.Traslados.TasaOCuota=[0.160000]
+Impuestos.Traslados.Importe=[252.00]
+
+
+[Concepto#2]
+ClaveProdServ=43201800
+NoIdentificacion=USB
+Cantidad=1
+ClaveUnidad=H87
+Unidad=Pieza
+Descripcion=Memoria USB 32gb marca Kingston
+ValorUnitario=100.00
+Importe=100.00
+;Descuento=00.00
+
+
+;InformacionAduanera.NumeroPedimento=
+;CuentaPredial.Numero=
+
+
+;Parte.ClaveProdServ=[]
+;Parte.NoIdentificacion=[]
+;Parte.Cantidad=[]
+;Parte.Unidad=[]
+;Parte.Descripcion=[]
+;Parte.InformacionAduanera.NumeroPedimento=
+
+Impuestos.Traslados.Base=[100.00]
+Impuestos.Traslados.Impuesto=[002]
+Impuestos.Traslados.TipoFactor=[Tasa]
+Impuestos.Traslados.TasaOCuota=[0.160000]
+Impuestos.Traslados.Importe=[16.00]
+
+;Impuestos.Retenciones.Base=[100.00]
+;Impuestos.Retenciones.Impuesto=[ISR]
+;Impuestos.Retenciones.TipoFactor=[Tasa]
+;Impuestos.Retenciones.TasaOCuota=[0.35]
+;Impuestos.Retenciones.Importe=[35588.00]
+
+
+
+[Traslados]
+TotalImpuestosTrasladados=16.00
+Impuesto=[002]
+TipoFactor=[Tasa]
+TasaOCuota=[0.160000]
+Importe=[268.00]
+
+;[Retenciones]
+;TotalImpuestosRetenidos=SS
+;Impuesto=[ISR, IVA]
+;Importe=[15.99999999, -10]
