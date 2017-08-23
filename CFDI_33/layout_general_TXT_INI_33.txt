@@ -148,7 +148,7 @@ Importe=100.00
 ;Descuento=00.00
 
 
-;InformacionAduanera.NumeroPedimento=
+;InformacionAduanera.NumeroPedimento=[]
 ;CuentaPredial.Numero=
 
 
@@ -157,7 +157,6 @@ Importe=100.00
 ;Parte.Cantidad=[]
 ;Parte.Unidad=[]
 ;Parte.Descripcion=[]
-;Parte.InformacionAduanera.NumeroPedimento=
 
 Impuestos.Traslados.Base=[100.00]
 Impuestos.Traslados.Impuesto=[002]

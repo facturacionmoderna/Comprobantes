@@ -7,8 +7,8 @@
 
 Version=3.3
 Serie=A
-Folio=01
-Fecha=2017-05-10T09:47:43
+Folio=02
+Fecha=2017-06-27T09:47:43
 FormaPago=03
 NoCertificado=20001000000200000192
 CondicionesDePago=CONTADO
