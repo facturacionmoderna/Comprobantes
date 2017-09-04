@@ -1,0 +1,87 @@
+﻿[ComprobanteFiscalDigital]
+
+; Definición del layout INI para Comprobantes Fiscales por Internet Versión 3.3
+; Nota: Los comentarios empiezan con ; 
+; Elaboró: Facturación Moderna
+; Contacto: wsoporte@facturacionmoderna.com
+
+Version=3.3
+Serie=A
+Folio=03
+Fecha=2017-07-03T09:47:43
+FormaPago=03
+NoCertificado=20001000000300022815
+CondicionesDePago=CONTADO
+SubTotal=2880.00
+;Descuento=
+Moneda=MXN
+Total=3390.30
+TipoDeComprobante=I
+MetodoPago=PUE
+LugarExpedicion=68050
+
+[DatosAdicionales]
+tipoDocumento=FACTURA
+observaciones=Observaciones al documento versión 3.3
+platillaPDF=clasic
+
+[Emisor]
+Rfc=LAN7008173R5
+Nombre=FACTURACION MODERNA SA DE CV
+RegimenFiscal=601
+
+[Receptor]
+Rfc=XAXX010101000
+Nombre=PUBLICO EN GENERAL
+UsoCFDI=G01
+
+
+[Concepto#1]
+ClaveProdServ=90111800
+NoIdentificacion=HOSP
+Cantidad=3
+ClaveUnidad=DAY
+Unidad=día
+Descripcion=Hospedaje de habitación sencilla
+ValorUnitario=550.00
+Importe=1650.00
+;Descuento=
+
+Impuestos.Traslados.Base=[1650.00]
+Impuestos.Traslados.Impuesto=[002]
+Impuestos.Traslados.TipoFactor=[Tasa]
+Impuestos.Traslados.TasaOCuota=[0.160000]
+Impuestos.Traslados.Importe=[264.00]
+
+[Concepto#2]
+ClaveProdServ=90101700
+NoIdentificacion=
+Cantidad=1
+ClaveUnidad=A9
+Unidad=
+Descripcion=Servicio a habitación
+ValorUnitario=1230.00
+Importe=1230.00
+
+Impuestos.Traslados.Base=[1230.00]
+Impuestos.Traslados.Impuesto=[002]
+Impuestos.Traslados.TipoFactor=[Tasa]
+Impuestos.Traslados.TasaOCuota=[0.160000]
+Impuestos.Traslados.Importe=[196.80]
+
+[Traslados]
+TotalImpuestosTrasladados=460.80
+Impuesto=[002]
+TipoFactor=[Tasa]
+TasaOCuota=[0.160000]
+Importe=[460.80]
+
+[TrasladosLocales]
+ImpLocTrasladado=[ISH]
+TasadeTraslado=[3.00]
+Importe=[49.50]
+
+;[RetencionesLocales]
+;ImpLocRetenido=[Amortización Anticipo, Inspección y Vigilancia]
+;TasadeRetencion=[30,0.5]
+;Importe=[258620.69,4310.34]

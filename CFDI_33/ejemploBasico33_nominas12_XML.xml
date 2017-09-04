@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:nomina12="http://www.sat.gob.mx/nomina12" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/nomina12 http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina12.xsd" Version="3.3" Serie="RN" Folio="004" Fecha="2017-09-04T12:07:43" Sello="GDr6TzQnzVS2RjQv6v4ZCpNJAIouTYWzTOtHFf7HuJC0Xlzq/TvnLTJ8mpZlr8g0o8g92Z+/9xcdkrn/KdvHncaGlhNV7lgTJU+VjMlTt1tJlGR46cLZaLjugakRQAN2kvJr3f/BBBV8l7BFOhbRQJ2mCE784sSEqnanu6vAcvs=" FormaPago="99" NoCertificado="20001000000200000278" Certificado="MIIEQzCCAyugAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAyNzgwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyNDE3MzQ1MloXDTE2MTAyNDE3MzQ1Mlowgb0xJTAjBgNVBAMTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExJTAjBgNVBCkTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExJTAjBgNVBAoTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExFjAUBgNVBC0TDVRVTUc2MjAzMTBSOTUxGzAZBgNVBAUTElRVTUc2MjAzMTBNREZSTk4wOTERMA8GA1UECxMIQ29uZmlybWEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMnfs7PXaVf1tRkPLRarE3P5U4Etw/cF+2j98krlLFU1g0AtScpq2517jUw950PcFJsonccgjV3oAz2XwzoHD6Xv8p2338DTqAcu1z8VQuIexF1SsOzaFmBM+hlJ9AdmcoVJSN84KqMt2lhRrCkNxaHs53p0cNKvmdSpg3AwuwglAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQAHZ4swEYA6oNqyM58qEMtv+9h8jNe3fzFdmA1DMIrfXgZBSQXkuXS3AsztxEDOIu8BWUdHjW5Kd1TslODj4SSxH4ZKfaSlaF+L1/1YNjTved2pwE6HVMjgVldb630luOuTwXcWsulcd11Tqp+/0JwcKOnbU4lE/DnrdlX/XJ4RBM9ERnX4Ja71jAWHN5KHT5JPJ+zINDG6DNinX53z8iZBXo1fd+9Tt+3tBANzgljH5m8LYrb+7R0QGWvRuHsKfi8v1u4bXOnovjrSJuKUtX/yCJ12vOW7bxG61RawztggHLsdOZz4Fgcp2kQNHcbXIKodCNYylPSY3/qHmWU1hHSu" SubTotal="4420.00" Descuento="193.43" Moneda="MXN" Total="4226.57" TipoDeComprobante="N" MetodoPago="PUE" LugarExpedicion="66220">
+  <cfdi:Emisor Rfc="TUMG620310R95" Nombre="FACTURACIÓN MODERNA S.A. DE C.V." RegimenFiscal="612"/>
+  <cfdi:Receptor Rfc="XAXX010101000" Nombre="LOPEZ MENDEZ VICTOR" UsoCFDI="P01"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="84111505" Cantidad="1" ClaveUnidad="ACT" Descripcion="Pago de nómina" ValorUnitario="4420.00" Importe="4420.00" Descuento="193.43"/>
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+    <nomina12:Nomina Version="1.2" TipoNomina="O" FechaPago="2017-07-15" FechaInicialPago="2017-07-01" FechaFinalPago="2017-07-15" NumDiasPagados="15" TotalPercepciones="2715.00" TotalDeducciones="193.43" TotalOtrosPagos="1705.00">
+      <nomina12:Emisor Curp="TUMG620310MOCNRR05" RegistroPatronal="B5510768108"/>
+      <nomina12:Receptor Curp="LEMV880104HOCNRR08" NumSeguridadSocial="123456789" FechaInicioRelLaboral="2016-01-01" Antigüedad="P1Y6M14D" TipoContrato="01" TipoJornada="03" TipoRegimen="02" NumEmpleado="54321" Departamento="Soporte" Puesto="Auxiliar Soporte" RiesgoPuesto="4" PeriodicidadPago="04" Banco="012" CuentaBancaria="9511328000" SalarioBaseCotApor="312.88" SalarioDiarioIntegrado="312.88" ClaveEntFed="NLE"/>
+      <nomina12:Percepciones TotalSueldos="2715.00" TotalGravado="2715.00" TotalExento="0.00">
+        <nomina12:Percepcion TipoPercepcion="001" Clave="055" Concepto="SUELDO CONTRATO" ImporteGravado="2715.00" ImporteExento="0.00"/>
+      </nomina12:Percepciones>
+      <nomina12:Deducciones TotalOtrasDeducciones="114.68" TotalImpuestosRetenidos="78.75">
+        <nomina12:Deduccion TipoDeduccion="002" Clave="201" Concepto="ISR" Importe="78.75"/>
+        <nomina12:Deduccion TipoDeduccion="001" Clave="204" Concepto="IMSS" Importe="60.98"/>
+        <nomina12:Deduccion TipoDeduccion="003" Clave="271" Concepto="RCV" Importe="53.70"/>
+      </nomina12:Deducciones>
+      <nomina12:OtrosPagos>
+        <nomina12:OtroPago TipoOtroPago="999" Clave="057" Concepto="CANASTA BASICA" Importe="703.50"/>
+        <nomina12:OtroPago TipoOtroPago="999" Clave="058" Concepto="PSM" Importe="669.50"/>
+        <nomina12:OtroPago TipoOtroPago="999" Clave="060" Concepto="ESTIMULO MENSUAL" Importe="332.00"/>
+      </nomina12:OtrosPagos>
+    </nomina12:Nomina>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="73668B0A-91C0-11E7-862F-B1490B817BA0" FechaTimbrado="2017-09-04T17:29:01" RfcProvCertif="FMO1007168C6" SelloCFD="GDr6TzQnzVS2RjQv6v4ZCpNJAIouTYWzTOtHFf7HuJC0Xlzq/TvnLTJ8mpZlr8g0o8g92Z+/9xcdkrn/KdvHncaGlhNV7lgTJU+VjMlTt1tJlGR46cLZaLjugakRQAN2kvJr3f/BBBV8l7BFOhbRQJ2mCE784sSEqnanu6vAcvs=" NoCertificadoSAT="20001000000300022323" SelloSAT="AY0p45SN0ER2zHbCDUULtGinFtJYNHtE+qGNSZX1Dy86qWf/xYrtvhAoyDr7d1kX3TLS0QmeUZjBTnvxs3iCLq3KMQTvo80H8kNqYj5cK8mE9rrcMZEXTzmDbx+fGnFj5R5WD0+JgpLEtD/ZzN8+KnCT2ZDrMrCS9gJVU30Gr2TylmV8+NnpvMahR09m65xvm0K/nNnmVxyc8v7TUxiimzGihc0mOpmFUHKh6DDkmatJZ8+ZzbOmxnfawFIQJn/9K5Ib1IqBOq5W0IdVT0DnsOSagE8sQPbzHU/rNg9QXWCcl9oMoVPCKnGe8p2jeGetMDPlOWF1ppeSuCehADZgQQ=="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>
