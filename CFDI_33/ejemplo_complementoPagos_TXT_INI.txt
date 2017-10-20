@@ -6,6 +6,10 @@ NoCertificado=20001000000200000192
 LugarExpedicion=68050
 
 [DatosAdicionales]
+tipoDocumento=RECIBO DE PAGO
+observaciones=Observaciones al documento versión 3.3
+plantillaPDF=clasic
+logotipo= lg_fdc9422f0756154cd565695
 
 [Emisor]
 Rfc=ESI920427886

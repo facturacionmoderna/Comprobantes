@@ -66,6 +66,13 @@ LugarExpedicion=68050
 tipoDocumento=FACTURA
 ;Observaciones que se requieren impresas en el recibo de nómina PDF
 observaciones=Observaciones al documento versión 3.3
+;Se cuentan con 2 diseños de plantilla, los valores aceptados: clasic, custom
+plantillaPDF=clasic
+;Una vez que pasen a producción deben enviar sus logos, les indicaremos el id de cada uno para insertarlo en su txt
+logotipo= lg_fdc9422f0756154cd565695
+
+
+
 
 ; Datos del emisor del comprobante
 [Emisor]

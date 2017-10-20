@@ -23,7 +23,8 @@ LugarExpedicion=68050
 [DatosAdicionales]
 tipoDocumento=FACTURA
 observaciones=Observaciones al documento versión 3.3
-platillaPDF=clasic
+plantillaPDF=clasic
+logotipo= lg_fdc9422f0756154cd565695
 
 [Emisor]
 Rfc=ESI920427886
