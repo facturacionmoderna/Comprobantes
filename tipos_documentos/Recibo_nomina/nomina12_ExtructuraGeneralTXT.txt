@@ -4,6 +4,7 @@
 ; Elaboró: Facturación Moderna
 ; Contacto: wsoporte@facturacionmoderna.com
 
+Version=3.3
 
 ;Serie del recibo (Opcional)
 serie=A

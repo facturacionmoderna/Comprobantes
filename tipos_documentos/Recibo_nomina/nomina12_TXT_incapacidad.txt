@@ -1,5 +1,5 @@
 [ReciboNomina]
-
+Version=3.3
 serie=RN_inca
 folio=104
 fecha=2016-11-29T12:07:43
