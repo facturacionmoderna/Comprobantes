@@ -1,21 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:aerolineas="http://www.sat.gob.mx/aerolineas"  xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/aerolineas http://www.sat.gob.mx/sitio_internet/cfd/aerolineas/aerolineas.xsd " version="3.2" serie="F" folio="301" fecha="2014-07-03T10:20:02" sello="s0zfM7YTcwLIcjCIUO2MpiJplgJepaGeGSQ9ecZjr/U/MWLZSqEBOb7GBv1y33lzOCEmDIydubWCQ1mjggPHiefAo/kXBDiDAzy+t+mn815Q7C+BqLtaa/0cpW5epBtUeWCB5ZXTAf0ZZB5vmF5xa11+TOVxPcoSoiWJB1UyuTw=" formaDePago="Pago en una sola exhibición" noCertificado="20001000000200000278" certificado="MIIEQzCCAyugAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAyNzgwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyNDE3MzQ1MloXDTE2MTAyNDE3MzQ1Mlowgb0xJTAjBgNVBAMTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExJTAjBgNVBCkTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExJTAjBgNVBAoTHEdFUkFSRE8gTUFOVUVMIFRSVUpJTExPIE1PUkExFjAUBgNVBC0TDVRVTUc2MjAzMTBSOTUxGzAZBgNVBAUTElRVTUc2MjAzMTBNREZSTk4wOTERMA8GA1UECxMIQ29uZmlybWEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMnfs7PXaVf1tRkPLRarE3P5U4Etw/cF+2j98krlLFU1g0AtScpq2517jUw950PcFJsonccgjV3oAz2XwzoHD6Xv8p2338DTqAcu1z8VQuIexF1SsOzaFmBM+hlJ9AdmcoVJSN84KqMt2lhRrCkNxaHs53p0cNKvmdSpg3AwuwglAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQAHZ4swEYA6oNqyM58qEMtv+9h8jNe3fzFdmA1DMIrfXgZBSQXkuXS3AsztxEDOIu8BWUdHjW5Kd1TslODj4SSxH4ZKfaSlaF+L1/1YNjTved2pwE6HVMjgVldb630luOuTwXcWsulcd11Tqp+/0JwcKOnbU4lE/DnrdlX/XJ4RBM9ERnX4Ja71jAWHN5KHT5JPJ+zINDG6DNinX53z8iZBXo1fd+9Tt+3tBANzgljH5m8LYrb+7R0QGWvRuHsKfi8v1u4bXOnovjrSJuKUtX/yCJ12vOW7bxG61RawztggHLsdOZz4Fgcp2kQNHcbXIKodCNYylPSY3/qHmWU1hHSu" condicionesDePago="30 Dias de crédito" subTotal="4000.00" descuento="1000.00" Moneda="MXN" total="4480.00" tipoDeComprobante="ingreso" metodoDePago="Transferencia electronica" LugarExpedicion="San Nicolás de los Garza, Nuevo León, México" NumCtaPago="BANAMEX 0952">
-  <cfdi:Emisor nombre="FACTURACION MODERNA S.A de C.V." rfc="TUMG620310R95">
-    <cfdi:DomicilioFiscal calle="Conocida" noExterior="S/N" noInterior="A" colonia="Residencial Los Angeles" municipio="San Nicolás de los Garza" estado="Nuevo León" pais="México" codigoPostal="66470"/>
-    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES"/>
-  </cfdi:Emisor>
-  <cfdi:Receptor rfc="XAXX010101000" nombre="RECEPTOR PRUEBA">
-    <cfdi:Domicilio calle="Conocida" colonia="Tongo" municipio="Azcapotzalco" estado="Distrito Federal" pais="México" codigoPostal="02630"/>
-  </cfdi:Receptor>
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:aerolineas="http://www.sat.gob.mx/aerolineas"  
+                  xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/aerolineas http://www.sat.gob.mx/sitio_internet/cfd/aerolineas/aerolineas.xsd " 
+                  Version="3.3" Serie="F" Folio="301" Fecha="2019-11-20T10:20:02" 
+                  Sello="LHDV/X9Ysi9UzX/lGto9SNK7bdjFkjpZPs1CcLjmdfgAajElMEmpKaFG/cDEPyP7/qEKg/VyihC5lPes17nTfGrLDCpogGT6Xab1QeryA2S9NyvIFVo99r4XMtc1cT+HPBsbGoFKw+AvtEFg/0T6Vk7xcQxbvH6BIfRi2FLhWDuOJMzV0vNWQbH+F+9RICAH0c6824RU7SMM9aixKkIUATGwEeJbbvfYKcp+BjRzZSiI8gfnXcDBZIaLQjP+DjasT2Z9Y0fJ5y/OuxmaoMqFwpdfCm9IgSZqzZgLjc9pYWTZQd0OOSV+u+MMBYAA1HApgmLbj15joMkUChacieekKw==" 
+                  FormaPago="03" NoCertificado="20001000000300022762" 
+                  Certificado="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" 
+                  CondicionesDePago="Contado" SubTotal="4000.00" Moneda="MXN" Total="4640.00" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="68000" >
+  <cfdi:Emisor Nombre="FACTURACION MODERNA S.A de C.V." Rfc="TCM970625MB1" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="XAXX010101000" Nombre="RECEPTOR PRUEBA" UsoCFDI="P01" />
   <cfdi:Conceptos>
-    <cfdi:Concepto cantidad="1" unidad="N/A" descripcion="Viaje México - Cancún" valorUnitario="4000.00" importe="4000.00"/>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="90121502" ClaveUnidad="E48" Descripcion="Viaje México - Cancún" ValorUnitario="4000.00" Importe="4000.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Base="4000.00" Importe="640.00"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
   </cfdi:Conceptos>
-  <cfdi:Impuestos totalImpuestosTrasladados="480.00">
+  <cfdi:Impuestos TotalImpuestosTrasladados="640.00">
     <cfdi:Traslados>
-      <cfdi:Traslado impuesto="IVA" tasa="16" importe="480.00"/>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="640.00"/>
     </cfdi:Traslados>
   </cfdi:Impuestos>
-  <cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" version="1.0" UUID="C78C79C6-73DE-4C7B-8B2A-43110F3382B7" FechaTimbrado="2014-07-03T11:41:55" selloCFD="s0zfM7YTcwLIcjCIUO2MpiJplgJepaGeGSQ9ecZjr/U/MWLZSqEBOb7GBv1y33lzOCEmDIydubWCQ1mjggPHiefAo/kXBDiDAzy+t+mn815Q7C+BqLtaa/0cpW5epBtUeWCB5ZXTAf0ZZB5vmF5xa11+TOVxPcoSoiWJB1UyuTw=" noCertificadoSAT="20001000000100005761" selloSAT="YRVTGwjG3ddQhZOXrr+3HALkyMRP79xsclRvjlDttkF4df+toKL9Bx4WQdBBArOfND8fs0uywItABRFQfQYED49sLv2kChaUGJuWgkiRxA025zlxqbhqPev+rpPYt5uCbBBGEHBpxGDxTM8mN90U52H7IhZ2vR+EN5C4qg1qsX0="/>
-  <aerolineas:Aerolineas xmlns:aerolineas="http://www.sat.gob.mx/aerolineas" Version="1.0" TUA="1000.00"/>
-   </cfdi:Complemento>
+  <cfdi:Complemento>
+    <aerolineas:Aerolineas Version="1.0" TUA="1000.00" >
+      <aerolineas:OtrosCargos TotalCargos="60.00" >
+        <aerolineas:Cargo  CodigoCargo="AA" Importe="60.00" />
+             </aerolineas:OtrosCargos>
+    </aerolineas:Aerolineas>
+  </cfdi:Complemento>
 </cfdi:Comprobante>

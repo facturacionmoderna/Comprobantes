@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Serie="" Folio="" 
+  Fecha="" Sello="" FormaPago="" NoCertificado="" Certificado="" CondicionesDePago="" SubTotal="" Descuento="" Moneda="" TipoCambio="" Total="" TipoDeComprobante="" Exportacion="" MetodoPago="" LugarExpedicion="" Confirmacion="">
+  <cfdi:InformacionGlobal Periodicidad="" Meses="" Año=""/>
+  <cfdi:CfdiRelacionados TipoRelacion="">
+    <cfdi:CfdiRelacionado UUID=""/>
+  </cfdi:CfdiRelacionados>
+  <cfdi:Emisor Rfc="" Nombre="" RegimenFiscal="" FacAtrAdquirente=""/>
+  <cfdi:Receptor Rfc="" Nombre="" DomicilioFiscalReceptor="" ResidenciaFiscal="" NumRegIdTrib="" RegimenFiscalReceptor="" UsoCFDI=""/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="" NoIdentificacion="" Cantidad="" ClaveUnidad="" Unidad="" Descripcion="" ValorUnitario="" Importe="" Descuento="" ObjetoImp="">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="" Impuesto="" TipoFactor="" TasaOCuota="" Importe=""/>
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+          <cfdi:Retencion Base="" Impuesto="" TipoFactor="" TasaOCuota="" Importe=""/>
+        </cfdi:Retenciones>
+      </cfdi:Impuestos>
+      <cfdi:ACuentaTerceros RfcACuentaTerceros="" NombreACuentaTerceros="" RegimenFiscalACuentaTerceros="" DomicilioFiscalACuentaTerceros=""/>
+      <cfdi:InformacionAduanera NumeroPedimento=""/>
+      <cfdi:CuentaPredial Numero=""/>
+      <cfdi:ComplementoConcepto/>
+      <cfdi:Parte ClaveProdServ="" NoIdentificacion="" Cantidad="" Unidad="" Descripcion="" ValorUnitario="" Importe="">
+        <cfdi:InformacionAduanera NumeroPedimento=""/>
+      </cfdi:Parte>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosRetenidos="" TotalImpuestosTrasladados="">
+    <cfdi:Retenciones>
+      <cfdi:Retencion Impuesto="" Importe=""/>
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="" Impuesto="" TipoFactor="" TasaOCuota="" Importe=""/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento/>
+  <cfdi:Addenda/>
+</cfdi:Comprobante>

@@ -1,0 +1,64 @@
+[ComprobanteFiscalDigital]
+
+Version=4.0
+Serie=FE
+Folio=2
+Fecha=2022-01-31T07:40:00
+FormaPago=99
+NoCertificado=30001000000400002443
+CondicionesDePago=Credito a 30 Días
+SubTotal=3000.00
+Descuento=
+Moneda=MXN
+Total=3480.00
+TipoDeComprobante=I
+MetodoPago=PPD
+LugarExpedicion=68050
+Exportacion=01
+
+;[CfdiRelacionados#1]
+;TipoRelacion=01
+;UUID=[EF1B6BB8-2FBB-11E9-A338-A5496FF75005]
+
+[DatosAdicionales]
+tipoDocumento=Factura
+plantillaPDF=
+logotipo=
+observaciones=Ejemplo de CFDI 4.0
+
+[Emisor]
+Rfc=XIA190128J61
+Nombre=Emisor para pruebas de FM S.R.L de C.V
+RegimenFiscal=601
+
+[Receptor]
+Rfc=MSE061107IA8
+Nombre=Mesa de Soporte S.A. de C.V
+UsoCFDI=G03
+DomicilioFiscalReceptor=68050
+RegimenFiscalReceptor=626
+
+[Concepto#1]
+ClaveProdServ=86101600
+NoIdentificacion=
+Cantidad=10
+ClaveUnidad=E48
+Unidad=
+Descripcion=Horas de capacitacion tema "nueva versión CFDI" 
+ValorUnitario=300.00
+Importe=3000.00
+Descuento=
+ObjetoImp=02
+Impuestos.Traslados.Base=[3000.00]
+Impuestos.Traslados.Impuesto=[002]
+Impuestos.Traslados.TipoFactor=[Tasa]
+Impuestos.Traslados.TasaOCuota=[0.160000]
+Impuestos.Traslados.Importe=[480.00]
+
+[Traslados]
+TotalImpuestosTrasladados=480.00
+Base=[3000.00]
+Impuesto=[002]
+TipoFactor=[Tasa]
+TasaOCuota=[0.160000]
+Importe=[480.00]
