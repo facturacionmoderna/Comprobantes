@@ -1,0 +1,185 @@
+[ReciboNomina]
+Version=4.0
+serie=
+folio=
+fecha=
+subTotal=
+descuento=
+total=
+noCertificado=20001000000200000192
+LugarExpedicion=
+
+
+[DatosAdicionales]
+tipoDocumento=RECIBO DE NOMINA
+observaciones=texto informativo que desean agregar al PDF, no afecta al xml.
+leyenda=Recibi pago del patrón
+
+[CfdiRelacionados#1]
+TipoRelacion=04
+UUID=[EF1B6BB8-2FBB-11E9-A338-A5496FF75005]
+
+[Emisor]
+rfc=
+nombre=
+Regimen=
+Curp=
+RegistroPatronal=
+RfcPatronOrigen=
+
+[EntidadSNCF]
+OrigenRecurso=
+MontoRecursoPropio=
+
+[Receptor]
+rfc=
+nombre=
+DomicilioFiscalReceptor=
+Curp=
+NumSeguridadSocial=
+FechaInicioRelLaboral=
+Antigüedad=
+TipoContrato=
+Sindicalizado=
+TipoJornada=
+TipoRegimen=
+NumEmpleado=
+Departamento=
+Puesto=
+RiesgoPuesto=
+PeriodicidadPago=
+Banco=
+CuentaBancaria=
+SalarioBaseCotApor=
+SalarioDiarioIntegrado=
+ClaveEntFed=
+
+[SubContratacion#1]
+RfcLabora = 
+PorcentajeTiempo = 
+
+
+; === SECCIÓN DE CONCEPTOS ===
+[Concepto#1]
+cantidad=1
+unidad=ACT
+descripcion=Pago de nómina
+valorUnitario=
+importe=
+
+
+; ==== Complemento Nomina ====
+
+[ComplementoNomina]
+Version=1.2
+TipoNomina=
+FechaPago=
+FechaInicialPago=
+FechaFinalPago=
+NumDiasPagados=
+TotalPercepciones=
+TotalDeducciones=
+TotalOtrosPagos=
+
+
+[Percepcion#1]
+TipoPercepcion=001
+Clave=055
+Concepto=SUELDO
+ImporteGravado=2715.00
+ImporteExento=0.00
+
+
+;Horas extras
+Percepcion#2]
+TipoPercepcion=019
+Clave=
+Concepto=HORAS EXTRAS
+ImporteGravado=
+ImporteExento=
+HorasExtra.Dias=[]
+HorasExtra.TipoHoras=[]
+HorasExtra.HorasExtra=[]
+HorasExtra.ImportePagado=[]
+
+[Percepcion#3]
+TipoPercepcion=022
+Clave=
+Concepto=PRIMAS POR ANTIGÜEDAD
+ImporteGravado=
+ImporteExento=
+
+[SeparacionIndemnizacion]
+TotalPagado=
+NumAñosServicio=
+UltimoSueldoMensOrd=
+IngresoAcumulable=
+IngresoNoAcumulable=
+
+[Percepcion#4]
+TipoPercepcion=014
+Clave=
+Concepto=SUBSIDIO POR INCAPACIDAD
+ImporteGravado=
+ImporteExento=
+
+[Incapacidad#1]
+DiasIncapacidad=1
+TipoIncapacidad=2
+ImporteMonetario=200.00
+
+
+[Percepcion#5]
+TipoPercepcion=045
+Clave=
+Concepto=INGRESOS POR ACCIONES O TITULOS
+ImporteGravado=
+ImporteExento=
+AccionesOTitulos.ValorMercado=
+AccionesOTitulos.PrecioAlOtorgarse=
+
+
+[Percepcion#6]
+TipoPercepcion=039
+Clave=
+Concepto=JUBILACIONES, PENSIONES O HABERES DE RETIRO
+ImporteGravado=
+ImporteExento=
+
+[JubilacionPensionRetiro]
+TotalUnaExhibicion=
+TotalParcialidad=
+MontoDiario=
+IngresoAcumulable=
+IngresoNoAcumulable=
+
+
+[Deduccion#1]
+TipoDeduccion=002
+Clave=
+Concepto=ISR
+Importe=
+
+[Deduccion#2]
+TipoDeduccion=001
+Clave=
+Concepto=IMSS
+Importe=
+
+
+;Ejemplo otroPago subsidio
+[OtroPago#1]
+TipoOtroPago=002
+Clave=
+Concepto=SUBSIDIO AL EMPLEO
+Importe=70.50
+SubsidioAlEmpleo.SubsidioCausado=130.26
+
+[OtroPago#2]
+TipoOtroPago=004
+Clave=
+Concepto=APLICACION DE SALDO A FAVOR
+Importe=669.50
+CompensacionSaldosAFavor.SaldoAFavor=[]
+CompensacionSaldosAFavor.Año=[]
+CompensacionSaldosAFavor.RemanenteSalFav=[]

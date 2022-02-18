@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:nomina12="http://www.sat.gob.mx/nomina12" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/nomina12 http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina12.xsd" Version="4.0" Serie="NOM" Folio="1" Fecha="2022-02-09T07:40:00" Sello="ZHUE86aWEgG73FkdxvQnpodjS9tqrx0UyNnIfpKDy/HPrxxmTyn+RFfGxB3jfU3l1zfo3xouUfHHegpL6vvhi8d4lixnpsM06T16/GGd23vlD1BX/SrC7JvidUmT+hnGxcvkhxyrhbymG8MZcg4ryp1TDRA6c3oPgzTvVnKLy4/rhv0lkpaI6hmoI/J4UV98OoPio8YcFT4rWIDrPwJBqErTbj1zXPTbvDKwhInbpTk2FnFX86tSJId8hcYrwtVn9SDifeTPxm4pxs1wrmfXntZRFJLHdAJYOpy1JgmEEwwnBATmUt/FaYfhJAwvwJ7HJwfwZaL+Mr9scctvsTgyCg==" NoCertificado="30001000000400002443" Certificado="MIIFyDCCA7CgAwIBAgIUMzAwMDEwMDAwMDA0MDAwMDI0NDMwDQYJKoZIhvcNAQELBQAwggErMQ8wDQYDVQQDDAZBQyBVQVQxLjAsBgNVBAoMJVNFUlZJQ0lPIERFIEFETUlOSVNUUkFDSU9OIFRSSUJVVEFSSUExGjAYBgNVBAsMEVNBVC1JRVMgQXV0aG9yaXR5MSgwJgYJKoZIhvcNAQkBFhlvc2Nhci5tYXJ0aW5lekBzYXQuZ29iLm14MR0wGwYDVQQJDBQzcmEgY2VycmFkYSBkZSBjYWRpejEOMAwGA1UEEQwFMDYzNzAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBDSVVEQUQgREUgTUVYSUNPMREwDwYDVQQHDAhDT1lPQUNBTjERMA8GA1UELRMIMi41LjQuNDUxJTAjBgkqhkiG9w0BCQITFnJlc3BvbnNhYmxlOiBBQ0RNQS1TQVQwHhcNMTkwNjE3MjA0MDUxWhcNMjMwNjE3MjA0MDUxWjCB7zEqMCgGA1UEAxMhWEVOT04gSU5EVVNUUklBTCBBUlRJQ0xFUyBTIERFIENWMSowKAYDVQQpEyFYRU5PTiBJTkRVU1RSSUFMIEFSVElDTEVTIFMgREUgQ1YxKjAoBgNVBAoTIVhFTk9OIElORFVTVFJJQUwgQVJUSUNMRVMgUyBERSBDVjElMCMGA1UELRMcWElBMTkwMTI4SjYxIC8gS0FITzY0MTEwMUIzOTEeMBwGA1UEBRMVIC8gS0FITzY0MTEwMUhOVExLUzA2MSIwIAYDVQQLExlYZW5vbiBJbmR1c3RyaWFsIEFydGljbGVzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiJQ5YcSgjwsGf29+3go7VGdtMZCcH9wUpn46ZMAlFwUojnCPTvwJ3+cSwjqJnw8ahr3DuRwekvGR4BJAb5b9Xi8kyoiWtwcGOSWxO38Bp9J1e/BO9HMbQBPAtLDuG47oqnH8zWLOeaoYRJDpARw4RX1ko2+9tbj0ntBtM7Vk1E8EWiA/h2Meq0LIv1+ySGTUrEW46FM01J5pzELv5XupBghuJxR5DG9fiOW7u3dR5s3tZoVLwA1KdjJtY0mmnfCwxg6i5AqhvY+FAI5D6CF6/lHA8PWg63WasvrhuIv70xCLjgPT/j00ZcPrLvBf1DefGVic980Ch/SDvC+MdJ1F5wIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEACjfTPoKY2N5MxjmAMltd5XZCV1vgAwEtrIRYTodhE8R0Tp1QanAXb0luPyBv5hIXWK4VqAI4fcTtP+n7kkrwfha6ErkPWFNJWJm8ZsMmby/3WgVoJkOFyRYQqr5Il3N6wMa5kiDBtDRbqB3iEXmvtrvjWSHyxAER+zo3jWGFlhBZ0nQNRtjx8sPFihVc5TUH682HJiU4oWvT63Dnra8ncqiW/uCuY86crnUq0fW7Lw/3+PY5xXjNxR/Hh3sUPITfJrGaLWurD1J9npr9yGAJ6t9zrhhZnepIC0DUMc5+j4pg1DrO32jzwUOLQqErDizh84NoJCWwbg+US8wi3zD0ZKiDv7XsTNWAW2Ap2JkzykKHjFTZiEm3uZOkJNfcu3o+kefr5HfXFT+iN9K5FUEhaQwgUeZBRJ8V5F6gmhz3d6ixVbiZoFNhYR8e2k8gF9gGrVMrEbJGQrl+6+ZYQLFiauXeG7fu1svk19PuyredRJGnseJqyV4RzcRGhJA+cLnmpdDOTEhignnvnhEuY6HVRYYXhOTyeeluET7KRCxbJGqO7TdWgjrHL3HRbNE4NY5GAdOZuLaWxElG5ZVCHqtG0Nh7UQAhcz+EKyZBAewv5XuH0OomZXw6mM2mY2soL6z1224NusM8/BbJcYTQUlAEKblEChhGK1XlxiVOU2nc9KE=" SubTotal="5538.53" Descuento="295.92" Moneda="MXN" Total="5242.61" TipoDeComprobante="N" MetodoPago="PUE" LugarExpedicion="68050" Exportacion="01">
+  <cfdi:Emisor Rfc="XIA190128J61" Nombre="Emisor para pruebas de FM S.R.L de C.V" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="XAMA620210DQ5" Nombre="Nombre receptor para pruebas de nomina" UsoCFDI="CN01" DomicilioFiscalReceptor="68050" RegimenFiscalReceptor="605"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="84111505" Cantidad="1" ClaveUnidad="ACT" Descripcion="Pago de nómina" ValorUnitario="5538.53" Importe="5538.53" Descuento="295.92" ObjetoImp="01">
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+    <nomina12:Nomina Version="1.2" TipoNomina="O" FechaPago="2022-01-30" FechaInicialPago="2022-01-15" FechaFinalPago="2022-01-31" NumDiasPagados="7.000" TotalPercepciones="3712.42" TotalDeducciones="295.92" TotalOtrosPagos="1826.11">
+      <nomina12:Emisor RegistroPatronal="Y3427334510-5"/>
+      <nomina12:Receptor Curp="XAMA620210MOCNRR07" NumSeguridadSocial="12325455361" FechaInicioRelLaboral="2017-08-08" Antigüedad="P229W" TipoContrato="01" Sindicalizado="No" TipoJornada="03" TipoRegimen="02" NumEmpleado="1" Puesto="PLANIFICADOR DE RUTAS COMERCIALES" RiesgoPuesto="5" PeriodicidadPago="04" Banco="014" CuentaBancaria="12381457271" SalarioBaseCotApor="190.18" SalarioDiarioIntegrado="181.00" ClaveEntFed="QUE"/>
+      <nomina12:Percepciones TotalSueldos="3712.42" TotalGravado="1267.00" TotalExento="2445.42">
+        <nomina12:Percepcion TipoPercepcion="001" Clave="001" Concepto="SUELDOS, SALARIOS  RAYAS Y JORNALES" ImporteGravado="1267.00" ImporteExento="0.00"/>
+        <nomina12:Percepcion TipoPercepcion="038" Clave="038" Concepto="SUBSIDIO POR INCAPACIDAD FUTURA QUE NO CONSTITUYE RIESGO DE TRABAJO" ImporteGravado="0.00" ImporteExento="415.72"/>
+        <nomina12:Percepcion TipoPercepcion="038" Clave="038" Concepto="AYUDA PARA GASTOS MEDICOS Y DENTALES" ImporteGravado="0.00" ImporteExento="317.91"/>
+        <nomina12:Percepcion TipoPercepcion="038" Clave="038" Concepto="AYUDA PARA ADQUISICION DE MEDICAMENTOS" ImporteGravado="0.00" ImporteExento="73.36"/>
+        <nomina12:Percepcion TipoPercepcion="047" Clave="047" Concepto="AYUDA PARA ALIMENTACIÓN" ImporteGravado="0.00" ImporteExento="366.81"/>
+        <nomina12:Percepcion TipoPercepcion="038" Clave="038" Concepto="AYUDA PARA ADQUISICION DE ROPA PARA EL TRABAJO" ImporteGravado="0.00" ImporteExento="342.36"/>
+        <nomina12:Percepcion TipoPercepcion="034" Clave="034" Concepto="AYUDA PARA ADQUISICION DE ARTICULOS ESCOLARES" ImporteGravado="0.00" ImporteExento="97.82"/>
+        <nomina12:Percepcion TipoPercepcion="015" Clave="015" Concepto="BECAS EDUCACIONALES" ImporteGravado="0.00" ImporteExento="342.36"/>
+        <nomina12:Percepcion TipoPercepcion="038" Clave="038" Concepto="AYUDA PARA ACTIVIDADES CULTURALES" ImporteGravado="0.00" ImporteExento="244.54"/>
+        <nomina12:Percepcion TipoPercepcion="038" Clave="038" Concepto="AYUDA PARA ACTIVIDADES DEPORTIVAS" ImporteGravado="0.00" ImporteExento="244.54"/>
+      </nomina12:Percepciones>
+      <nomina12:Deducciones TotalOtrasDeducciones="289.00" TotalImpuestosRetenidos="6.92">
+        <nomina12:Deduccion TipoDeduccion="002" Clave="002" Concepto="ISR" Importe="6.92"/>
+        <nomina12:Deduccion TipoDeduccion="021" Clave="021" Concepto="CUOTAS OBRERO PATRONALES" Importe="31.62"/>
+        <nomina12:Deduccion TipoDeduccion="009" Clave="009" Concepto="PAGO POR CREDITO DE VIVIENDA" Importe="257.38"/>
+      </nomina12:Deducciones>
+      <nomina12:OtrosPagos>
+        <nomina12:OtroPago TipoOtroPago="999" Clave="999" Concepto="PENSIONES MULTIPLES" Importe="1826.11"/>
+        <nomina12:OtroPago TipoOtroPago="002" Clave="002" Concepto="Subsidio al empleo" Importe="0.00">
+          <nomina12:SubsidioAlEmpleo SubsidioCausado="67.84"/>
+        </nomina12:OtroPago>
+      </nomina12:OtrosPagos>
+    </nomina12:Nomina>
+  </cfdi:Complemento>
+</cfdi:Comprobante>
