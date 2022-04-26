@@ -28,12 +28,12 @@ observaciones=Ejemplo de CFDI 4.0
 
 [Emisor]
 Rfc=XIA190128J61
-Nombre=Emisor para pruebas de FM S.R.L de C.V
+Nombre=NOMBRE EMISOR DE PRUEBAS
 RegimenFiscal=601
 
 [Receptor]
 Rfc=MSE061107IA8
-Nombre=Mesa de Soporte S.A. de C.V
+Nombre=NOMBRE RECEPTOR DE PRUEBAS
 UsoCFDI=G03
 DomicilioFiscalReceptor=68050
 RegimenFiscalReceptor=626

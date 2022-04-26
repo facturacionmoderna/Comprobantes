@@ -33,7 +33,7 @@ observaciones=CFDI de pruebas, comprobante gobal
 
 [Emisor]
 Rfc=XIA190128J61
-Nombre=prueba XIA190128J61 emisor de pruebas
+Nombre=NOMBRE EMISOR DE PRUEBAS
 RegimenFiscal=601
 
 [Receptor]

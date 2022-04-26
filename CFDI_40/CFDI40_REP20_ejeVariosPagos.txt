@@ -13,12 +13,12 @@ logotipo=
 
 [Emisor]
 Rfc=XIA190128J61
-Nombre=FACTURACIÓN MODERNA S.A. DE C.V.
+Nombre=NOMBRE EMISOR DE PRUEBAS
 RegimenFiscal=601
 
 [Receptor]
 Rfc=AAQM610917QJA
-Nombre=LUIS HERNANDEZ FELIX
+Nombre=NOMBRE APELLIDOP APELLIDOM
 DomicilioFiscalReceptor=68000
 RegimenFiscalReceptor=610
 
