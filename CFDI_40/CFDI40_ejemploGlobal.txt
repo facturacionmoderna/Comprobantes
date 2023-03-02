@@ -1,11 +1,11 @@
 [ComprobanteFiscalDigital]
 
 Version=4.0
-Serie=FE
+Serie=FG
 Folio=1
-Fecha=2022-01-31T07:33:38
+Fecha=2023-03-02T13:33:38
 FormaPago=01
-NoCertificado=30001000000400002443
+NoCertificado=30001000000400002434
 SubTotal=844.98
 Descuento=
 Moneda=MXN
@@ -18,8 +18,8 @@ LugarExpedicion=68050
 
 [InformacionGlobal]
 Periodicidad=01
-Meses=01
-Año=2022
+Meses=03
+Año=2023
 
 ;[CfdiRelacionados#1]
 ;TipoRelacion=01
@@ -27,13 +27,13 @@ Año=2022
 
 [DatosAdicionales]
 tipoDocumento=
-plantillaPDF=Custom
+plantillaPDF=custom
 logotipo=
 observaciones=CFDI de pruebas, comprobante gobal
 
 [Emisor]
-Rfc=XIA190128J61
-Nombre=NOMBRE EMISOR DE PRUEBAS
+Rfc=EKU9003173C9
+Nombre=ESCUELA KEMPER URGATE
 RegimenFiscal=601
 
 [Receptor]

@@ -3,9 +3,9 @@
 Version=4.0
 Serie=FE
 Folio=2
-Fecha=2022-01-31T07:40:00
+Fecha=2023-03-02T07:40:00
 FormaPago=99
-NoCertificado=30001000000400002443
+NoCertificado=30001000000400002434
 CondicionesDePago=Credito a 30 Días
 SubTotal=3000.00
 Descuento=
@@ -13,7 +13,7 @@ Moneda=MXN
 Total=3480.00
 TipoDeComprobante=I
 MetodoPago=PPD
-LugarExpedicion=68050
+LugarExpedicion=26015
 Exportacion=01
 
 ;[CfdiRelacionados#1]
@@ -27,15 +27,15 @@ logotipo=
 observaciones=Ejemplo de CFDI 4.0
 
 [Emisor]
-Rfc=XIA190128J61
-Nombre=NOMBRE EMISOR DE PRUEBAS
+Rfc=EKU9003173C9
+Nombre=ESCUELA KEMPER URGATE
 RegimenFiscal=601
 
 [Receptor]
-Rfc=MSE061107IA8
-Nombre=NOMBRE RECEPTOR DE PRUEBAS
+Rfc=CACX7605101P8
+Nombre=XOCHILT CASAS CHAVEZ
 UsoCFDI=G03
-DomicilioFiscalReceptor=68050
+DomicilioFiscalReceptor=10740
 RegimenFiscalReceptor=626
 
 [Concepto#1]
