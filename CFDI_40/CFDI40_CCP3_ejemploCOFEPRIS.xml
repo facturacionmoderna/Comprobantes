@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cartaporte30="http://www.sat.gob.mx/CartaPorte30" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/CartaPorte30 http://www.sat.gob.mx/sitio_internet/cfd/CartaPorte/CartaPorte30.xsd" Version="4.0" Fecha="2024-01-08T10:37:18" Sello="Nt9RDlwtTRoO/JgPnqz15HHf8SNeb119ElPCwIW6cwLwaJZeSJGt8wjiRMCguRiDujQnCKS5xQSIL6WvRqOY1qym/5RpAqfaHbGPQ4wng3vQ29qEfG3pl7N51liMf+SAr2ohtjY9KCIFgPkoqKoo5B8Eiw5qwEvf+2CddK00dG2LJGO98ZZxIPq/E2VBbWSMlsROfKVxqYrxTwEMrS25188SV+7eT5uPFce6UyDgghTraLy1rX1WwD4G+5f3uH+tV8hHixTY3idkfRjVQw/3t9LvLo3hkNAIt6l7v4DbxnRQNFALcM+BSy2R6dMV/ktPo0w4/X4z9ashUDA44SCU6A==" FormaPago="99" NoCertificado="30001000000500003318" Certificado="MIIFcTCCA1mgAwIBAgIUMzAwMDEwMDAwMDA1MDAwMDMzMTgwDQYJKoZIhvcNAQELBQAwggErMQ8wDQYDVQQDDAZBQyBVQVQxLjAsBgNVBAoMJVNFUlZJQ0lPIERFIEFETUlOSVNUUkFDSU9OIFRSSUJVVEFSSUExGjAYBgNVBAsMEVNBVC1JRVMgQXV0aG9yaXR5MSgwJgYJKoZIhvcNAQkBFhlvc2Nhci5tYXJ0aW5lekBzYXQuZ29iLm14MR0wGwYDVQQJDBQzcmEgY2VycmFkYSBkZSBjYWxpejEOMAwGA1UEEQwFMDYzNzAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBDSVVEQUQgREUgTUVYSUNPMREwDwYDVQQHDAhDT1lPQUNBTjERMA8GA1UELRMIMi41LjQuNDUxJTAjBgkqhkiG9w0BCQITFnJlc3BvbnNhYmxlOiBBQ0RNQS1TQVQwHhcNMjMwNTEwMTU1MzIyWhcNMjcwNTEwMTU1MzIyWjCBmDEYMBYGA1UEAxMPT1NDQVIgS0FMQSBIQUFLMRgwFgYDVQQpEw9PU0NBUiBLQUxBIEhBQUsxGDAWBgNVBAoTD09TQ0FSIEtBTEEgSEFBSzEWMBQGA1UELRMNS0FITzY0MTEwMUIzOTEbMBkGA1UEBRMSS0FITzY0MTEwMUhOVExLUzA2MRMwEQYDVQQLEwpTdWN1cnNhbCAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoGn3Zld2n+1t0KAyxnrlzniAm4YmmMjWzEJhzG9vpKnQnxSveHe1GLf4THl2v2i4C1GSshNwStpeTFEx3kRs6k9tTI36cPb0BnAJzby80GqzNesx74HtLyGNAmItkTFgdr5I3RSlW0Utd42wFETlB9cOgqhA8HqKl7efNUq+12527RTA+tcubtgrGQJxhqaBj/yGmC0yFCmpNhhXnHUBhnnVoDPfZfbPb0kU4IW6lnHaR37A6ElPbnaBpq1GrW7kWejL4dUlIp4FtT8eyZfyfrbqSG7Ic7X0WegOHBbmsmVUrBsLuAXfI+BKfGNCPzJb6l2jLhYL0+81kdEvt2ufGwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEAFw+NejTBngfxEqLN/yjgunU1eBcd403CJbIFv+H0haS2RKv/z5BKev2NwwshWCvnZ67O+ZS86crD3clrRmw9TZWVP1FjCMdO/sNVWq7wRrIXUaImhOwDt95AXOdPeBc5I35tMmGbXn1zf6FimRYTj9slkUmIXh5nY6wb9eH2nMWwXxuhJYsRX8oZ2h2IUkmngByBbujG0xekn4Aqvm+ez6ULaRG+ZykB3sufGh5bWi2VtrkoAOQgvDZpA/5KNPxAaRy3o3pjSOyyjuhZ2x/zvk82RmeihK8qpA6IzAtMEHKf9f0HaR9J2KhGJmCsHaChj5uxpUHTM4M7DE2lTcgnUxNqekmrUOkMGBLYromcTxZjbL+lFKmocwmDVqMCY/IPYhzjLmgihDnNj12IaZVUMhjSQTw65dkBNN8uBJBvUev+MfFxTldzul1z6tA6NwG5fHaYHVYq8pEdzb/0QEAKmNBYtzh9HZvuL4FnX9QfOASI/hhRwEk2MAYzGKU08erhSNnjTZiBhAxqLENOVv82vmJSyyOas8tL1EMEIFMx21ygliR+HqoW/ksfSOZcSpTO5d2rhV/0AB8tq6cCPh3hTb86V9SSHm8NUqJRcWfu90ujZexSTMvVegwnUiEHgDaPO8pLofu0wDSJVB+WcYvfUhlu6MnRIO9cVM5vf6bXXCE=" CondicionesDePago="A Crédito" SubTotal="11000.00" Moneda="MXN" Total="12360.00" TipoDeComprobante="I" Exportacion="01" MetodoPago="PPD" LugarExpedicion="76074">
+   <cfdi:Emisor Rfc="KAHO641101B39" Nombre="OSCAR KALA HAAK" RegimenFiscal="612" />
+   <cfdi:Receptor Rfc="KICR630120NX3" Nombre="RODRIGO KITIA CASTRO" DomicilioFiscalReceptor="36246" RegimenFiscalReceptor="612" UsoCFDI="G03" />
+   <cfdi:Conceptos>
+      <cfdi:Concepto ClaveProdServ="78121603" NoIdentificacion="FLE" Cantidad="1" ClaveUnidad="E48" Descripcion="Servicio de flete" ValorUnitario="10000.00" Importe="10000.000000" ObjetoImp="02">
+         <cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="10000.000000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1600.000000" />
+            </cfdi:Traslados>
+            <cfdi:Retenciones>
+               <cfdi:Retencion Base="10000.000000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.040000" Importe="400.000000" />
+            </cfdi:Retenciones>
+         </cfdi:Impuestos>
+      </cfdi:Concepto>
+      <cfdi:Concepto ClaveProdServ="20122807" NoIdentificacion="man" Cantidad="1" ClaveUnidad="ACT" Descripcion="servicio de maniobras para embalaje de mercancia" ValorUnitario="1000.00" Importe="1000.000000" ObjetoImp="02">
+         <cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="1000.000000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="160.000000" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos>
+      </cfdi:Concepto>
+   </cfdi:Conceptos>
+   <cfdi:Impuestos TotalImpuestosRetenidos="400.00" TotalImpuestosTrasladados="1760.00">
+      <cfdi:Retenciones>
+         <cfdi:Retencion Impuesto="002" Importe="400.00" />
+      </cfdi:Retenciones>
+      <cfdi:Traslados>
+         <cfdi:Traslado Base="11000.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1760.00" />
+      </cfdi:Traslados>
+   </cfdi:Impuestos>
+   <cfdi:Complemento>
+      <cartaporte30:CartaPorte Version="3.0" TranspInternac="No" TotalDistRec="807.2" IdCCP="CCC293F4-AE44-11EE-A840-3785E6D33800">
+         <cartaporte30:Ubicaciones>
+            <cartaporte30:Ubicacion TipoUbicacion="Origen" RFCRemitenteDestinatario="KICR630120NX3" NombreRemitenteDestinatario="RODRIGO KITIA CASTRO" FechaHoraSalidaLlegada="2024-01-08T11:00:00">
+               <cartaporte30:Domicilio Calle="calle conocida origen" NumeroExterior="100" Colonia="0102" Municipio="015" Estado="GUA" Pais="MEX" CodigoPostal="36246" />
+            </cartaporte30:Ubicacion>
+            <cartaporte30:Ubicacion TipoUbicacion="Destino" RFCRemitenteDestinatario="CACX7605101P8" NombreRemitenteDestinatario="XOCHILT CASAS CHAVEZ" FechaHoraSalidaLlegada="2024-01-10T08:00:00" DistanciaRecorrida="807.2">
+               <cartaporte30:Domicilio Calle="calle destino" NumeroExterior="200" Colonia="0115" Localidad="31" Municipio="015" Estado="GUA" Pais="MEX" CodigoPostal="36257" />
+            </cartaporte30:Ubicacion>
+         </cartaporte30:Ubicaciones>
+         <cartaporte30:Mercancias PesoBrutoTotal="1000.000" UnidadPeso="KGM" NumTotalMercancias="1">
+            <cartaporte30:Mercancia BienesTransp="25174413" Descripcion="Analgésicos narcóticos" Cantidad="10000" ClaveUnidad="H87" SectorCOFEPRIS="01" DenominacionGenericaProd="Butorfanol tartrato" DenominacionDistintivaProd="BAYER" Fabricante="Bayer de México, S.A. de C.V." FechaCaducidad="2025-12-23" LoteMedicamento="413" FormaFarmaceutica="01" CondicionesEspTransp="04" RegistroSanitarioFolioAutorizacion="1234567890" PesoEnKg="1000" />
+            <cartaporte30:Autotransporte PermSCT="TPAF01" NumPermisoSCT="0X2XTXZ0X5X0X3X2X1X0">
+               <cartaporte30:IdentificacionVehicular ConfigVehicular="T3S2R4" PesoBrutoVehicular="3000" PlacaVM="15EU8X" AnioModeloVM="2000" />
+               <cartaporte30:Seguros AseguraRespCivil="PFG&amp; Seguros S.A. de C.V." PolizaRespCivil="154647" />
+               <cartaporte30:Remolques>
+                  <cartaporte30:Remolque SubTipoRem="CTR004" Placa="501&amp;&amp;" />
+               </cartaporte30:Remolques>
+            </cartaporte30:Autotransporte>
+         </cartaporte30:Mercancias>
+         <cartaporte30:FiguraTransporte>
+            <cartaporte30:TiposFigura TipoFigura="01" RFCFigura="FUNK671228PH6" NumLicencia="000004" NombreFigura="KARLA FUENTE NOLASCO">
+               <cartaporte30:Domicilio Calle="calle operador" NumeroExterior="300" Colonia="0066" Localidad="01" Municipio="010" Estado="CMX" Pais="MEX" CodigoPostal="01160" />
+            </cartaporte30:TiposFigura>
+         </cartaporte30:FiguraTransporte>
+      </cartaporte30:CartaPorte>
+   </cfdi:Complemento>
+</cfdi:Comprobante>
