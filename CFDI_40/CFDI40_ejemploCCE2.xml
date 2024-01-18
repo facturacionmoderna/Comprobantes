@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:cce20="http://www.sat.gob.mx/ComercioExterior20" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/ComercioExterior20 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior20/ComercioExterior20.xsd" Version="4.0" Serie="F" Folio="74" Fecha="2024-01-18T10:18:00" Sello="KP4lssHOHqEnEWHs2NjbFvb2q/tPVJB3l00+UEeTYnpi0jPcwWlSDYj+izH8Pj/PcRHl8+0N064aNf0BxOmYL3wIjpn1olXpWL5eip1SXBSZrmxOaaHfzSwQEwSBTraEIUJH49LXaIOH9yo6IchdymrEdwJgrPaaato0Eh66o8zomKyvhgNFzqTV2/sjxc1vPBAGN7MR5fAaPGmpXevwjI7BFRuJocjt580dPbpxJpNsFUdhF5X5nj/st/NsHB6x9hMTtOSvC/CbC1rNLuUEaWHWM66pLqoMdwzwlCsq0FMW/Up3tM4/J5HDRaMG631QK9BtqUtOCmLPfM1j1R7wXw==" FormaPago="03" NoCertificado="30001000000500003416" Certificado="MIIFsDCCA5igAwIBAgIUMzAwMDEwMDAwMDA1MDAwMDM0MTYwDQYJKoZIhvcNAQELBQAwggErMQ8wDQYDVQQDDAZBQyBVQVQxLjAsBgNVBAoMJVNFUlZJQ0lPIERFIEFETUlOSVNUUkFDSU9OIFRSSUJVVEFSSUExGjAYBgNVBAsMEVNBVC1JRVMgQXV0aG9yaXR5MSgwJgYJKoZIhvcNAQkBFhlvc2Nhci5tYXJ0aW5lekBzYXQuZ29iLm14MR0wGwYDVQQJDBQzcmEgY2VycmFkYSBkZSBjYWxpejEOMAwGA1UEEQwFMDYzNzAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBDSVVEQUQgREUgTUVYSUNPMREwDwYDVQQHDAhDT1lPQUNBTjERMA8GA1UELRMIMi41LjQuNDUxJTAjBgkqhkiG9w0BCQITFnJlc3BvbnNhYmxlOiBBQ0RNQS1TQVQwHhcNMjMwNTE4MTE0MzUxWhcNMjcwNTE4MTE0MzUxWjCB1zEnMCUGA1UEAxMeRVNDVUVMQSBLRU1QRVIgVVJHQVRFIFNBIERFIENWMScwJQYDVQQpEx5FU0NVRUxBIEtFTVBFUiBVUkdBVEUgU0EgREUgQ1YxJzAlBgNVBAoTHkVTQ1VFTEEgS0VNUEVSIFVSR0FURSBTQSBERSBDVjElMCMGA1UELRMcRUtVOTAwMzE3M0M5IC8gVkFEQTgwMDkyN0RKMzEeMBwGA1UEBRMVIC8gVkFEQTgwMDkyN0hTUlNSTDA1MRMwEQYDVQQLEwpTdWN1cnNhbCAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtmecO6n2GS0zL025gbHGQVxznPDICoXzR2uUngz4DqxVUC/w9cE6FxSiXm2ap8Gcjg7wmcZfm85EBaxCx/0J2u5CqnhzIoGCdhBPuhWQnIh5TLgj/X6uNquwZkKChbNe9aeFirU/JbyN7Egia9oKH9KZUsodiM/pWAH00PCtoKJ9OBcSHMq8Rqa3KKoBcfkg1ZrgueffwRLws9yOcRWLb02sDOPzGIm/jEFicVYt2Hw1qdRE5xmTZ7AGG0UHs+unkGjpCVeJ+BEBn0JPLWVvDKHZAQMj6s5Bku35+d/MyATkpOPsGT/VTnsouxekDfikJD1f7A1ZpJbqDpkJnss3vQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEAFaUgj5PqgvJigNMgtrdXZnbPfVBbukAbW4OGnUhNrA7SRAAfv2BSGk16PI0nBOr7qF2mItmBnjgEwk+DTv8Zr7w5qp7vleC6dIsZFNJoa6ZndrE/f7KO1CYruLXr5gwEkIyGfJ9NwyIagvHHMszzyHiSZIA850fWtbqtythpAliJ2jF35M5pNS+YTkRB+T6L/c6m00ymN3q9lT1rB03YywxrLreRSFZOSrbwWfg34EJbHfbFXpCSVYdJRfiVdvHnewN0r5fUlPtR9stQHyuqewzdkyb5jTTw02D2cUfL57vlPStBj7SEi3uOWvLrsiDnnCIxRMYJ2UA2ktDKHk+zWnsDmaeleSzonv2CHW42yXYPCvWi88oE1DJNYLNkIjua7MxAnkNZbScNw01A6zbLsZ3y8G6eEYnxSTRfwjd8EP4kdiHNJftm7Z4iRU7HOVh79/lRWB+gd171s3d/mI9kte3MRy6V8MMEMCAnMboGpaooYwgAmwclI2XZCczNWXfhaWe0ZS5PmytD/GDpXzkX0oEgY9K/uYo5V77NdZbGAjmyi8cE2B2ogvyaN2XfIInrZPgEffJ4AB7kFA2mwesdLOCh0BLD9itmCve3A1FGR4+stO2ANUoiI3w3Tv2yQSg4bjeDlJ08lXaaFCLW2peEXMXjQUk7fmpb5MNuOUTW6BE=" CondicionesDePago="Contado" SubTotal="629.60" Moneda="USD" TipoCambio="17.1598" Total="730.34" TipoDeComprobante="I" Exportacion="02" MetodoPago="PUE" LugarExpedicion="42501">
+   <cfdi:Emisor Rfc="EKU9003173C9" Nombre="ESCUELA KEMPER URGATE" RegimenFiscal="601" />
+   <cfdi:Receptor Rfc="XEXX010101000" Nombre="INTERTRIM" DomicilioFiscalReceptor="42501" ResidenciaFiscal="BRA" NumRegIdTrib="01105075/000108" RegimenFiscalReceptor="616" UsoCFDI="S01" />
+   <cfdi:Conceptos>
+      <cfdi:Concepto ClaveProdServ="60124102" NoIdentificacion="EZ-008" Cantidad="10" ClaveUnidad="H87" Unidad="Pieza" Descripcion="Size B, Ajedrez Pendant Clay - Lamp atzompa.for decoration" ValorUnitario="62.960000" Importe="629.600000" ObjetoImp="02">
+         <cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="629.600000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="100.736000" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos>
+      </cfdi:Concepto>
+   </cfdi:Conceptos>
+   <cfdi:Impuestos TotalImpuestosTrasladados="100.74">
+      <cfdi:Traslados>
+         <cfdi:Traslado Base="629.60" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="100.74" />
+      </cfdi:Traslados>
+   </cfdi:Impuestos>
+   <cfdi:Complemento>
+      <cce20:ComercioExterior Version="2.0" ClaveDePedimento="A1" CertificadoOrigen="0" Incoterm="CPT" TipoCambioUSD="17.1598" TotalUSD="629.60">
+         <cce20:Emisor>
+            <cce20:Domicilio Calle="calle libre" NumeroExterior="109" NumeroInterior="B" Colonia="3108" Localidad="06" Municipio="025" Estado="COA" Pais="MEX" CodigoPostal="26015" />
+         </cce20:Emisor>
+         <cce20:Receptor NumRegIdTrib="01105075/000108">
+            <cce20:Domicilio Calle="AVENIDA HENRY NESTLE" Localidad="CACAPAVA" Estado="SAO PAULO" Pais="BRA" CodigoPostal="36275" />
+         </cce20:Receptor>
+         <cce20:Mercancias>
+            <cce20:Mercancia NoIdentificacion="EZ-008" FraccionArancelaria="6913909900" CantidadAduana="45.000" UnidadAduana="01" ValorUnitarioAduana="13.99" ValorDolares="629.6" />
+         </cce20:Mercancias>
+      </cce20:ComercioExterior>
+   </cfdi:Complemento>
+</cfdi:Comprobante>
